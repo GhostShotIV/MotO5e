@@ -14,8 +14,8 @@
 				]
 			}
 		],
-		"dateAdded": 1635035828,
-		"dateLastModified": 1635035828
+		"dateAdded": 1635036930,
+		"dateLastModified": 1635036930
 	},
 	"monster": [
 		{
@@ -1509,8 +1509,18 @@
 					"Samurai Mimicry. Ashuran culture has changed after millennia of coming to the Material Realm, adopting the fighting styles of the noble samurai with whom they have become fascinated. They wear ebony lamellar armor, wield ebony katanas that burn with necrotic flame and can hurl bolts of pure necrotic energy.",
 					"Perfect Memory. Each time an ashura dies and returns it becomes increasingly dangerous, as it can recall all of its memories with perfect clarity..",
 					"Jigokuan Nature. An ashura doesn’t require air or sleep."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/AshuraSamurai.png"
+						}
+					}
 				]
 			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/AshuraSamurai.png",
 			"traitTags": [
 				"Death Burst"
 			],
@@ -1633,8 +1643,18 @@
 					"Samurai Mimicry. Ashuran culture has changed after millennia of coming to the Material Realm, adopting the fighting styles of the noble samurai with whom they have become fascinated. They wear ebony lamellar armor, wield ebony katanas that burn with necrotic flame and can hurl bolts of pure necrotic energy.",
 					"Perfect Memory. Each time an ashura dies and returns it becomes increasingly dangerous, as it can recall all of its memories with perfect clarity..",
 					"Jigokuan Nature. An ashura doesn’t require air or sleep."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/AshuraSamurai.png"
+						}
+					}
 				]
 			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/AshuraSamurai.png",
 			"traitTags": [
 				"Death Burst"
 			],
@@ -1754,8 +1774,18 @@
 					"Bound to Jigoku. Within Jigoku they are harmless creatures eternally bound to their fiendish home and incapable of finding permanent death. If a baayahaz ever finds itself in a different realm, its powerful bond to Jigoku allows it to instantly return there in a violent implosion. A baayahaz will usually do so very soon, as every minute it spends outside of Jigoku fills it with agonizing pain. If it spots creatures, and humanoids in particular, it will attempt to reach them before imploding, as it attempts to bring them back with it to Jigoku.",
 					"Unseen Doom. While in darkness the baayahaz blends into its surroundings, effectively making it invisible. The only hint at its presence is a light pulsing sound similar to a heartbeat.",
 					"Baayahaz Nature. A baayahaz doesn’t require air, food, drink, or sleep."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/Baayahaz.png"
+						}
+					}
 				]
 			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/Baayahaz.png",
 			"traitTags": [
 				"Death Burst",
 				"Magic Resistance"
@@ -1899,8 +1929,18 @@
 					"Bajangs look like stunted, stocky humans with blunt noses, pale skin, and green hair. They are roughly 3 feet tall and weigh around 120 pounds. Their eyes are beady and orange, and their wide mouths are permanently creased in evil sneers. Their hands and feet all have four bony claws, perfect for climbing trees. Their bodies are small but brutish.",
 					"Treebound. Living deep in the forests, bajangs grow in tree trunks like pustules of evil, emerging only to terrorize nearby settlements. They are typically encountered near the site of a battle, the burial place of an evil mage, or some other area with a history of violence or lingering evil. Bajangs can emerge from their tree and travel the lands around it, but the tree roots the bajng to the world, and it must return to its tree every day. As long as the tree remains unharmed, the bajang stays forever youthful and any harm done to the tree also affects the bajang.",
 					"Honorless. Bajangs are vicious and devious fighters, preferring weak or helpless prey. They prefer to attack sleeping victims or ambush single characters from behind."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/Bajang.png"
+						}
+					}
 				]
 			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/Bajang.png",
 			"traitTags": [
 				"Magic Resistance"
 			],
@@ -2013,8 +2053,18 @@
 					"The average bakemono is about 4 feet tall, weighs about 150 pounds, and is rippling with powerful muscles.",
 					"Goblinoids. They are small and muscled, with a fiery temper and low intelligence. One out of every hundred bakemono is gifted with extraordinary intelligence and lead the rest of their kin into battle. ",
 					"Berserker Tactics. Most bakemono are too stupid to use weapons, and they really have little need for them. They leap in to attack like wild beasts, clenching their jaws around anything they can catch, much like a rabid dog. They attack in packs, throwing themselves at their victims without fear or strategy. Only the zealots, fiercely devoted to Jigoku, keep their aggression in check."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/Bakemono.png"
+						}
+					}
 				]
 			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/Bakemono.png",
 			"traitTags": [
 				"Aggressive",
 				"Charge"
@@ -2143,8 +2193,18 @@
 					"The average bakemono is about 4 feet tall, weighs about 150 pounds, and is rippling with powerful muscles.",
 					"Goblinoids. They are small and muscled, with a fiery temper and low intelligence. One out of every hundred bakemono is gifted with extraordinary intelligence and lead the rest of their kin into battle. ",
 					"Berserker Tactics. Most bakemono are too stupid to use weapons, and they really have little need for them. They leap in to attack like wild beasts, clenching their jaws around anything they can catch, much like a rabid dog. They attack in packs, throwing themselves at their victims without fear or strategy. Only the zealots, fiercely devoted to Jigoku, keep their aggression in check."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/Bakemono.png"
+						}
+					}
 				]
 			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/Bakemono.png",
 			"traitTags": [
 				"Aggressive",
 				"Charge"
@@ -2266,8 +2326,18 @@
 					"The average bakemono is about 4 feet tall, weighs about 150 pounds, and is rippling with powerful muscles.",
 					"Goblinoids. They are small and muscled, with a fiery temper and low intelligence. One out of every hundred bakemono is gifted with extraordinary intelligence and lead the rest of their kin into battle. ",
 					"Berserker Tactics. Most bakemono are too stupid to use weapons, and they really have little need for them. They leap in to attack like wild beasts, clenching their jaws around anything they can catch, much like a rabid dog. They attack in packs, throwing themselves at their victims without fear or strategy. Only the zealots, fiercely devoted to Jigoku, keep their aggression in check."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/Bakemono.png"
+						}
+					}
 				]
 			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/Bakemono.png",
 			"senseTags": [
 				"B"
 			],

@@ -14,8 +14,8 @@
 				]
 			}
 		],
-		"dateAdded": 1635037836,
-		"dateLastModified": 1635037836
+		"dateAdded": 1635038525,
+		"dateLastModified": 1635038525
 	},
 	"monster": [
 		{
@@ -2559,12 +2559,6 @@
 					]
 				}
 			],
-			"fluff": {
-				"entries": [
-					"Blood oozes are created by maho-tsukai as a strategic tool. They are often created from prisoners as it requires a humanoid sacrifice to create a blood ooze. A blood ooze is bound to a single master, and if that master dies another maho-tsukai must soon take control of the blood ooze lest it be destroyed.",
-					"Ooze Nature. An ooze doesn’t require sleep."
-				]
-			},
 			"traitTags": [
 				"Amorphous",
 				"Spider Climb"
@@ -2663,27 +2657,222 @@
 					]
 				}
 			],
+			"traitTags": [
+				"Amorphous"
+			],
+			"senseTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Bog Hag",
+			"source": "MonstersoftheOrient",
+			"page": 15,
+			"size": "M",
+			"type": {
+				"type": "fey",
+				"tags": [
+					"shapechanger"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 45,
+				"formula": "7d8 + 14"
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 30
+			},
+			"str": 11,
+			"dex": 12,
+			"con": 15,
+			"int": 11,
+			"wis": 12,
+			"cha": 13,
+			"skill": {
+				"athletics": "+2",
+				"deception": "+5"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 12,
+			"vulnerable": [
+				"fire"
+			],
+			"languages": [
+				"Oriental (common)",
+				"Oni Taint Score 6"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The hag can breathe air and water."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"The hag regains 5 hit points at the start of its turn if it has at least 1 hit point."
+					]
+				},
+				{
+					"name": "Skinchanger",
+					"entries": [
+						"The bog hag can spend 10 minutes stealing and then wearing the skin of a dead creature. When a bog hag dons a victim's skin, it conforms its body to the shape and appearance of the victim, becoming a perfect replication. While wearing another creature's skin, the hag has advantage on Charisma (deception) checks. The hag's true identity can only be discerned through magic such as detect thoughts, detect evil and good, features that reveal its Taint, or by dealing slashing damage to the hag, which will rip the skin and reveal the hag underneath. The hag can only adapt to the skin of other",
+						"Medium creatures."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}8 ({@damage 2d6 + 1}) slashing damage. The target must succeed on a {@dc 11} Constitution saving throw, or suffer 1 level of Taint. If a creature's saving throw is successful, the creature is immune to Taint infection from the hag's claws for the next 24 hours."
+					]
+				}
+			],
 			"fluff": {
 				"entries": [
-					"Blood oozes are created by maho-tsukai as a strategic tool. They are often created from prisoners as it requires a humanoid sacrifice to create a blood ooze. A blood ooze is bound to a single master, and if that master dies another maho-tsukai must soon take control of the blood ooze lest it be destroyed.",
-					"Ooze Nature. An ooze doesn’t require sleep."
+					"These hideous hags live in bogs, swamps, and waterways. They originate within the Shadowlands, but are most often found within the Empire where they prey upon the humanoids that populate the nearby lands.",
+					"Disguises of Pure Evil. Bog hags resemble old crones with sharp claws, green skin, and glowing, red eyes. They stand about 6 feet tall and weigh around 110 pounds on average. Bog hags thrive by stealing the skin of their victims, wearing the skin like a suit, altering their shape to match, and even masquerading as the victim for short stretches of time."
 				],
 				"images": [
 					{
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/Plasmin.png"
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/BogHag.png"
 						}
 					}
 				]
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/Plasmin.png",
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/BogHag.png",
 			"traitTags": [
-				"Amorphous"
+				"Amphibious",
+				"Regeneration"
 			],
 			"senseTags": [
-				"B"
+				"SD"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Buso",
+			"source": "MonstersoftheOrient",
+			"page": 15,
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 54,
+				"formula": "12d8"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 11,
+			"dex": 12,
+			"con": 15,
+			"int": 11,
+			"wis": 12,
+			"cha": 13,
+			"skill": {
+				"acrobatics": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Wounded Fury",
+					"entries": [
+						"While it has 10 hit points or fewer, the buso has advantage on attack rolls. In addition, it deals an extra 7 ({@damage 2d6}) damage to any target it hits with a melee attack."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The buso makes one bite attack and two attacks with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 3}) piercing damage. The target must succeed on a {@dc 11} Constitution saving throw, or become cursed. If a creature's saving throw is successful, the creature is immune to the buso's curse for the next 24 hours.",
+						"While cursed, whenever you begin a long rest, you transform into a busoling for 8 hours. When you return to your regular self, you gain all of the benefits of a long rest and have no recollection of what has occurred. While transformed the DM controls your actions, and you gain the appearance and statistics of a buso, but you cannot spread the curse to others. A remove curse or similar spell ends the effect."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) slashing damage."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"These bony, one-eyed creatures spread a dreadful curse with their horrible bite, causing their victims to transform into mindless savages at night.",
+					"Busos are tall and gaunt, standing about 7 feet tall and weighing around 140 pounds. Their hair is curly, their noses are flat, their mouths are lined with sharp fangs, and their gnarled fingers end in sharp claws.",
+					"Buso Curse. Busos spread a curse upon their victims, transforming them into busolings during the night: horrible creature identical to busos in every way, except that they cannot spread the curse themselves. They wreak havoc upon their surroundings and loved ones when the curse changes them during the night."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/Buso.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/Buso.png",
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P",
+				"S"
 			],
 			"miscTags": [
 				"MW"

@@ -1,0 +1,2279 @@
+{
+   "siteVersion":"1.140.0",
+   "_meta":{
+      "sources":[
+         {
+            "json":"MonstersoftheOrient",
+            "abbreviation":"MotO",
+            "full":"Monsters of the Orient",
+            "url":"https://www.dmsguild.com/product_reviews_info.php?products_id=215595&reviews_id=205714",
+            "authors":[
+               "Marc Altfuldisch"
+            ],
+            "convertedBy":[
+               "Ghost"
+            ]
+         }
+      ],
+      "dateAdded":1635033353,
+      "dateLastModified":1635033353
+   },
+   "monster":[
+      {
+         "name":"Bixi",
+         "source":"MonstersoftheOrient",
+         "page":99,
+         "size":"M",
+         "type":{
+            "type":"dragon",
+            "tags":[
+               "spirit"
+            ]
+         },
+         "alignment":[
+            "N",
+            "G"
+         ],
+         "ac":[
+            {
+               "ac":18,
+               "from":[
+                  "natural armor"
+               ]
+            }
+         ],
+         "hp":{
+            "formula":"6d8 + 12",
+            "average":39
+         },
+         "speed":{
+            "walk":30,
+            "swim":20
+         },
+         "str":18,
+         "dex":12,
+         "con":14,
+         "int":14,
+         "wis":14,
+         "cha":10,
+         "save":{
+            "dex":"+3",
+            "con":"+4",
+            "wis":"+4",
+            "cha":"+2"
+         },
+         "skill":{
+            "athletics":"+6",
+            "history":"+6"
+         },
+         "senses":[
+            "truesight 10 ft.",
+            "darkvision 60 ft."
+         ],
+         "passive":12,
+         "resist":[
+            {
+               "resist":[
+                  "cold"
+               ]
+            },
+            {
+               "resist":[
+                  "bludgeoning"
+               ],
+               "note":"from non magical weapons"
+            }
+         ],
+         "languages":[
+            "Draconic",
+            "Kami"
+         ],
+         "cr":"2",
+         "trait":[
+            {
+               "name":"Amphibious",
+               "entries":[
+                  "The bixi can breathe air and water."
+               ]
+            },
+            {
+               "name":"Powerful Build",
+               "entries":[
+                  "The bixi counts as one size larger when determining its carrying capacity and the weight it can push, drag, or lift."
+               ]
+            }
+         ],
+         "action":[
+            {
+               "name":"Bite",
+               "entries":[
+                  "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}13 ({@damage 1d10 + 8}) piercing damage plus 3 ({@damage 1d6}) cold damage."
+               ]
+            }
+         ],
+         "environment":[
+            "coastal",
+            "underwater"
+         ],
+         "fluff":{
+            "entries":[
+               "The bixi resembles a dragon-turtle hybrid, representing history and lineage, and is often adorned on stone pillars and tombstones. A bixi feeds mostly on shellfish and plants. It lives in any area with enough water for it to feel free. A bixi can remember even the smallest details of any memory or story it has heard."
+            ]
+         },
+         "traitTags":[
+            "Amphibious"
+         ],
+         "senseTags":[
+            "D",
+            "U"
+         ],
+         "languageTags":[
+            "DR"
+         ],
+         "damageTags":[
+            "C",
+            "P"
+         ],
+         "miscTags":[
+            "MW"
+         ]
+      },
+      {
+         "name":"Chiwen",
+         "source":"MonstersoftheOrient",
+         "page":99,
+         "size":"M",
+         "type":{
+            "type":"dragon",
+            "tags":[
+               "spirit"
+            ]
+         },
+         "alignment":[
+            "N",
+            "G"
+         ],
+         "ac":[
+            {
+               "ac":17,
+               "from":[
+                  "natural armor"
+               ]
+            }
+         ],
+         "hp":{
+            "formula":"6d8 + 6",
+            "average":33
+         },
+         "speed":{
+            "walk":30,
+            "fly":30,
+            "canHover":false,
+            "swim":20
+         },
+         "str":15,
+         "dex":16,
+         "con":13,
+         "int":10,
+         "wis":14,
+         "cha":12,
+         "save":{
+            "dex":"+5",
+            "con":"+3",
+            "wis":"+4",
+            "cha":"+3"
+         },
+         "skill":{
+            "insight":"+6"
+         },
+         "senses":[
+            "truesight 30 ft.",
+            "darkvision 60 ft."
+         ],
+         "passive":12,
+         "resist":[
+            "cold",
+            "poison"
+         ],
+         "languages":[
+            "Draconic",
+            "Kami"
+         ],
+         "cr":"3",
+         "spellcasting":[
+            {
+               "name":"Innate Spellcasting",
+               "headerEntries":[
+                  "The dragon’s innate spellcasting ability is Wisdom (spell save DC",
+                  "12). The dragon can innately cast the following spells, requiring no components:"
+               ],
+               "will":[
+                  "{@spell detect evil and good}",
+                  "{@spell detect magic}",
+                  "{@spell tongues}"
+               ],
+               "ability":"wis",
+               "type":"spellcasting"
+            }
+         ],
+         "trait":[
+            {
+               "name":"Amphibious",
+               "entries":[
+                  "The chiwen can breathe air and water."
+               ]
+            }
+         ],
+         "action":[
+            {
+               "name":"Multiattack",
+               "entries":[
+                  "The dragon makes two bite attacks."
+               ]
+            },
+            {
+               "name":"Bite",
+               "entries":[
+                  "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d10 + 5}) piercing damage. If the target is an evil aligned or undead creature, it must succeed a {@dc 12} Wisdom saving throw or be {@condition frightened} of the dragon for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on a success."
+               ]
+            },
+            {
+               "name":"Read Thoughts",
+               "entries":[
+                  "The dragon magically reads the surface thoughts of one creature within 60 feet of it. The effect can penetrate barriers, but 3 feet of wood or dirt, 2 feet of stone, 2 inches of metal, or a thin sheet of lead blocks it. While the target is in range, the dragon can continue reading its thoughts, as long as the dragon’s concentration isn’t broken (as if concentrating on a spell). While reading the target’s mind, the dragon has advantage on attack rolls, Wisdom (insight), and Charisma (deception, intimidation, and persuasion) checks against the target."
+               ]
+            }
+         ],
+         "environment":[
+            "coastal",
+            "underwater"
+         ],
+         "fluff":{
+            "entries":[
+               "Chiwen. The chiwen is a dragon-fish hybrid, representing safeguarding against evil influence, often adorned on both ends of the ridgepoles of roofs. It lives in the sea, eating fish and seaweed. On more than one occasion has a chiwen rescued a person lost at sea."
+            ]
+         },
+         "traitTags":[
+            "Amphibious"
+         ],
+         "senseTags":[
+            "D",
+            "U"
+         ],
+         "actionTags":[
+            "Multiattack"
+         ],
+         "languageTags":[
+            "DR"
+         ],
+         "damageTags":[
+            "P"
+         ],
+         "spellcastingTags":[
+            "I"
+         ],
+         "miscTags":[
+            "MW"
+         ],
+         "conditionInflict":[
+            "frightened"
+         ]
+      },
+      {
+         "name":"Great Wyrm",
+         "source":"MonstersoftheOrient",
+         "size":"G",
+         "type":{
+            "type":"dragon",
+            "tags":[
+               "spirit"
+            ]
+         },
+         "alignment":[
+            "C",
+            "G"
+         ],
+         "ac":[
+            {
+               "ac":18,
+               "from":[
+                  "natural armor"
+               ]
+            }
+         ],
+         "hp":{
+            "formula":"1d8 + 9",
+            "average":13
+         },
+         "speed":{
+            "walk":30,
+            "fly":80,
+            "canHover":false,
+            "swim":60
+         },
+         "str":30,
+         "dex":9,
+         "con":28,
+         "int":18,
+         "wis":15,
+         "cha":23,
+         "save":{
+            "dex":"+6",
+            "con":"+16",
+            "wis":"+9",
+            "cha":"+13"
+         },
+         "skill":{
+            "perception":"+16",
+            "stealth":"+6"
+         },
+         "senses":[
+            "truesight 120 ft."
+         ],
+         "passive":26,
+         "resist":[
+            "bludgeoning",
+            {
+               "resist":[
+                  "piercing",
+                  "slashing"
+               ],
+               "note":"from nonmagical weapons"
+            }
+         ],
+         "immune":[
+            "cold",
+            "lightning",
+            "thunder"
+         ],
+         "conditionImmune":[
+            "charmed",
+            "exhaustion",
+            "frightened",
+            "paralyzed",
+            "poisoned",
+            "prone"
+         ],
+         "languages":[
+            "Draconic",
+            "Kami",
+            "Oriental",
+            "Common"
+         ],
+         "cr":"24",
+         "spellcasting":[
+            {
+               "name":"Innate Spellcasting",
+               "headerEntries":[
+                  "The wyrm's spellcasting ability is Charisma (spell save {@dc 21})."
+               ],
+               "daily":{
+                  "1e":[
+                     "{@spell control weather}"
+                  ]
+               },
+               "ability":"cha",
+               "type":"spellcasting"
+            }
+         ],
+         "trait":[
+            {
+               "name":"Amphibious",
+               "entries":[
+                  "The great wyrm can breathe air and water."
+               ]
+            },
+            {
+               "name":"Magic Resistance",
+               "entries":[
+                  "The great wyrm has advantage on saving throws against spells and other magical effects."
+               ]
+            },
+            {
+               "name":"Legendary Resistance (3/Day)",
+               "entries":[
+                  "If the great wyrm fails a saving throw, it can choose to succeed instead."
+               ]
+            },
+            {
+               "name":"Immortal Nature",
+               "entries":[
+                  "A great wyrm doesn’t require food, drink, or sleep."
+               ]
+            }
+         ],
+         "action":[
+            {
+               "name":"Multiattack",
+               "entries":[
+                  "The great wyrm uses its tempestuous roar. It then makes three attacks: one with its bite and two with its claws."
+               ]
+            },
+            {
+               "name":"Bite",
+               "entries":[
+                  "{@atk mw} {@hit 17} to hit, reach 15 ft., one target. {@h}31 ({@damage 2d10 + 10}) piercing damage."
+               ]
+            },
+            {
+               "name":"Storm Claw",
+               "entries":[
+                  "{@atk mw} {@hit 17} to hit, reach 10 ft., one target. {@h}31 ({@damage 2d10 + 20}) slashing damage, plus 7 ({@damage 2d6}) lightning damage."
+               ]
+            },
+            {
+               "name":"Tail",
+               "entries":[
+                  "{@atk mw} {@hit 17} to hit, reach 20 ft., one target. {@h}29 ({@damage 2d8 + 20}) bludgeoning damage, plus 7 ({@damage 2d6}) thunder damage. If the target is a creature, it must succeed a {@dc 24} Strength saving throw or be pushed back 20 feet and knocked {@condition prone}."
+               ]
+            },
+            {
+               "name":"Lightning Bolt",
+               "entries":[
+                  "{@atk rw} {@hit 6} to hit, range 150/300 ft., one target. {@h}44 ({@damage 8d8 + 8}) lightning damage. If the target is a creature, it cannot take reactions until the end of its next turn."
+               ]
+            },
+            {
+               "name":"Tempestuous Roar",
+               "entries":[
+                  "Each creature of the wyrm’ choice that is within 120 feet of the",
+                  "wyrm and can hear it must succeed on a {@dc 24} Constitution saving throw or become {@condition deafened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success and taking 11 ({@damage 2d10}) thunder damage on a failed save. If a creatures saving throw is successful or the effect ends for it, the creature is immune to the wyrm’s Tempestuous Roar for the next 24 hours."
+               ]
+            },
+            {
+               "name":"Storm Breath {@recharge}",
+               "entries":[
+                  "The wyrm exhales lightning in a 10 feet wide, 120 feet long line. Each creature in that area must make a {@dc 24} Dexterity saving throw, taking 77 ({@damage 22d6}) lightning damage on a failed save, or half as much on a successful one."
+               ]
+            }
+         ],
+         "legendaryActions":3,
+         "legendary":[
+            {
+               "name":"Detect",
+               "entries":[
+                  "The wyrm makes a Wisdom (perception) check."
+               ]
+            },
+            {
+               "name":"Lightning Bolt (Costs 2 Actions)",
+               "entries":[
+                  "The wyrm makes a lightning bolt attack."
+               ]
+            },
+            {
+               "name":"Recharge Breath (Costs 3 Actions)",
+               "entries":[
+                  "The wyrm recharges its Storm Breath."
+               ]
+            },
+            {
+               "name":"Tail Attack",
+               "entries":[
+                  "The wyrm makes a tail attack."
+               ]
+            }
+         ],
+         "fluff":{
+            "entries":[
+               "These massive wyrms are the noblest of warriors, smiting evil wherever they find it and capable of controlling the weather itself. Though few in number, their presence signals safety to the good people of the Orient, and the Scorpionfly in particular believe they signal safe travel at sea. Lung dragons and the Nine Sons of the Dragon are believed to be descendants of the great wyrms."
+            ]
+         },
+         "traitTags":[
+            "Amphibious",
+            "Legendary Resistances",
+            "Magic Resistance"
+         ],
+         "senseTags":[
+            "U"
+         ],
+         "actionTags":[
+            "Breath Weapon",
+            "Multiattack"
+         ],
+         "languageTags":[
+            "C",
+            "DR"
+         ],
+         "damageTags":[
+            "B",
+            "L",
+            "P",
+            "S",
+            "T"
+         ],
+         "spellcastingTags":[
+            "I"
+         ],
+         "miscTags":[
+            "MW",
+            "RCH",
+            "RW"
+         ],
+         "conditionInflict":[
+            "prone"
+         ]
+      },
+      {
+         "name":"Baxia",
+         "source":"MonstersoftheOrient",
+         "page":99,
+         "size":"M",
+         "type":{
+            "type":"dragon",
+            "tags":[
+               "spirit"
+            ]
+         },
+         "alignment":[
+            "N",
+            "G"
+         ],
+         "ac":[
+            {
+               "ac":17,
+               "from":[
+                  "natural armor"
+               ]
+            }
+         ],
+         "hp":{
+            "formula":"6d8 + 6",
+            "average":33
+         },
+         "speed":{
+            "walk":30,
+            "fly":30,
+            "canHover":false,
+            "swim":30
+         },
+         "str":15,
+         "dex":16,
+         "con":13,
+         "int":10,
+         "wis":14,
+         "cha":12,
+         "save":{
+            "dex":"+5",
+            "con":"+3",
+            "wis":"+4",
+            "cha":"+3"
+         },
+         "skill":{
+            "nature":"+4",
+            "stealth":"+5"
+         },
+         "senses":[
+            "truesight 10 ft.",
+            "darkvision 60 ft."
+         ],
+         "passive":12,
+         "resist":[
+            "cold",
+            "poison"
+         ],
+         "languages":[
+            "Draconic",
+            "Kami"
+         ],
+         "cr":"3",
+         "trait":[
+            {
+               "name":"Amphibious",
+               "entries":[
+                  "The baxia can breathe air and water."
+               ]
+            }
+         ],
+         "action":[
+            {
+               "name":"Bite",
+               "entries":[
+                  "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d10 + 5}) piercing damage, plus 14 ({@damage 4d6}) poison damage."
+               ]
+            }
+         ],
+         "environment":[
+            "coastal",
+            "underwater"
+         ],
+         "fluff":{
+            "entries":[
+               "The baxia resembles a dragon-snake hybrid, representing safe passage on rivers and lakes, and is often adorned on bridges. They are shy but observant, living in rivers, ponds, and lakes that they rarely leave."
+            ]
+         },
+         "traitTags":[
+            "Amphibious"
+         ],
+         "senseTags":[
+            "D",
+            "U"
+         ],
+         "languageTags":[
+            "DR"
+         ],
+         "damageTags":[
+            "I",
+            "P"
+         ],
+         "miscTags":[
+            "MW"
+         ]
+      },
+      {
+         "name":"Bi’an",
+         "source":"MonstersoftheOrient",
+         "size":"M",
+         "type":{
+            "type":"dragon",
+            "tags":[
+               "spirit"
+            ]
+         },
+         "alignment":[
+            "N",
+            "G"
+         ],
+         "ac":[
+            {
+               "ac":17,
+               "from":[
+                  "natural armor"
+               ]
+            }
+         ],
+         "hp":{
+            "formula":"9d8 + 9",
+            "average":49
+         },
+         "speed":{
+            "walk":40,
+            "fly":40,
+            "canHover":false,
+            "swim":20
+         },
+         "str":18,
+         "dex":11,
+         "con":12,
+         "int":10,
+         "wis":18,
+         "cha":12,
+         "save":{
+            "dex":"+2",
+            "con":"+3",
+            "wis":"+6",
+            "cha":"+3"
+         },
+         "skill":{
+            "athletics":"+6",
+            "insight":"+6",
+            "perception":"+8",
+            "stealth":"+4"
+         },
+         "senses":[
+            "truesight 10 ft.",
+            "darkvision 60 ft."
+         ],
+         "passive":18,
+         "languages":[
+            "Draconic",
+            "Kami"
+         ],
+         "cr":"4",
+         "trait":[
+            {
+               "name":"Divine Awareness",
+               "entries":[
+                  "The bi’an knows if it hears a lie."
+               ]
+            }
+         ],
+         "action":[
+            {
+               "name":"Multiattack",
+               "entries":[
+                  "The dragon makes a bite attack and a tail attack."
+               ]
+            },
+            {
+               "name":"Bite",
+               "entries":[
+                  "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}13 ({@damage 1d10 + 8}) piercing damage. If the target is a Large or smaller creature it is also {@condition grappled} (escape {@dc 16}).",
+                  "Until this grapple ends, the target is {@condition restrained}, and the dragon can’t bite another target."
+               ]
+            },
+            {
+               "name":"Tail",
+               "entries":[
+                  "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}17 ({@damage 2d8 + 8}) bludgeoning damage."
+               ]
+            },
+            {
+               "name":"Stunning Breath {@recharge 4}",
+               "entries":[
+                  "The dragon exhales lightning in a 30-foot line that is 5 feet wide. Each creature in that line must succeed a {@dc 14} Constitution saving throw or become {@condition stunned} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on a successful save."
+               ]
+            }
+         ],
+         "fluff":{
+            "entries":[
+               "The bi’an resembles a dragon-tiger hybrid, representing fairness and litigation, and is often adorned on court houses and prison gates, symbolically keeping guard. A bi’an eats small wild life and lives on open plains. Running from a bi’an can make it instinctively give chase."
+            ]
+         },
+         "senseTags":[
+            "D",
+            "U"
+         ],
+         "actionTags":[
+            "Breath Weapon",
+            "Multiattack"
+         ],
+         "languageTags":[
+            "DR"
+         ],
+         "damageTags":[
+            "B",
+            "P"
+         ],
+         "miscTags":[
+            "AOE",
+            "MW"
+         ],
+         "conditionInflict":[
+            "grappled",
+            "restrained",
+            "stunned"
+         ]
+      },
+      {
+         "name":"Pulao",
+         "source":"MonstersoftheOrient",
+         "page":100,
+         "size":"M",
+         "type":{
+            "type":"dragon",
+            "tags":[
+               "spirit"
+            ]
+         },
+         "alignment":[
+            "N",
+            "G"
+         ],
+         "ac":[
+            {
+               "ac":17,
+               "from":[
+                  "natural armor"
+               ]
+            }
+         ],
+         "hp":{
+            "formula":"6d8 + 6",
+            "average":33
+         },
+         "speed":{
+            "walk":30,
+            "fly":30,
+            "canHover":false,
+            "swim":20
+         },
+         "str":15,
+         "dex":11,
+         "con":12,
+         "int":10,
+         "wis":20,
+         "cha":12,
+         "save":{
+            "dex":"+2",
+            "con":"+3",
+            "wis":"+7",
+            "cha":"+3"
+         },
+         "skill":{
+            "perception":"+9",
+            "stealth":"+4"
+         },
+         "senses":[
+            "truesight 60 ft."
+         ],
+         "passive":19,
+         "languages":[
+            "Draconic",
+            "Kami"
+         ],
+         "cr":"3",
+         "trait":[
+            {
+               "name":"Keen Senses",
+               "entries":[
+                  "The pulao has advantage on Wisdom ({@skill Perception}) checks that rely on sight, hearing or smell."
+               ]
+            },
+            {
+               "name":"Limited Telepathy",
+               "entries":[
+                  "The pulao can magically transmit simple messages and images to any creature within {120} feet of it that can understand a language. This form of telepathy doesn't allow the receiving creature to telepathically respond."
+               ]
+            }
+         ],
+         "action":[
+            {
+               "name":"Multiattack",
+               "entries":[
+                  "The dragon uses its bite attack twice."
+               ]
+            },
+            {
+               "name":"Bite",
+               "entries":[
+                  "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d10 + 5}) piercing damage. The target is outlined in violet light that sheds dim light in a 10-foot radius. Any attack roll against an affected creature or object has advantage if the attacker can see it, and the affected creature or object can’t benefit from being {@condition invisible}. If the target has a different form than its natural form (such as through the shapechanger trait, the polymorph spell, or similar), it must succeed a {@dc 15} Constitution saving throw or be forced into its natural form."
+               ]
+            }
+         ],
+         "fluff":{
+            "entries":[
+               "The pulao is a dragon-dog hybrid that represents alertness, and is often adorned on bells and chimes. It lives in the forests, hunting rabbits and other critters. They are exceptionally friendly and once a pulao’s trust has been gained, it is loyal like no other creature."
+            ]
+         },
+         "traitTags":[
+            "Keen Senses"
+         ],
+         "senseTags":[
+            "U"
+         ],
+         "actionTags":[
+            "Multiattack"
+         ],
+         "languageTags":[
+            "DR"
+         ],
+         "damageTags":[
+            "P"
+         ],
+         "miscTags":[
+            "AOE",
+            "MW"
+         ]
+      },
+      {
+         "name":"Qiuniu",
+         "source":"MonstersoftheOrient",
+         "page":100,
+         "size":"M",
+         "type":{
+            "type":"dragon",
+            "tags":[
+               "spirit"
+            ]
+         },
+         "alignment":[
+            "N",
+            "G"
+         ],
+         "ac":[
+            {
+               "ac":17,
+               "from":[
+                  "natural armor"
+               ]
+            }
+         ],
+         "hp":{
+            "formula":"6d8 + 6",
+            "average":33
+         },
+         "speed":{
+            "walk":30,
+            "fly":30,
+            "canHover":false,
+            "swim":20
+         },
+         "str":16,
+         "dex":12,
+         "con":13,
+         "int":10,
+         "wis":14,
+         "cha":19,
+         "save":{
+            "dex":"+3",
+            "con":"+3",
+            "wis":"+4",
+            "cha":"+6"
+         },
+         "skill":{
+            "arcana":"+4",
+            "performance":"+8"
+         },
+         "senses":[
+            "truesight 10 ft.",
+            "darkvision 60 ft."
+         ],
+         "passive":12,
+         "resist":[
+            "psychic"
+         ],
+         "languages":[
+            "Draconic",
+            "Kami"
+         ],
+         "cr":"2",
+         "spellcasting":[
+            {
+               "name":"Innate Spellcasting",
+               "headerEntries":[
+                  "The dragon’s innate spellcasting ability is Charisma (spell save {@dc 14}). The dragon can innately cast the following spells, requiring no components:"
+               ],
+               "will":[
+                  "{@spell calm emotions}",
+                  "{@spell charm person}",
+                  "{@spell freedom of movement}",
+                  "{@spell prestidigitation}"
+               ],
+               "daily":{
+                  "3":[
+                     "{@spell animate objects}",
+                     "{@spell dream}",
+                     "{@spell lesser restoration}",
+                     "{@spell regenerate}"
+                  ],
+                  "1":[
+                     "{@spell greater restoration}",
+                     "{@spell project image}",
+                     "{@spell regenerate}"
+                  ]
+               },
+               "ability":"cha",
+               "type":"spellcasting"
+            }
+         ],
+         "action":[
+            {
+               "name":"Bite",
+               "entries":[
+                  "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}12 ({@damage 1d10 + 7}) piercing damage."
+               ]
+            }
+         ],
+         "fluff":{
+            "entries":[
+               "The qiuniu resembles a dragon-cow hybrid, representing music and joy, and is often adorned on musical instruments and the garments of entertainers. They live on open plains eating grass and other plants. They are very inquisitive and love to sing."
+            ]
+         },
+         "senseTags":[
+            "D",
+            "U"
+         ],
+         "languageTags":[
+            "DR"
+         ],
+         "damageTags":[
+            "P"
+         ],
+         "spellcastingTags":[
+            "I"
+         ],
+         "miscTags":[
+            "MW"
+         ]
+      },
+      {
+         "name":"Suanni",
+         "source":"MonstersoftheOrient",
+         "page":100,
+         "size":"M",
+         "type":{
+            "type":"dragon",
+            "tags":[
+               "spirit"
+            ]
+         },
+         "alignment":[
+            "N",
+            "G"
+         ],
+         "ac":[
+            {
+               "ac":17,
+               "from":[
+                  "natural armor"
+               ]
+            }
+         ],
+         "hp":{
+            "formula":"8d8 + 16",
+            "average":52
+         },
+         "speed":{
+            "walk":30,
+            "fly":30,
+            "canHover":false,
+            "swim":20
+         },
+         "str":20,
+         "dex":11,
+         "con":16,
+         "int":10,
+         "wis":11,
+         "cha":12,
+         "save":{
+            "dex":"+2",
+            "con":"+5",
+            "wis":"+2",
+            "cha":"+3"
+         },
+         "skill":{
+            "insight":"+6",
+            "religion":"+8"
+         },
+         "senses":[
+            "truesight 10 ft.",
+            "darkvision 60 ft."
+         ],
+         "passive":12,
+         "languages":[
+            "Draconic",
+            "Kami"
+         ],
+         "cr":"4",
+         "spellcasting":[
+            {
+               "name":"Spellcasting",
+               "headerEntries":[
+                  "The dragon is a 7th level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 14}, +6 to hit with spell attacks). The dragon has the following cleric spells prepared, requiring no somatic or verbal components:"
+               ],
+               "spells":{
+                  "1":{
+                     "slots":4,
+                     "spells":[
+                        "{@spell bless}",
+                        "{@spell cure wounds}",
+                        "{@spell protection from evil and good}",
+                        "{@spell shield of faith}"
+                     ]
+                  },
+                  "2":{
+                     "slots":3,
+                     "spells":[
+                        "{@spell gentle repose}",
+                        "{@spell lesser restoration}",
+                        "{@spell locate object}",
+                        "{@spell zone of truth}"
+                     ]
+                  },
+                  "3":{
+                     "slots":3,
+                     "spells":[
+                        "{@spell remove cure}",
+                        "{@spell spirit guardians}"
+                     ]
+                  },
+                  "4":{
+                     "slots":1,
+                     "spells":[
+                        "{@spell guardian of faith}"
+                     ]
+                  }
+               },
+               "ability":"wis",
+               "type":"spellcasting"
+            }
+         ],
+         "action":[
+            {
+               "name":"Bite",
+               "entries":[
+                  "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}14 ({@damage 1d10 + 9}) piercing damage."
+               ]
+            }
+         ],
+         "fluff":{
+            "entries":[
+               "The suanni resembles a dragon-lion hybrid that represents contemplation and reflection; it is often found adorned on temples and shrines. Suanni tend to live near holy sites. If left to their own devices they hunt small critters, but they are mostly fed by the caretakers of a nearby temple or similar establishment. They love to discuss philosophy with any and all good-natured people."
+            ]
+         },
+         "senseTags":[
+            "D",
+            "U"
+         ],
+         "languageTags":[
+            "DR"
+         ],
+         "damageTags":[
+            "P"
+         ],
+         "spellcastingTags":[
+            "CC"
+         ],
+         "miscTags":[
+            "MW"
+         ]
+      },
+      {
+         "name":"Yazi",
+         "source":"MonstersoftheOrient",
+         "page":100,
+         "size":"M",
+         "type":{
+            "type":"dragon",
+            "tags":[
+               "spirit"
+            ]
+         },
+         "alignment":[
+            "N",
+            "G"
+         ],
+         "ac":[
+            {
+               "ac":17,
+               "from":[
+                  "natural armor"
+               ]
+            }
+         ],
+         "hp":{
+            "formula":"10d8 + 30",
+            "average":75
+         },
+         "speed":{
+            "walk":40,
+            "fly":60,
+            "canHover":false,
+            "swim":40
+         },
+         "str":20,
+         "dex":11,
+         "con":16,
+         "int":10,
+         "wis":11,
+         "cha":12,
+         "save":{
+            "dex":"+3",
+            "con":"+6",
+            "wis":"+3",
+            "cha":"+4"
+         },
+         "skill":{
+            "athletics":"+8"
+         },
+         "senses":[
+            "truesight 10 ft.",
+            "darkvision 60 ft."
+         ],
+         "passive":18,
+         "languages":[
+            "Draconic",
+            "Kami"
+         ],
+         "cr":"5",
+         "trait":[
+            {
+               "name":"Hold Breath",
+               "entries":[
+                  "The yazi can hold its breath for <number> minutes/hour."
+               ]
+            },
+            {
+               "name":"Rampage",
+               "entries":[
+                  "When the yazi reduces a creature to 0 hit points with a melee attack on its turn, the yazi can take a bonus action to move up to half its speed and make another attack."
+               ]
+            }
+         ],
+         "action":[
+            {
+               "name":"Multiattack",
+               "entries":[
+                  "The dragon makes two attacks: one with its bite and one with its tail. It can replace its tail attack with a two claw attacks."
+               ]
+            },
+            {
+               "name":"Bite",
+               "entries":[
+                  "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}15 ({@damage 1d10 + 10}) piercing damage, plus 7 ({@damage 2d6}) radiant damage."
+               ]
+            },
+            {
+               "name":"Claw",
+               "entries":[
+                  "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d4 + 10}) piercing damage."
+               ]
+            },
+            {
+               "name":"Tail",
+               "entries":[
+                  "{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}19 ({@damage 2d8 + 10}) bludgeoning damage. If the target is a creature, it must succeed a {@dc 16} Strength saving throw or be knocked {@condition prone}."
+               ]
+            },
+            {
+               "name":"Radiant Breath {@recharge 5}",
+               "entries":[
+                  "The dragon exhales radiant light in a 20-foot cone. Each creature in that cone must make a {@dc 14} Constitution, taking 22 ({@damage 4d10}) radiant damage on a failed save, or half as much damage on a successful one."
+               ]
+            }
+         ],
+         "fluff":{
+            "entries":[
+               "Finally, the yazi resembles a dragon-wolf hybrid that represents honor and war, and is often found adorned on armor and weapons. Though they are good by nature, they are also quick to anger. They love honorable duels, however, and skilled warriors that defeat a yazi in single combat will forever earn its respect. They sometimes live near dojos and samurai training ground, though they mostly live in the wilds where prey is plentiful."
+            ]
+         },
+         "traitTags":[
+            "Hold Breath",
+            "Rampage"
+         ],
+         "senseTags":[
+            "D",
+            "U"
+         ],
+         "actionTags":[
+            "Breath Weapon",
+            "Multiattack"
+         ],
+         "languageTags":[
+            "DR"
+         ],
+         "damageTags":[
+            "B",
+            "P",
+            "R"
+         ],
+         "miscTags":[
+            "AOE",
+            "MW",
+            "RCH"
+         ],
+         "conditionInflict":[
+            "prone"
+         ]
+      },
+      {
+         "name":"Aka Manto",
+         "source":"MonstersoftheOrient",
+         "page":10,
+         "size":"M",
+         "type":{
+            "type":"undead",
+            "tags":[
+               "spirit"
+            ]
+         },
+         "alignment":[
+            "L",
+            "E"
+         ],
+         "ac":[
+            {
+               "ac":15,
+               "from":[
+                  "natural armor"
+               ]
+            }
+         ],
+         "hp":{
+            "formula":"4d8 + 12",
+            "average":30
+         },
+         "speed":{
+            "walk":30
+         },
+         "str":16,
+         "dex":16,
+         "con":16,
+         "int":11,
+         "wis":13,
+         "cha":8,
+         "skill":{
+            "athletics":"+7",
+            "insight":"+5",
+            "stealth":"+7"
+         },
+         "senses":[
+            "truesight 120 ft."
+         ],
+         "passive":11,
+         "conditionImmune":[
+            "charmed",
+            "exhaustion",
+            "frightened",
+            "grappled",
+            "paralyzed",
+            "petrified",
+            "poisoned",
+            "prone",
+            "restrained"
+         ],
+         "languages":[
+            "the languages it knew in life",
+            "telepathy 120ft."
+         ],
+         "cr":"2",
+         "trait":[
+            {
+               "name":"Aka Manto Existence",
+               "entries":[
+                  "The aka manto is on the Ethereal Plane until its Malignant Question has been answered. It can see 120 feet into the Material Plane when it is on the Ethereal Plane. The aka manto is bound to a certain point and can only travel up to 120 feet away from it. Once it chooses a target, it only uses any of its abilities on that target until either it or its target is dead or until its target is further than 120 feet away from the point the aka manto is bound to."
+               ]
+            },
+            {
+               "name":"Incorporeal Movement",
+               "entries":[
+                  "The aka manto can move through other creatures and objects as if they were difficult terrain. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
+               ]
+            },
+            {
+               "name":"Magic Resistance",
+               "entries":[
+                  "The aka manto has advantage on saving throws against spells and other magical effects."
+               ]
+            }
+         ],
+         "action":[
+            {
+               "name":"Multiattack",
+               "entries":[
+                  "The aka manto attacks twice with its claws."
+               ]
+            },
+            {
+               "name":"Claw",
+               "entries":[
+                  "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 6}) slashing damage."
+               ]
+            },
+            {
+               "name":"Strangle",
+               "entries":[
+                  "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 6}) bludgeoning damage, and the target is {@condition grappled}. Until this grapple ends, the target is {@condition incapacitated} and cannot breathe. On each of the aka manto’s turns, the target suffers an additional 10 ({@damage 2d6 + 3}) bludgeoning damage."
+               ]
+            },
+            {
+               "name":"Possession",
+               "entries":[
+                  "One humanoid that the aka manto can see must succeed on a {@dc 11} Charisma saving throw or be possessed by the aka manto; the aka manto then disappears, and the target is {@condition incapacitated} and loses control of its body. The aka manto now controls the body but doesn’t deprive the target of awareness. The aka manto can’t be targeted by any attack, spell, or other effect, except ones that turn undead, and it retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being {@condition charmed} and {@condition frightened}. It otherwise uses the possessed target’s statistics, but doesn’t gain access to the target’s knowledge, class features, or proficiencies.",
+                  "While possessing a creature in this manner, the aka manto will not interact with its surroundings or other creatures, but only attempt to kill its host as quickly as possible.",
+                  "The possession lasts until the body drops to 0 hit points, the aka manto ends it as a bonus action, or the aka manto is turned or forced out by an effect like the dispel evil and good spell. When the possession ends, the aka manto appears in an unoccupied space within 5 feet of the body. The target is immune to this aka manto’s Possession for 24 hours after the possession ends.",
+                  "If the target succeeds its saving throw, the aka manto will ask its question again."
+               ]
+            },
+            {
+               "name":"Malignant Question",
+               "entries":[
+                  "The aka manto targets a creature it can see within 30 feet of it, telepathically asking it “Red or blue?”. If the target creature doesn’t answer, it must make a {@dc 11} Wisdom saving throw, taking 14 ({@damage 4d6}) psychic damage on a failed save, or half that damage on a successful save."
+               ]
+            }
+         ],
+         "fluff":{
+            "entries":[
+               "The aka manto is a rare but violent spirit that is bound to particularly filthy areas. More often that not, this includes outhouses. An aka manto forms when a humanoid that has lived an unclean and dishonorable life dies in a filthy area. In undeath they become bound to the place where they died, tormenting the living for eternity.",
+               "An aka manto resembles a rotten and bruised corpse, though it is incorporeal in nature. It has elongated arms and big hands with elongated fingers, each with a large, razor-sharp claw at its end.",
+               "Malignant Question. The aka manto, bound to its location, lies in waiting on the Ethereal Plane for a living creature to come near it. Once it has chosen a target, it telepathically asks it “Red or blue?”. The response determines how the aka manto attempts to kill its target. If the target answers “red”, the aka manto will try to claw its target to death, soaking its target’s clothes in blood. If the target answers “blue”, it will attempt to strangle its target until it turns blue. If the target answers a different color, the aka manto will try to possess the target so it can make the target commit suicide.",
+               "There are, however, a few ways to avoid the aka manto’s wrath. If the target answers that it doesn’t want a cape, the aka manto will leave the target alone. If the target moves further away than 120 feet from the point the aka manto is bound to, the ako manto will be unable to follow. Only if the aka manto is destroyed will its cursed existence end.",
+               "Undead Nature. An aka manto doesn’t require air, food, drink, or sleep."
+            ]
+         },
+         "traitTags":[
+            "Incorporeal Movement",
+            "Magic Resistance"
+         ],
+         "senseTags":[
+            "U"
+         ],
+         "actionTags":[
+            "Multiattack"
+         ],
+         "languageTags":[
+            "LF",
+            "TP"
+         ],
+         "damageTags":[
+            "B",
+            "O",
+            "S",
+            "Y"
+         ],
+         "miscTags":[
+            "MW"
+         ],
+         "conditionInflict":[
+            "grappled",
+            "incapacitated"
+         ]
+      },
+      {
+         "name":"Ashura Samurai",
+         "source":"MonstersoftheOrient",
+         "page":11,
+         "size":"M",
+         "type":{
+            "type":"fiend",
+            "tags":[
+               "tainted"
+            ]
+         },
+         "alignment":[
+            "L",
+            "E"
+         ],
+         "ac":[
+            {
+               "ac":17,
+               "from":[
+                  "lamellar"
+               ]
+            }
+         ],
+         "hp":{
+            "formula":"6d8 + 12",
+            "average":39
+         },
+         "speed":{
+            "walk":30,
+            "fly":30,
+            "canHover":false
+         },
+         "str":14,
+         "dex":13,
+         "con":14,
+         "int":11,
+         "wis":13,
+         "cha":17,
+         "save":{
+            "dex":"+3",
+            "cha":"+5"
+         },
+         "skill":{
+            "athletics":"+4"
+         },
+         "passive":11,
+         "immune":[
+            "necrotic"
+         ],
+         "languages":[
+            "Oni",
+            "Oriental"
+         ],
+         "cr":"3",
+         "trait":[
+            {
+               "name":"Death Throes",
+               "entries":[
+                  "When the ashura dies, it explodes in a cloud of death, and each creature within 15 feet of it must make a {@dc 12} Dexterity saving throw, taking 14 ({@damage 4d6}) necrotic damage on a failed save, or half as much damage on a successful one. The cloud infects critters (including familiars and similar creatures) in the area with a tainted rot, causing them to wither and die within seconds."
+               ]
+            },
+            {
+               "name":"Ebony Armor",
+               "entries":[
+                  "The ashura’s armor is magical, granting the ashura +1 AC. If the ashura dies, its armor ignites in a flash, turning it to dust."
+               ]
+            },
+            {
+               "name":"Ebony Weapons",
+               "entries":[
+                  "The ashura’s weapon attacks are magical. The ashura gains a +1 bonus to attack and damage rolls and deals an additional 7 ({@damage 2d6}) necrotic damage (included in the attack). If the ashura dies, its weapons ignite in a flash, turning them to dust."
+               ]
+            }
+         ],
+         "action":[
+            {
+               "name":"Multiattack",
+               "entries":[
+                  "The ashura makes two attacks."
+               ]
+            },
+            {
+               "name":"Ebony Katana",
+               "entries":[
+                  "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage, or 8 ({@damage 1d10 + 3}) slashing damage if used with both hands, plus 7 ({@damage 2d6}) necrotic damage."
+               ]
+            },
+            {
+               "name":"Necrotic Bolt",
+               "entries":[
+                  "{@atk rw} {@hit 3} to hit, range 30/60 ft., one target. {@h}8 ({@damage 2d6 + 1}) necrotic damage."
+               ]
+            }
+         ],
+         "fluff":{
+            "entries":[
+               "Ashura resemble beautiful, pale humans, with massive moth-wings protruding from their backs. They give off an eerie vibe, easily putting mortal creatures in a state of unease. They originate from Jigoku, and only enter the Material Realm when summoned through blood magic. When they die, they explode in a cloud of pure death, returning to Jigoku. From there, they can be summoned once more. An ashura can only truly die if it is killed within Jigoku itself.",
+               "Samurai Mimicry. Ashuran culture has changed after millennia of coming to the Material Realm, adopting the fighting styles of the noble samurai with whom they have become fascinated. They wear ebony lamellar armor, wield ebony katanas that burn with necrotic flame and can hurl bolts of pure necrotic energy.",
+               "Perfect Memory. Each time an ashura dies and returns it becomes increasingly dangerous, as it can recall all of its memories with perfect clarity..",
+               "Jigokuan Nature. An ashura doesn’t require air or sleep."
+            ]
+         },
+         "traitTags":[
+            "Death Burst"
+         ],
+         "actionTags":[
+            "Multiattack"
+         ],
+         "damageTags":[
+            "N",
+            "S"
+         ],
+         "miscTags":[
+            "AOE",
+            "MW",
+            "RW"
+         ]
+      },
+      {
+         "name":"Ashura Shogun",
+         "source":"MonstersoftheOrient",
+         "page":11,
+         "size":"M",
+         "type":{
+            "type":"fiend",
+            "tags":[
+               "tainted"
+            ]
+         },
+         "alignment":[
+            "L",
+            "E"
+         ],
+         "ac":[
+            {
+               "ac":17,
+               "from":[
+                  "lamellar"
+               ]
+            }
+         ],
+         "hp":{
+            "formula":"8d8 + 16",
+            "average":52
+         },
+         "speed":{
+            "walk":30,
+            "fly":30,
+            "canHover":false
+         },
+         "str":16,
+         "dex":13,
+         "con":14,
+         "int":11,
+         "wis":15,
+         "cha":18,
+         "save":{
+            "dex":"+3",
+            "cha":"+6"
+         },
+         "skill":{
+            "athletics":"+5"
+         },
+         "passive":12,
+         "immune":[
+            "necrotic"
+         ],
+         "languages":[
+            "Oni",
+            "Oriental"
+         ],
+         "cr":"4",
+         "trait":[
+            {
+               "name":"Death Throes",
+               "entries":[
+                  "When the ashura shogun dies, it explodes in a cloud of death, and each creature within 15 feet of it must make a {@dc 12} Dexterity saving throw, taking 14 ({@damage 4d6}) necrotic damage on a failed save, or half as much damage on a  successful one. The cloud infects critters (including familiars and similar creatures) in the area with a tainted rot, causing them to wither and die within seconds."
+               ]
+            },
+            {
+               "name":"Ebony Armor",
+               "entries":[
+                  "The ashura’s armor is magical, granting the ashura +1 AC. If the ashura dies, its armor ignites in a flash, turning it to dust."
+               ]
+            },
+            {
+               "name":"Ebony Weapons",
+               "entries":[
+                  "The ashura’s weapon attacks are magical. The ashura gains a +1 bonus to attack and damage rolls and deals an additional 7 ({@damage 2d6}) necrotic damage (included in the attack). If the ashura dies, its weapons ignite in a flash, turning them to dust."
+               ]
+            }
+         ],
+         "action":[
+            {
+               "name":"Multiattack",
+               "entries":[
+                  "The ashura makes two attacks."
+               ]
+            },
+            {
+               "name":"Ebony Katana",
+               "entries":[
+                  "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage, or 9 ({@damage 1d10 + 4}) slashing damage if used with both hands, plus 7 ({@damage 2d6}) necrotic damage."
+               ]
+            },
+            {
+               "name":"Necrotic Bolt",
+               "entries":[
+                  "{@atk rw} {@hit 3} to hit, range 30/60 ft., one target. {@h}8 ({@damage 2d6 + 1}) necrotic damage."
+               ]
+            },
+            {
+               "name":"Leadership (Recharges after a Short or Long Rest)",
+               "entries":[
+                  "For 1 minute, the ashura can utter a special command or warning whenever a nonhostile creature that it can see within 30 feet of it makes an attack roll or a saving throw. The creature can add a {@dice d4} to its roll provided it can hear and understand the ashura. A creature can benefit from only one Leadership die at a time. This effect ends if the ashura is {@condition incapacitated}."
+               ]
+            }
+         ],
+         "fluff":{
+            "entries":[
+               "Ashura resemble beautiful, pale humans, with massive moth-wings protruding from their backs. They give off an eerie vibe, easily putting mortal creatures in a state of unease. They originate from Jigoku, and only enter the Material Realm when summoned through blood magic. When they die, they explode in a cloud of pure death, returning to Jigoku. From there, they can be summoned once more. An ashura can only truly die if it is killed within Jigoku itself.",
+               "Samurai Mimicry. Ashuran culture has changed after millennia of coming to the Material Realm, adopting the fighting styles of the noble samurai with whom they have become fascinated. They wear ebony lamellar armor, wield ebony katanas that burn with necrotic flame and can hurl bolts of pure necrotic energy.",
+               "Perfect Memory. Each time an ashura dies and returns it becomes increasingly dangerous, as it can recall all of its memories with perfect clarity..",
+               "Jigokuan Nature. An ashura doesn’t require air or sleep."
+            ]
+         },
+         "traitTags":[
+            "Death Burst"
+         ],
+         "actionTags":[
+            "Multiattack"
+         ],
+         "damageTags":[
+            "N",
+            "S"
+         ],
+         "miscTags":[
+            "AOE",
+            "MW",
+            "RW"
+         ]
+      },
+      {
+         "name":"Baayahaz",
+         "source":"MonstersoftheOrient",
+         "page":12,
+         "size":"S",
+         "type":"fiend",
+         "alignment":[
+            "N",
+            "E"
+         ],
+         "ac":[
+            12
+         ],
+         "hp":{
+            "formula":"3d6 ‒ 3",
+            "average":7
+         },
+         "speed":{
+            "walk":30
+         },
+         "str":6,
+         "dex":14,
+         "con":9,
+         "int":15,
+         "wis":8,
+         "cha":10,
+         "save":{
+            "dex":"+4",
+            "wis":"+1"
+         },
+         "skill":{
+            "acrobatics":"+4"
+         },
+         "senses":[
+            "darkvision 60 ft."
+         ],
+         "passive":9,
+         "resist":[
+            "psychic"
+         ],
+         "immune":[
+            "cold",
+            "force",
+            "necrotic"
+         ],
+         "languages":[
+            "understands Oni but doesn't speak"
+         ],
+         "cr":"1",
+         "trait":[
+            {
+               "name":"Death Throes",
+               "entries":[
+                  "When the baayahaz dies, it implodes as if it used its Implosion action."
+               ]
+            },
+            {
+               "name":"Deathly Countdown",
+               "entries":[
+                  "The baayahaz’s hit point maximum is reduced by 1 for each hour it spends on a plane other than Jigoku."
+               ]
+            },
+            {
+               "name":"Living Darkness",
+               "entries":[
+                  "While in darkness, the baayahaz is indistinguishable from the darkness around it, effectively making it {@condition invisible}."
+               ]
+            },
+            {
+               "name":"Magic Resistance",
+               "entries":[
+                  "The baayahaz has advantage on saving throws against spells and other magical effects."
+               ]
+            },
+            {
+               "name":"Otherworldly Evasion",
+               "entries":[
+                  "If the baayahaz is subjected to an effect that allows it to make a saving throw to take only half damage, the baayahaz instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+               ]
+            },
+            {
+               "name":"Shadow Stealth",
+               "entries":[
+                  "While in dim light or darkness, the baayahaz can take the {@action Hide} action as a bonus action."
+               ]
+            }
+         ],
+         "action":[
+            {
+               "name":"Implosion",
+               "entries":[
+                  "The baayahaz dies in a violent implosion that tears at the fabric of reality, releasing visions from within the bowels of Jigoku. Each creature within 10 feet of the baayahaz must make a {@dc 12} Constitution saving throw. On a failed save, a creature takes 14 ({@damage 4d6}) force damage and is {@condition stunned} for 1 minute. On a successful save, a creature takes half as much damage and isn’t {@condition stunned}.",
+                  "If a creature drops to 0 hit points or dies due to the implosion, it’s body is sucked into the fiendish realm of Jigoku. Only a wish spell can return a creature to life that dies in this manner.",
+                  "While a creature is {@condition stunned} from the detonation, it can repeat the saving throw at the end of each of its turns. On a failed save, it continues to be {@condition stunned}, takes 4 ({@damage 1d8}) psychic damage, and has its Taint score increased by 1. On a successful save, the effect ends and the creature suffers no additional effects."
+               ]
+            }
+         ],
+         "fluff":{
+            "entries":[
+               "These small but vicious fiends originate within Jigoku. When in their home realm, they resemble black, claw-less, floating dogs with hunched backs, one eye, and a toothless mouth. When summoned to another realm, however, they appear as a slithering mass of dark energy.",
+               "Bound to Jigoku. Within Jigoku they are harmless creatures eternally bound to their fiendish home and incapable of finding permanent death. If a baayahaz ever finds itself in a different realm, its powerful bond to Jigoku allows it to instantly return there in a violent implosion. A baayahaz will usually do so very soon, as every minute it spends outside of Jigoku fills it with agonizing pain. If it spots creatures, and humanoids in particular, it will attempt to reach them before imploding, as it attempts to bring them back with it to Jigoku.",
+               "Unseen Doom. While in darkness the baayahaz blends into its surroundings, effectively making it invisible. The only hint at its presence is a light pulsing sound similar to a heartbeat.",
+               "Baayahaz Nature. A baayahaz doesn’t require air, food, drink, or sleep."
+            ]
+         },
+         "traitTags":[
+            "Death Burst",
+            "Magic Resistance"
+         ],
+         "senseTags":[
+            "D"
+         ],
+         "damageTags":[
+            "O",
+            "Y"
+         ],
+         "miscTags":[
+            "AOE"
+         ],
+         "conditionInflict":[
+            "stunned"
+         ]
+      },
+      {
+         "name":"Bajang",
+         "source":"MonstersoftheOrient",
+         "page":12,
+         "size":"S",
+         "type":{
+            "type":"fey",
+            "tags":[
+               "shapechanger"
+            ]
+         },
+         "alignment":[
+            "C",
+            "E"
+         ],
+         "ac":[
+            {
+               "ac":16,
+               "from":[
+                  "natural armor"
+               ]
+            }
+         ],
+         "hp":{
+            "formula":"12d6",
+            "average":42
+         },
+         "speed":{
+            "walk":30,
+            "climb":30
+         },
+         "str":12,
+         "dex":15,
+         "con":10,
+         "int":13,
+         "wis":14,
+         "cha":16,
+         "save":{
+            "con":"+2",
+            "cha":"+4"
+         },
+         "skill":{
+            "acrobatics":"+4",
+            "perception":"+4",
+            "stealth":"+6",
+            "survival":"+4"
+         },
+         "senses":[
+            "darkvision 60 ft."
+         ],
+         "passive":12,
+         "languages":[
+            "Oriental (common)",
+            "Kami"
+         ],
+         "cr":"3",
+         "spellcasting":[
+            {
+               "name":"Innate Spellcasting",
+               "headerEntries":[
+                  "The bajang’s innate spellcasting ability is Charisma (spell save DC",
+                  "13). The bajang can innately cast the following spells, requiring no material or verbal",
+                  "components:"
+               ],
+               "will":[
+                  "{@spell light}"
+               ],
+               "daily":{
+                  "3e":[
+                     "{@spell bane}",
+                     "{@spell gust of wind}"
+                  ],
+                  "1e":[
+                     "{@spell divination}"
+                  ]
+               },
+               "ability":"cha",
+               "type":"spellcasting"
+            }
+         ],
+         "trait":[
+            {
+               "name":"Magic Resistance",
+               "entries":[
+                  "The bajang has advantage on saving throws against spells and other magical effects."
+               ]
+            },
+            {
+               "name":"Tree Stride",
+               "entries":[
+                  "Once on their turn, the bajang can use 10 feet of movement to step magically into one living tree within reach and emerge from a second living tree within 60 feet of the first tree, appearing in an unoccupied space within 5 feet of the second tree. Both trees must be Large or bigger."
+               ]
+            }
+         ],
+         "action":[
+            {
+               "name":"Multiattack",
+               "entries":[
+                  "The bajang makes one bite attack and two attacks with its claws."
+               ]
+            },
+            {
+               "name":"Bite",
+               "entries":[
+                  "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage. The target must succeed on a {@dc 13} Constitution saving throw, or become {@condition poisoned} until the end of its next turn."
+               ]
+            },
+            {
+               "name":"Claws",
+               "entries":[
+                  "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage, plus 2 ({@damage 1d4}) poison damage."
+               ]
+            },
+            {
+               "name":"Change Shape",
+               "entries":[
+                  "The bajang magically polymorphs into a Small wildcat with light brown fur and orange eyes, or back into its true form. Its statistics are the same in each form. If the bajang dies, it reverts to its true form."
+               ]
+            }
+         ],
+         "fluff":{
+            "entries":[
+               "Bajangs look like stunted, stocky humans with blunt noses, pale skin, and green hair. They are roughly 3 feet tall and weigh around 120 pounds. Their eyes are beady and orange, and their wide mouths are permanently creased in evil sneers. Their hands and feet all have four bony claws, perfect for climbing trees. Their bodies are small but brutish.",
+               "Treebound. Living deep in the forests, bajangs grow in tree trunks like pustules of evil, emerging only to terrorize nearby settlements. They are typically encountered near the site of a battle, the burial place of an evil mage, or some other area with a history of violence or lingering evil. Bajangs can emerge from their tree and travel the lands around it, but the tree roots the bajng to the world, and it must return to its tree every day. As long as the tree remains unharmed, the bajang stays forever youthful and any harm done to the tree also affects the bajang.",
+               "Honorless. Bajangs are vicious and devious fighters, preferring weak or helpless prey. They prefer to attack sleeping victims or ambush single characters from behind."
+            ]
+         },
+         "traitTags":[
+            "Magic Resistance"
+         ],
+         "senseTags":[
+            "D"
+         ],
+         "actionTags":[
+            "Multiattack",
+            "Shapechanger"
+         ],
+         "damageTags":[
+            "I",
+            "P",
+            "S"
+         ],
+         "spellcastingTags":[
+            "I"
+         ],
+         "miscTags":[
+            "MW"
+         ],
+         "conditionInflict":[
+            "poisoned"
+         ]
+      },
+      {
+         "name":"Bakemono",
+         "source":"MonstersoftheOrient",
+         "page":13,
+         "size":"S",
+         "type":{
+            "type":"humanoid",
+            "tags":[
+               "goblinoid, Tainted"
+            ]
+         },
+         "alignment":[
+            "C",
+            "E"
+         ],
+         "ac":[
+            {
+               "ac":15,
+               "from":[
+                  "natural armor"
+               ]
+            }
+         ],
+         "hp":{
+            "formula":"4d6 + 8",
+            "average":22
+         },
+         "speed":{
+            "walk":30
+         },
+         "str":14,
+         "dex":10,
+         "con":15,
+         "int":3,
+         "wis":11,
+         "cha":7,
+         "skill":{
+            "athletics":"+4"
+         },
+         "senses":[
+            "blindsight 60 ft. (blind beyond this radius)"
+         ],
+         "passive":10,
+         "languages":[
+            "Goblin",
+            "Oni"
+         ],
+         "cr":"1",
+         "trait":[
+            {
+               "name":"Aggressive",
+               "entries":[
+                  "As a bonus action, the bakemono can move up to its speed toward a hostile creature that it can see."
+               ]
+            },
+            {
+               "name":"Charge",
+               "entries":[
+                  "If bakemono moves at least 30 ft. straight toward a target and then hits it with a claw attack on the same turn, the target takes an extra 10 ({@damage 3d6}) slashing damage."
+               ]
+            }
+         ],
+         "action":[
+            {
+               "name":"Multiattack",
+               "entries":[
+                  "The bakemono makes two attacks with its claws. The second attack has disadvantage."
+               ]
+            },
+            {
+               "name":"Bite",
+               "entries":[
+                  "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage, and the target is {@condition grappled} (escape {@dc 13}). Until this grapple ends, the target is {@condition restrained}. A creature that starts its turn while {@condition grappled} in this manner takes 6 ({@damage 1d8 + 2}) piercing damage. The bakemono can only grapple one creature at a time in this manner, and it cannot use its bite attack during a grapple."
+               ]
+            },
+            {
+               "name":"Claws",
+               "entries":[
+                  "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) slashing damage."
+               ]
+            }
+         ],
+         "fluff":{
+            "entries":[
+               "The average bakemono is about 4 feet tall, weighs about 150 pounds, and is rippling with powerful muscles.",
+               "Goblinoids. They are small and muscled, with a fiery temper and low intelligence. One out of every hundred bakemono is gifted with extraordinary intelligence and lead the rest of their kin into battle. ",
+               "Berserker Tactics. Most bakemono are too stupid to use weapons, and they really have little need for them. They leap in to attack like wild beasts, clenching their jaws around anything they can catch, much like a rabid dog. They attack in packs, throwing themselves at their victims without fear or strategy. Only the zealots, fiercely devoted to Jigoku, keep their aggression in check."
+            ]
+         },
+         "traitTags":[
+            "Aggressive",
+            "Charge"
+         ],
+         "senseTags":[
+            "B"
+         ],
+         "actionTags":[
+            "Multiattack"
+         ],
+         "languageTags":[
+            "GO"
+         ],
+         "damageTags":[
+            "P",
+            "S"
+         ],
+         "miscTags":[
+            "MW"
+         ],
+         "conditionInflict":[
+            "grappled",
+            "restrained"
+         ]
+      },
+      {
+         "name":"Bakemono Warlord",
+         "source":"MonstersoftheOrient",
+         "page":13,
+         "size":"S",
+         "type":{
+            "type":"humanoid",
+            "tags":[
+               "goblinoid, Tainted"
+            ]
+         },
+         "alignment":[
+            "C",
+            "E"
+         ],
+         "ac":[
+            {
+               "ac":17,
+               "from":[
+                  "partial armor + te-date"
+               ]
+            }
+         ],
+         "hp":{
+            "formula":"6d6 + 12",
+            "average":33
+         },
+         "speed":{
+            "walk":30
+         },
+         "str":14,
+         "dex":14,
+         "con":15,
+         "int":8,
+         "wis":11,
+         "cha":10,
+         "skill":{
+            "athletics":"+4",
+            "persuasion":"+2"
+         },
+         "senses":[
+            "blindsight 60 ft. (blind beyond this radius)"
+         ],
+         "passive":10,
+         "languages":[
+            "Oriental (common)",
+            "Goblin",
+            "Oni"
+         ],
+         "cr":"2",
+         "trait":[
+            {
+               "name":"Aggressive",
+               "entries":[
+                  "As a bonus action, the bakemono can move up to its speed toward a hostile creature that it can see."
+               ]
+            },
+            {
+               "name":"Charge",
+               "entries":[
+                  "If bakemono moves at least 30 ft. straight toward a target and then hits it with a claw attack on the same turn, the target takes an extra 14 ({@damage 4d6}) slashing damage."
+               ]
+            },
+            {
+               "name":"Charge",
+               "entries":[
+                  "If bakemono moves at least 20 ft. straight toward a target and then hits it with a {specific melee} attack on the same turn, the target takes an extra 9 ({@damage 2d8}) piercing damage. If the target is a creature, it must succeed on a {@dc 15} Strength saving throw or be knocked {@condition prone}."
+               ]
+            }
+         ],
+         "action":[
+            {
+               "name":"Multiattack",
+               "entries":[
+                  "The bakemono makes two masakari attacks."
+               ]
+            },
+            {
+               "name":"Bite",
+               "entries":[
+                  "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage, and the target is {@condition grappled} (escape {@dc 13}). Until this grapple ends, the target is {@condition restrained}. A creature that starts its turn while {@condition grappled} in this manner takes 6 ({@damage 1d8 + 2}) piercing damage. The bakemono can only grapple one creature at a time in this manner, and it cannot use its bite attack during a grapple."
+               ]
+            },
+            {
+               "name":"Masakari",
+               "entries":[
+                  "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) slashing damage, or 7 ({@damage 1d10 + 2}) if used with two hands."
+               ]
+            }
+         ],
+         "reaction":[
+            {
+               "name":"Redirected Attack",
+               "entries":[
+                  "When a creature the bakemono can see targets it with an attack, the bakemono chooses another bakemono within 5 feet of it. The two bakemono swap places, and the chosen bakemono becomes the target instead."
+               ]
+            }
+         ],
+         "fluff":{
+            "entries":[
+               "The average bakemono is about 4 feet tall, weighs about 150 pounds, and is rippling with powerful muscles.",
+               "Goblinoids. They are small and muscled, with a fiery temper and low intelligence. One out of every hundred bakemono is gifted with extraordinary intelligence and lead the rest of their kin into battle. ",
+               "Berserker Tactics. Most bakemono are too stupid to use weapons, and they really have little need for them. They leap in to attack like wild beasts, clenching their jaws around anything they can catch, much like a rabid dog. They attack in packs, throwing themselves at their victims without fear or strategy. Only the zealots, fiercely devoted to Jigoku, keep their aggression in check."
+            ]
+         },
+         "traitTags":[
+            "Aggressive",
+            "Charge"
+         ],
+         "senseTags":[
+            "B"
+         ],
+         "actionTags":[
+            "Multiattack"
+         ],
+         "languageTags":[
+            "GO"
+         ],
+         "damageTags":[
+            "P",
+            "S"
+         ],
+         "miscTags":[
+            "MW"
+         ],
+         "conditionInflict":[
+            "grappled",
+            "prone",
+            "restrained"
+         ]
+      },
+      {
+         "name":"Bakemono Zealot",
+         "source":"MonstersoftheOrient",
+         "page":13,
+         "size":"S",
+         "type":{
+            "type":"humanoid",
+            "tags":[
+               "goblinoid, Tainted"
+            ]
+         },
+         "alignment":[
+            "C",
+            "E"
+         ],
+         "ac":[
+            {
+               "ac":15,
+               "from":[
+                  "natural armor"
+               ]
+            }
+         ],
+         "hp":{
+            "formula":"4d6 + 8",
+            "average":22
+         },
+         "speed":{
+            "walk":30
+         },
+         "str":14,
+         "dex":10,
+         "con":15,
+         "int":3,
+         "wis":11,
+         "cha":7,
+         "skill":{
+            "athletics":"+4"
+         },
+         "senses":[
+            "blindsight 60 ft. (blind beyond this radius)"
+         ],
+         "passive":10,
+         "languages":[
+            "Oriental (common)",
+            "Goblin",
+            "Oni"
+         ],
+         "cr":"1",
+         "spellcasting":[
+            {
+               "name":"Spellcasting",
+               "headerEntries":[
+                  "The bakemono is a 3rd level spellcaster. It’s spellcasting ability is Wisdom (spell save {@dc 12}, +4 to hit with spell attacks). The bakemono has the following cleric spells prepared:"
+               ],
+               "spells":{
+                  "0":{
+                     "spells":[
+                        "{@spell guidance}",
+                        "{@spell sacred flame} (necrotic damage)",
+                        "{@spell thaumaturgy}"
+                     ]
+                  },
+                  "1":{
+                     "slots":4,
+                     "spells":[
+                        "{@spell guiding bolt} (necrotic damage)",
+                        "{@spell shield of faith}"
+                     ]
+                  },
+                  "2":{
+                     "slots":2,
+                     "spells":[
+                        "{@spell blindness/deafness}",
+                        "{@spell spiritual weapon} (necrotic damage)"
+                     ]
+                  }
+               },
+               "ability":"wis",
+               "type":"spellcasting"
+            }
+         ],
+         "action":[
+            {
+               "name":"Claws",
+               "entries":[
+                  "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) slashing damage."
+               ]
+            }
+         ],
+         "fluff":{
+            "entries":[
+               "The average bakemono is about 4 feet tall, weighs about 150 pounds, and is rippling with powerful muscles.",
+               "Goblinoids. They are small and muscled, with a fiery temper and low intelligence. One out of every hundred bakemono is gifted with extraordinary intelligence and lead the rest of their kin into battle. ",
+               "Berserker Tactics. Most bakemono are too stupid to use weapons, and they really have little need for them. They leap in to attack like wild beasts, clenching their jaws around anything they can catch, much like a rabid dog. They attack in packs, throwing themselves at their victims without fear or strategy. Only the zealots, fiercely devoted to Jigoku, keep their aggression in check."
+            ]
+         },
+         "senseTags":[
+            "B"
+         ],
+         "languageTags":[
+            "GO"
+         ],
+         "damageTags":[
+            "S"
+         ],
+         "spellcastingTags":[
+            "CC"
+         ],
+         "miscTags":[
+            "MW"
+         ]
+      }
+   ]
+}

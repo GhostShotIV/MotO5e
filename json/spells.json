@@ -1,0 +1,94 @@
+	"spell": [
+		{
+			"name": "Conjure Greater Elemental Vortex (maho)",
+			"level": 9,
+			"school": "C",
+			"time": [
+				{
+					"number": 8,
+					"unit": "hour"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "day",
+						"amount": 1
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"You chant while continually spilling your own blood, forcing your mind deeper and deeper into the Shadowlands. When the casting is complete, your body is torn asunder and you die. Your spilled blood shimmers, and rises into the air, where it starts to swirl and grow. Over the course of 1 hour, the blood begins to crackle with elemental forces and finally forms a lesser elemental vortex. The vortex dies after 3 days.",
+				"You cannot replace the material components for this spell and cannot be resurrected by any means other than a true resurrection or wish spell."
+			],
+			"source": "MonstersoftheOrient",
+			"page": 19,
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "all of the casters blood"
+			}
+		},
+		{
+			"name": "Conjure Lesser Elemental Vortex (maho)",
+			"level": 6,
+			"school": "C",
+			"time": [
+				{
+					"number": 8,
+					"unit": "hour"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "day",
+						"amount": 3
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"You chant while continually spilling your own blood, forcing your mind deeper and deeper into the Shadowlands. When the casting is complete, your body is torn asunder and you die. Your spilled blood shimmers, and rises into the air, where it starts to swirl and grow. Over the course of 1 hour, the blood begins to crackle with elemental forces and finally forms a lesser elemental vortex. The vortex dies after 3 days.",
+				"You cannot replace the material components for this spell and cannot be resurrected by any means other than a true resurrection or wish spell."
+			],
+			"source": "MonstersoftheOrient",
+			"page": 19,
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "all of the casters blood"
+			}
+		}
+	]

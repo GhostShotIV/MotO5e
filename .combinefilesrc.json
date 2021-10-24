@@ -1,0 +1,34 @@
+{
+	"fileGroups": [{
+		"fileGlobs": [
+			"json/*.json"
+		],
+		"fileHeader": [
+			"{",
+			"\t\"siteVersion\": \"1.140.0\",",
+			"\t\"_meta\": {",
+			"\t\t\"sources\": [",
+			"\t\t\t{",
+			"\t\t\t\t\"json\": \"MonstersoftheOrient\",",
+			"\t\t\t\t\"abbreviation\": \"MotO\",",
+			"\t\t\t\t\"full\": \"Monsters of the Orient\",",
+			"\t\t\t\t\"authors\": [",
+			"\t\t\t\t\t\"Marc Altfuldisch\"",
+			"\t\t\t\t],",
+			"\t\t\t\t\"convertedBy\": [",
+			"\t\t\t\t\t\"Ghost\"",
+			"\t\t\t\t]",
+			"\t\t\t}",
+			"\t\t],",
+			"\t\t\"dateAdded\": 1635072782,",
+			"\t\t\"dateLastModified\": 1635072782",
+			"\t},"
+		],
+		"fileFooter": [
+			"}"
+		],
+		"entryHeader": [""],
+		"entryFooter": [""],
+		"outputFileName": "Monsters_of_the_Orient.json"
+	}]
+}

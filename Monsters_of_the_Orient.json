@@ -14,9 +14,39 @@
 				]
 			}
 		],
-		"dateAdded": 1635038728,
-		"dateLastModified": 1635038728
+		"dateAdded": 1635041121,
+		"dateLastModified": 1635041121
 	},
+	"legendaryGroup": [
+		{
+			"name": "Adult Dokufu",
+			"lairActions": [
+				"On initiative count 20 (losing initiative ties), the dokufu takes a lair action to create one of the following effects, though it can’t use the same effect two rounds in a row:",
+				{
+					"type": "list",
+					"items": [
+						"Brood. A dokufu spiderling bursts forth from a humanoid host that’s wrapped in webbing, appearing in an empty space within 100 feet of the dokufu.",
+						"Lair Wide Webs. Each creature within the lair must succeed a Dexterity saving throw or be encased in webbing, as if the dokufu had used its Web action. The save DC is 14 for an adult dokufu and 17 for an ancient dokufu.",
+						"Conjure Ice spider. The dokufu conjures forth 1d4 ice spiders, which appear in empty spaces within 60 feet of the dokufu."
+					]
+				}
+			],
+			"regionalEffects": [
+				"The region containing the dokufu’s lair is warped by its powerful illusionary magic, though all of the effects feel real. Creatures with truesight can see through the illusions; however, all other elements of the illusion remain, so while the creature is aware of the illusion’s presence, the creature can still physically interact with the illusion. The dokufu itself is unaffected by all detrimental effects. The region contains the following effects:",
+				{
+					"type": "list",
+					"items": [
+						"Deathly Omen. Every so often an ice sculpture of a horrible spider-like monstrosity appears. A creature that sees such a sculpture must succeed a {@dc 15} Wisdom saving throw or become frightened for 1 minute and gain the following flaw while in the region: “I’ll never leave this mountain alive”. At the end of each of its turns while frightened, a creature must succeed another {@dc 15} Wisdom saving throw or take 9 ({@damage 2d8}) psychic damage. Randomly determine which creature a sculpture is visible to, as each sculpture is only visible to a single creature.",
+						"Extreme Cold. Each creature must succeed a {@dc 10} Constitution saving throw at the end of each hour or gain one level of exhaustion. Creatures with resistance or immunity to cold damage automatically succeed on the saving throw, as do creatures wearing cold weather gear (thick coats, gloves, and the like) and creatures naturally adapted to cold climates.",
+						"Howling Winds. The strong winds in the region carry with them snow and ice, thus imposing disadvantage on ranged weapon attack rolls and Wisdom (perception) checks that rely on hearing or sight. A creature can see no further than 10 feet in front of it and all terrain is difficult terrain. Additionally, all open flames are extinguished, fogs are dispersed, and flying by nonmagical means is nearly impossible. A flying creature in the region must land at the end of its turn or fall.",
+						"Tracks. Dokufu tracks can be found in the snow. If a creature follows the tracks, it will walk in circles. A creature with truesight isn’t fooled by this, and other creatures can discern the trickery with a successful {@dc 15} Wisdom (survival) check after having completed the circle. At a regular pace, it takes between two and three hours to complete the circle once."
+					]
+				}
+			],
+			"mythicEncounter": [],
+			"source": "MonstersoftheOrient"
+		}
+	],
 	"monster": [
 		{
 			"name": "Bixi",
@@ -2916,7 +2946,10 @@
 			"languages": [
 				"understands Oriental (common) and Oni but doesn't speak"
 			],
-			"cr": "12",
+			"cr": {
+				"cr": "12",
+				"lair": "15"
+			},
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting",
@@ -2933,7 +2966,8 @@
 							"{@spell project image}"
 						]
 					},
-					"ability": "wis"
+					"ability": "wis",
+					"type": "spellcasting"
 				}
 			],
 			"trait": [
@@ -3032,6 +3066,10 @@
 					]
 				}
 			],
+			"legendaryGroup": {
+				"name": "Adult Dokufu",
+				"source": "MonstersoftheOrient"
+			},
 			"fluff": {
 				"entries": [
 					"The dokufu is a giant, monstrous spider-like creature that has been corrupted by Taint. It is covered with a heavy exoskeleton resembling the rocks of its mountain habitat, allowing it to blend in perfectly with its surroundings. It also has the ability to change the color of its exoskeleton to shades of white, allowing it to blend in with snowy environments as well. Its exoskeleton provides the dokufu with ample protection against physical harm, as well as magical harm as the chitin thickens with age.",

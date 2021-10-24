@@ -3705,6 +3705,26 @@
 					]
 				}
 			],
+			"fluff": {
+				"entries": [
+					"The dokufu is a giant, monstrous spider-like creature that has been corrupted by Taint. It is covered with a heavy exoskeleton resembling the rocks of its mountain habitat, allowing it to blend in perfectly with its surroundings. It also has the ability to change the color of its exoskeleton to shades of white, allowing it to blend in with snowy environments as well. Its exoskeleton provides the dokufu with ample protection against physical harm, as well as magical harm as the chitin thickens with age.",
+					"It is unknown how long dokufu live, but they can most certainly become several thousand years old. They mature and grow very slowly, but grow immensely in size the older they get. While a dokufu spiderling is no bigger than a small dog, they are about the size of a panther by the time they become younglings. Once they reach adulthood, they’re about as large as a horse, and truly ancient dokufu will grow to be the size of a mammoth.",
+					"Feared and Avoided. If it is discovered that an area is home to a young dokufu, a hunting party is quickly gathered to kill the creature before it matures. Areas that contain mature dokufu are usually avoided completely, as many a great warrior has faced off against a dokufu, only to become fodder for its young. They are greatly feared throughout the Orient, and even speaking their name inspires terror in children and adults alike.",
+					"Masters of Illusions. While they might resemble brutish creatures, dokufu are cunning and wise. They have the innate ability to create powerful illusions, which they typically utilize to lure prey closer. Their magical prowess becomes more powerful as they mature. Once old enough, they can even use the snow or stone beneath their feet as others would use a door, seemingly teleporting through the ground.",
+					"Tainted Nature. Their eyes act as lenses, greatly increasing the potential of their illusory magics. This odd mutation is caused by the massive amount of Taint within the creature, which has rendered their eyes useless for seeing but granted it an otherworldly sense for perceiving its surroundings. This fact isn’t widely known, however, and more than one wu jen has attempted to blind a dokufu adversary only to discover that it wasn’t hindered by it in the least.",
+					"Dark Reproduction. Dokufu are androgynous. They reproduce by implanting eggs into humanoid bodies to provide food for their young. Deep within caves, they hang the hosts from the ceiling, often while still alive. Shortly before the egg hatches inside the host, the adult dokufu will swallow the host, so the egg can hatch inside its digestive tract."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/Dokufu.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/Dokufu.png",
 			"traitTags": [
 				"False Appearance",
 				"Magic Resistance",
@@ -3901,6 +3921,25 @@
 					]
 				}
 			],
+			"fluff": {
+				"entries": [
+					"Foo are good-hearted, celestial creatures. They can travel through both the Astral Plane and the Ethereal Plane with ease, quickly arriving wherever they wish.",
+					"Sometimes, in times of great need, a number of foo will appear on the Material Plane in order to protect innocents against a great evil. They don’t, however, go looking for evil, but rather confront it if it ever threatens any good aligned creatures near the foo. When they do visit the Material Plane, they sit absolutely still, looking exactly like statues, while scanning the surrounding area for signs of evil.",
+					"Natural Rovers. A foo rarely stays in one place for more than a few days, unless the nearby mortals impress it with benevolence and kindness, or if an important cause appeals to its sense of justice. However, even then, it rarely stays more than a few weeks.",
+					"Guardians of Good. The people of the Orient have constructed statues that resemble the foo, partly to honor these noble beings, but also believing it scares away evil creatures (which it often does).",
+					"Immortal Nature. A foo doesn’t require food, drink, or sleep."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/FooDog.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/FooDog.png",
 			"traitTags": [
 				"False Appearance",
 				"Immutable Form",
@@ -4040,6 +4079,23 @@
 					]
 				}
 			],
+			"fluff": {
+				"entries": [
+					"When blood is spilled in the Shadowlands, it doesn’t take long before red vines, known as bloodvines, shoot out of the ground and entangle everything nearby. Bloodvines are one of the few sources of nourishment available within the Shadowlands, something any hero who dares venture there should know.",
+					"Oni Lord’s Creation. As a great joke, the oni lord Byoki has created the fudoshi: a tangled mess of a creature, identical to the bloodvine in every way, but sentient and carrying Byoki’s favourite disease: Soul Rot.",
+					"Natural Occurance. A fudoshi can travel only slowly, but the will of the Shadowlands themselves now cause them to form when bloodvines are nearby, allowing the fudoshi to blend in perfectly. There it lies, waiting for travelers and heroes alike who venture into its trap looking for sustenance."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/Fudoshi.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/Fudoshi.png",
 			"traitTags": [
 				"Damage Absorption",
 				"False Appearance"
@@ -4064,6 +4120,224 @@
 				"blinded",
 				"grappled",
 				"restrained"
+			]
+		},
+		{
+			"name": "Foo Dog",
+			"source": "MonstersoftheOrient",
+			"page": 20,
+			"size": "M",
+			"type": "celestial",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 120,
+				"formula": "16d8 + 48"
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 20
+			},
+			"str": 20,
+			"dex": 15,
+			"con": 16,
+			"int": 12,
+			"wis": 17,
+			"cha": 13,
+			"save": {
+				"int": "+4",
+				"wis": "+6"
+			},
+			"skill": {
+				"arcana": "+4",
+				"insight": "+6",
+				"perception": "+6",
+				"religion": "+6"
+			},
+			"senses": [
+				"truesight 60 ft."
+			],
+			"passive": 16,
+			"resist": [
+				"lightning",
+				"psychic",
+				"thunder"
+			],
+			"immune": [
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical weapons",
+					"cond": true
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"diseased",
+				"exhaustion",
+				"petrified",
+				"poisoned"
+			],
+			"languages": [
+				"Foo",
+				"Kami",
+				"Oriental",
+				"telepathy 10 ft."
+			],
+			"cr": "6",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The foo's innate spellcasting ability is Wisdom (spell save {@dc 14}).",
+						"The foo can innately cast the following spells, requiring no material, or somatic components:"
+					],
+					"will": [
+						"{@spell astral projection} (self only)",
+						"{@spell detect thoughts}",
+						"{@spell etherealness}",
+						"{@spell invisibility}"
+					],
+					"ability": "wis"
+				}
+			],
+			"trait": [
+				{
+					"name": "Enemy of Evil",
+					"entries": [
+						"The foo has advantage on attacks against creatures of any evil alignment.",
+						"Additionally, if the foo kills a creature of evil alignment with its bite or claws, it immediately recharges its Thunderous Barks ability and can use it as a bonus action."
+					]
+				},
+				{
+					"name": "Immutable Form",
+					"entries": [
+						"The foo is immune to any spell or effect that would alter its form."
+					]
+				},
+				{
+					"name": "False Appearance",
+					"entries": [
+						"While the foo remains motionless, it is indistinguishable from an inanimate stone statue."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The foo has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Sense Evil",
+					"entries": [
+						"The foo is aware of the presence of any creature of any evil alignment within 60 feet of it, but can't sense anything else about such creatures. A creature protected by a mind blank spell, a nondetection spell, or similar magic can't be perceived in this manner."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The foo makes three attacks: one with its bite and two with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) piercing damage plus 7 ({@damage 2d6}) lightning damage. If the target is a creature, it can't take reactions until the end of the foo's next turn."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one creature. {@h}8 ({@damage 1d6 + 5}) slashing damage."
+					]
+				},
+				{
+					"name": "Etherealness",
+					"entries": [
+						"The foo enters the Ethereal Plane from the Material Plane, or vice versa."
+					]
+				},
+				{
+					"name": "Thunderous Barks {@recharge 5}",
+					"entries": [
+						"The foo releases a series of booming barks. Each creature of the foo's choice within 30 feet of it must make a {@dc 14} Constitution saving throw. On a failed save, a creature takes 22 ({@damage 4d10}) thunder damage and is {@condition deafened} until it finishes a short or long rest. On a successful save, a creature takes half the thunder damage and isn't {@condition deafened}. Creatures of any evil alignment have disadvantage on the save."
+					]
+				}
+			],
+			"legendaryActions": 2,
+			"legendary": [
+				{
+					"name": "Cast a Spell (Costs 2 Actions)",
+					"entries": [
+						"The foo casts a spell."
+					]
+				}
+			],"fluff": {
+				"entries": [
+					"Foo are good-hearted, celestial creatures. They can travel through both the Astral Plane and the Ethereal Plane with ease, quickly arriving wherever they wish.",
+					"Sometimes, in times of great need, a number of foo will appear on the Material Plane in order to protect innocents against a great evil. They don’t, however, go looking for evil, but rather confront it if it ever threatens any good aligned creatures near the foo. When they do visit the Material Plane, they sit absolutely still, looking exactly like statues, while scanning the surrounding area for signs of evil.",
+					"Natural Rovers. A foo rarely stays in one place for more than a few days, unless the nearby mortals impress it with benevolence and kindness, or if an important cause appeals to its sense of justice. However, even then, it rarely stays more than a few weeks.",
+					"Guardians of Good. The people of the Orient have constructed statues that resemble the foo, partly to honor these noble beings, but also believing it scares away evil creatures (which it often does).",
+					"Immortal Nature. A foo doesn’t require food, drink, or sleep."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/FooDog.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/FooDog.png",
+			"traitTags": [
+				"False Appearance",
+				"Immutable Form",
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"TP"
+			],
+			"damageTags": [
+				"L",
+				"P",
+				"S",
+				"T"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"deafened"
+			],
+			"conditionInflictSpell": [
+				"invisible",
+				"unconscious"
 			]
 		}		
 	],

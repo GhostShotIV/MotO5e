@@ -14,8 +14,8 @@
 				]
 			}
 		],
-		"dateAdded": 1635036930,
-		"dateLastModified": 1635036930
+		"dateAdded": 1635037836,
+		"dateLastModified": 1635037836
 	},
 	"monster": [
 		{
@@ -2349,6 +2349,341 @@
 			],
 			"spellcastingTags": [
 				"CC"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Maho-Massugu",
+			"source": "MonstersoftheOrient",
+			"page": 14,
+			"size": "L",
+			"type": {
+				"type": "ooze",
+				"tags": [
+					"tainted"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				6
+			],
+			"hp": {
+				"average": 84,
+				"formula": "8d10 + 40"
+			},
+			"speed": {
+				"walk": 15
+			},
+			"str": 14,
+			"dex": 3,
+			"con": 20,
+			"int": 1,
+			"wis": 1,
+			"cha": 1,
+			"senses": [
+				"blindsight 60 ft. (blind beyond this radius)"
+			],
+			"passive": 5,
+			"resist": [
+				"slashing"
+			],
+			"immune": [
+				"necrotic",
+				"psychic"
+			],
+			"vulnerable": [
+				"poison"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"prone"
+			],
+			"languages": [
+				"- Taint Score 1"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Amorphous",
+					"entries": [
+						"The ooze can move through a space as narrow as 1 inch wide without squeezing."
+					]
+				},
+				{
+					"name": "Bound by Maho",
+					"entries": [
+						"The ooze is bound to a maho-tsukai with which it forms a telepathic bond. The maho-tsukai can command the ooze using a bonus action on each of its turns."
+					]
+				},
+				{
+					"name": "Maho Fuel",
+					"entries": [
+						"While a maho-tsukai is within 20 feet of the ooze, the maho-tsukai can choose to fuel its spells with the ooze's vitality, rather than its own. If a maho-tsukai chooses to do so, the ooze takes the damage the maho-tsukai would otherwise have taken from casting a maho spell."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Pseudopod",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}12 ({@dice 3d6} +",
+						"2) necrotic damage. If the target is a creature, it must succeed a {@dc 13} Constitution saving throw or be cursed with blood rot. The cursed target can't regain hit points. If the cursed target is reduced to 0 hit points, it has disadvantage on death saving throws.",
+						"If the cursed target dies, its blood begins to swirl, and rises as a plasmin in {@dice 1d4} rounds if it was a Medium or smaller creature or as a maho-massugu in {@dice 1d4 + 1} rounds if it was a Large or larger creature. The curse lasts until removed by the remove curse spell or other magic."
+					]
+				},
+				{
+					"name": "Engulf",
+					"entries": [
+						"The ooze moves up to its speed. While doing so, it can enter Large or smaller creatures' spaces. Whenever the ooze enters a creature's space, the creature must make a {@dc 12} Dexterity saving throw. On a successful save, the creature can choose to be pushed 5 feet back or to the side of the ooze. A creature that chooses not to be pushed suffers the consequences of a failed saving throw. On a failed save, the ooze enters the creature's space, and the creature takes 7 ({@damage 2d6}) necrotic damage, is engulfed, and becomes cursed with blood rot (see the pseudopod attack). The engulfed creature can't breathe, is {@condition restrained}, and takes 10 ({@damage 3d6}) necrotic damage at the start of each of the ooze's turns. When the ooze moves, the engulfed creature moves with it. An engulfed creature can try to escape by taking an action to make a {@dc 12} Strength check. On a success, the creature escapes and enters a space of its choice within 5 feet of the ooze."
+					]
+				}
+			],
+			"traitTags": [
+				"Amorphous"
+			],
+			"senseTags": [
+				"B"
+			],
+			"damageTags": [
+				"N"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"restrained"
+			]
+		},
+		{
+			"name": "Maho-Purin",
+			"source": "MonstersoftheOrient",
+			"page": 14,
+			"size": "L",
+			"type": {
+				"type": "ooze",
+				"tags": [
+					"tainted"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				7
+			],
+			"hp": {
+				"average": 85,
+				"formula": "10d10 + 30"
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 16,
+			"dex": 5,
+			"con": 16,
+			"int": 1,
+			"wis": 1,
+			"cha": 1,
+			"senses": [
+				"blindsight 60 ft. (blind beyond this radius)"
+			],
+			"passive": 5,
+			"immune": [
+				"necrotic",
+				"psychic",
+				"slashing"
+			],
+			"vulnerable": [
+				"poison"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"prone"
+			],
+			"languages": [
+				"- Taint Score 1"
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Amorphous",
+					"entries": [
+						"The ooze can move through a space as narrow as 1 inch wide without squeezing."
+					]
+				},
+				{
+					"name": "Bound by Maho",
+					"entries": [
+						"The ooze is bound to a maho-tsukai with which it forms a telepathic bond. The maho-tsukai can command the ooze using a bonus action on each of its turns."
+					]
+				},
+				{
+					"name": "Maho Fuel",
+					"entries": [
+						"While a maho-tsukai is within 20 feet of the ooze, the maho-tsukai can choose to fuel its spells with the ooze's vitality, rather than its own. If a maho-tsukai chooses to do so, the ooze takes the damage the maho-tsukai would otherwise have taken from casting a maho spell."
+					]
+				},
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"The ooze can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Pseudopod",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one creature. {@h}21 ({@dice 4d8} +",
+						"3) necrotic damage. The ooze regains hit points equal to half the damage done. If the target is a creature, it must succeed a {@dc 13} Constitution saving throw or be cursed with blood rot. The cursed target can't regain hit points. If the cursed target is reduced to 0 hit points, it has disadvantage on death saving throws. If the cursed target dies, its blood begins to swirl, and rises as a plasmin in {@dice 1d4} rounds if it was a Medium or smaller creature or as a maho-massugu in {@dice 1d4 + 1} rounds if it was a Large or larger creature. The curse lasts until removed by the remove curse spell or other magic."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Split",
+					"entries": [
+						"When a ooze that is Medium or larger is subjected to slashing damage, it splits into two new puddings if it has at least 10 hit points. Each new pudding has hit points equal to half the original pudding's, rounded down. New oozes are one size smaller than the original ooze."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Blood oozes are created by maho-tsukai as a strategic tool. They are often created from prisoners as it requires a humanoid sacrifice to create a blood ooze. A blood ooze is bound to a single master, and if that master dies another maho-tsukai must soon take control of the blood ooze lest it be destroyed.",
+					"Ooze Nature. An ooze doesn’t require sleep."
+				]
+			},
+			"traitTags": [
+				"Amorphous",
+				"Spider Climb"
+			],
+			"senseTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Plasmin",
+			"source": "MonstersoftheOrient",
+			"page": 14,
+			"size": "M",
+			"type": {
+				"type": "ooze",
+				"tags": [
+					"tainted"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				8
+			],
+			"hp": {
+				"average": 30,
+				"formula": "4d8 + 12"
+			},
+			"speed": {
+				"walk": 10
+			},
+			"str": 12,
+			"dex": 6,
+			"con": 16,
+			"int": 1,
+			"wis": 1,
+			"cha": 2,
+			"senses": [
+				"blindsight 60 ft. (blind beyond this radius)"
+			],
+			"passive": 5,
+			"resist": [
+				"slashing"
+			],
+			"immune": [
+				"necrotic",
+				"psychic"
+			],
+			"vulnerable": [
+				"poison"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"prone"
+			],
+			"languages": [
+				"- Taint Score 1"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Amorphous",
+					"entries": [
+						"The ooze can move through a space as narrow as 1 inch wide without squeezing."
+					]
+				},
+				{
+					"name": "Bound by Maho",
+					"entries": [
+						"The ooze is bound to a maho-tsukai with which it forms a telepathic bond. The maho-tsukai can command the ooze using a bonus action on each of its turns."
+					]
+				},
+				{
+					"name": "Maho Fuel",
+					"entries": [
+						"While a maho-tsukai is within 20 feet of the ooze, the maho-tsukai can choose to fuel its spells with the ooze's vitality, rather than its own. If a maho-tsukai chooses to do so, the ooze takes the damage the maho-tsukai would otherwise have taken from casting a maho spell."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Pseudopod",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one creature. {@h}8 ({@dice 2d6} +",
+						"1) necrotic damage. If the target is a creature, it must succeed a {@dc 13} Constitution saving throw or be cursed with blood rot. The cursed target can't regain hit points. If the cursed target is reduced to 0 hit points, it has disadvantage on death saving throws.",
+						"If the cursed target dies, its blood begins to swirl, and rises as a plasmin in {@dice 1d4} rounds.",
+						"The curse lasts until removed by the remove curse spell or other magic."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Blood oozes are created by maho-tsukai as a strategic tool. They are often created from prisoners as it requires a humanoid sacrifice to create a blood ooze. A blood ooze is bound to a single master, and if that master dies another maho-tsukai must soon take control of the blood ooze lest it be destroyed.",
+					"Ooze Nature. An ooze doesn’t require sleep."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/Plasmin.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/Plasmin.png",
+			"traitTags": [
+				"Amorphous"
+			],
+			"senseTags": [
+				"B"
 			],
 			"miscTags": [
 				"MW"

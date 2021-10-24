@@ -15,7 +15,7 @@
 			}
 		],
 		"dateAdded": 1635072782,
-		"dateLastModified": 1635072783
+		"dateLastModified": 1635072782
 	},
 	"legendaryGroup": [
 		{
@@ -64,6 +64,8 @@
 			"source": "MonstersoftheOrient"
 		}
 	],
+
+
 	"monster": [
 		{
 			"name": "Bixi",
@@ -4440,11 +4442,11 @@
 						"The gaki's innate spellcasting ability is Charisma (spell save {@dc 13})",
 						"The gaki can innately cast the following spells, requiring no material, or verbal components:"
 					],
-					"will": [
+					"will":[
 						"{@spell invisibility}"
 					],
-					"daily": {
-						"1e": [
+					"daily":{
+						"1e":[
 							"{@spell passwall}"
 						]
 					},
@@ -4797,7 +4799,7 @@
 						"The gaki's innate spellcasting ability is Charisma (spell save {@dc 10})",
 						"The gaki can innately cast the following spells, requiring no material, or verbal components:"
 					],
-					"will": [
+					"will":[
 						"{@spell invisibility}"
 					],
 					"ability": "cha"
@@ -5099,7 +5101,7 @@
 		{
 			"name": "Garegosu",
 			"isNamedCreature": true,
-			"source": "",
+			"source": "MonstersoftheOrient",
 			"page": 24,
 			"size": "H",
 			"type": {
@@ -5256,7 +5258,7 @@
 		},
 		{
 			"name": "Gashadokuro",
-			"source": "",
+			"source": "MonstersoftheOrient",
 			"page": 24,
 			"size": "H",
 			"type": "construct",
@@ -5425,7 +5427,7 @@
 		},
 		{
 			"name": "Chu-U",
-			"source": "",
+			"source": "MonstersoftheOrient",
 			"page": 26,
 			"size": "M",
 			"type": "undead",
@@ -5566,7 +5568,7 @@
 		},
 		{
 			"name": "Con-Tinh",
-			"source": "",
+			"source": "MonstersoftheOrient",
 			"page": 26,
 			"size": "M",
 			"type": "undead",
@@ -5678,7 +5680,7 @@
 		},
 		{
 			"name": "Gen'ei",
-			"source": "",
+			"source": "MonstersoftheOrient",
 			"page": 26,
 			"size": "M",
 			"type": "undead",
@@ -5829,7 +5831,7 @@
 		},
 		{
 			"name": "Tsuri Yurei",
-			"source": "",
+			"source": "MonstersoftheOrient",
 			"page": 27,
 			"size": "M",
 			"type": "undead",
@@ -6026,7 +6028,7 @@
 		},
 		{
 			"name": "Ubume",
-			"source": "",
+			"source": "MonstersoftheOrient",
 			"page": 27,
 			"size": "M",
 			"type": "undead",
@@ -6207,7 +6209,7 @@
 		},
 		{
 			"name": "Ghast Lord",
-			"source": "",
+			"source": "MonstersoftheOrient",
 			"page": 28,
 			"size": "M",
 			"type": "undead",
@@ -6337,7 +6339,7 @@
 		},
 		{
 			"name": "Ghoul Crawler",
-			"source": "",
+			"source": "MonstersoftheOrient",
 			"page": 28,
 			"size": "M",
 			"type": "undead",
@@ -6450,7 +6452,7 @@
 		},
 		{
 			"name": "Ghoulem",
-			"source": "",
+			"source": "MonstersoftheOrient",
 			"page": 29,
 			"size": "H",
 			"type": "undead",
@@ -6592,7 +6594,7 @@
 		},
 		{
 			"name": "Shadow Ghast",
-			"source": "",
+			"source": "MonstersoftheOrient",
 			"page": 29,
 			"size": "M",
 			"type": "undead",
@@ -6726,6 +6728,8 @@
 			]
 		}
 	],
+
+
 	"spell": [
 		{
 			"name": "Conjure Greater Elemental Vortex (maho)",
@@ -6820,4 +6824,5 @@
 			}
 		}
 	]
+
 }

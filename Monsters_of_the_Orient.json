@@ -64,8 +64,6 @@
 			"source": "MonstersoftheOrient"
 		}
 	],
-
-
 	"monster": [
 		{
 			"name": "Bixi",
@@ -4442,11 +4440,11 @@
 						"The gaki's innate spellcasting ability is Charisma (spell save {@dc 13})",
 						"The gaki can innately cast the following spells, requiring no material, or verbal components:"
 					],
-					"will":[
+					"will": [
 						"{@spell invisibility}"
 					],
-					"daily":{
-						"1e":[
+					"daily": {
+						"1e": [
 							"{@spell passwall}"
 						]
 					},
@@ -4799,7 +4797,7 @@
 						"The gaki's innate spellcasting ability is Charisma (spell save {@dc 10})",
 						"The gaki can innately cast the following spells, requiring no material, or verbal components:"
 					],
-					"will":[
+					"will": [
 						"{@spell invisibility}"
 					],
 					"ability": "cha"
@@ -6728,8 +6726,6 @@
 			]
 		}
 	],
-
-
 	"spell": [
 		{
 			"name": "Conjure Greater Elemental Vortex (maho)",
@@ -6824,5 +6820,4 @@
 			}
 		}
 	]
-
 }

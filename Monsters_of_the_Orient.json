@@ -4287,7 +4287,8 @@
 						"The foo casts a spell."
 					]
 				}
-			],"fluff": {
+			],
+			"fluff": {
 				"entries": [
 					"Foo are good-hearted, celestial creatures. They can travel through both the Astral Plane and the Ethereal Plane with ease, quickly arriving wherever they wish.",
 					"Sometimes, in times of great need, a number of foo will appear on the Material Plane in order to protect innocents against a great evil. They don’t, however, go looking for evil, but rather confront it if it ever threatens any good aligned creatures near the foo. When they do visit the Material Plane, they sit absolutely still, looking exactly like statues, while scanning the surrounding area for signs of evil.",
@@ -4339,7 +4340,748 @@
 				"invisible",
 				"unconscious"
 			]
-		}		
+		},
+		{
+			"name": "Jiki-Ketsu-Gaki",
+			"source": "MonstersoftheOrient",
+			"page": 22,
+			"size": "M",
+			"type": {
+				"type": "undead",
+				"tags": [
+					"spirit"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 105,
+				"formula": "14d8 + 42"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30,
+				"fly": 20
+			},
+			"str": 19,
+			"dex": 15,
+			"con": 22,
+			"int": 2,
+			"wis": 15,
+			"cha": 10,
+			"save": {
+				"dex": "+3",
+				"wis": "+4",
+				"cha": "+5"
+			},
+			"skill": {
+				"athletics": "+9",
+				"stealth": "+8"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 11,
+			"resist": [
+				"poison"
+			],
+			"immune": [
+				"necrotic",
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical weapons",
+					"cond": true
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"diseased",
+				"exhaustion",
+				"poisoned",
+				"unconscious"
+			],
+			"languages": [
+				"the languages it knew in life"
+			],
+			"cr": "6",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The gaki's innate spellcasting ability is Charisma (spell save {@dc 13})",
+						"The gaki can innately cast the following spells, requiring no material, or verbal components:"
+					],
+					"will":[
+						"{@spell invisibility}"
+					],
+					"daily":{
+						"1e":[
+							"{@spell passwall}"
+						]
+					},
+					"ability": "cha"
+				}
+			],
+			"trait": [
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"The gaki can use its action to polymorph into a Tiny fly, or back into its true form. While in fly form, the gaki retains its Int, Wis and Cha scores. If the gaki dies, it revers to its true form."
+					]
+				},
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"The gaki can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+					]
+				},
+				{
+					"name": "Sunlight Hypersensitivity",
+					"entries": [
+						"The gaki takes 20 radiant damage when it starts its turn in sunlight. While in sun light, it has disadvantage on attack rolls and ability checks."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack (Gaki Form Only)",
+					"entries": [
+						"The gaki makes two attacks, only one of which can be a bite attack."
+					]
+				},
+				{
+					"name": "Unarmed Strike (Gaki Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one creature. {@h}7 ({@damage 1d8 + 3}) bludgeoning damage. Instead of dealing damage, the gaki can grapple the target (escape {@dc 17})."
+					]
+				},
+				{
+					"name": "Bite (Gaki Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the gaki, {@condition incapacitated}, or {@condition restrained}. {@h}6 ({@damage 1d6 + 3}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the gaki regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0."
+					]
+				},
+				{
+					"name": "Charm",
+					"entries": [
+						"The gaki targets one humanoid it can see within 30 feet of it. If the target can see the gaki, the target must succeed on a {@dc 13} Wisdom saving throw against this magic or be {@condition charmed} by the gaki. The {@condition charmed} target regards the gaki as a trusted friend to be heeded and protected. Although the target isn‘t under the gaki's control, it takes the gaki's requests or actions in the most favorable way it can, and it is a willing target for the gaki's bite attack. Each time the gaki or the gaki's companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the gaki is destroyed , is on a different plane of existence than the target, or takes a bonus action to end the effect."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Gaki are minor undead spirits, the spirits of wicked humanoids who have clawed their way back to the world of the living to avoid punishment in Diyu. Their horrible undead forms mirror their wickedness in life. Gaki come in four distinct varieties, though they can all turn invisible and shapechange into a fly.",
+					"Gaki Nature. A gaki doesn’t require air, drink, or sleep.",
+					"Jiki-Ketsu-Gaki",
+					"Jiki-ketsu-gaki are the vampiric spirits of corrupted holy individuals who were guilty of heresy in life. They are vaguely humanoid creatures, still bipedal, but warped into an unholy mass of flesh and eyes, its mouth containing only a few fangs. They are the most intelligent of all gaki, as well as the most talkative. They feed on humanoid blood.",
+					"Sometimes, while invisible and near a victim, the gaki will play a biwa (an instrument similar to a lute) made from the wood of its coffin. The discordant, metallic tones send cold chills down the spine of any who listen.",
+					"They are solitary and vain creatures with no permanent lairs, typically encountered near abandoned holy sites."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/JikiKetsuGaki.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/JikiKetsuGaki.png",
+			"traitTags": [
+				"Shapechanger",
+				"Spider Climb",
+				"Sunlight Sensitivity"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"LF"
+			],
+			"damageTags": [
+				"B",
+				"N",
+				"P",
+				"R"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"charmed"
+			]
+		},
+		{
+			"name": "Jiki-Niku-Gaki",
+			"source": "MonstersoftheOrient",
+			"page": 22,
+			"size": "M",
+			"type": {
+				"type": "undead",
+				"tags": [
+					"spirit"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 55,
+				"formula": "10d8 + 10"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 20
+			},
+			"str": 13,
+			"dex": 10,
+			"con": 13,
+			"int": 6,
+			"wis": 11,
+			"cha": 14,
+			"skill": {
+				"athletics": "+3",
+				"stealth": "+2"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"resist": [
+				"necrotic",
+				"poison",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical weapons",
+					"cond": true
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"diseased",
+				"exhaustion",
+				"poisoned"
+			],
+			"languages": [
+				"understands the languages it knew in life",
+				"but doesn't speak"
+			],
+			"cr": "2",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The gaki's innate spellcasting ability is Charisma (spell save {@dc 12})",
+						"The gaki can innately cast the following spells, requiring no material, or verbal components:"
+					],
+					"will": [
+						"{@spell invisibility}"
+					],
+					"ability": "cha"
+				}
+			],
+			"trait": [
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"The gaki can use its action to polymorph into a Tiny fly, or back into its true form. While in fly form, the gaki retains its Int, Wis and Cha scores. If the gaki dies, it revers to its true form."
+					]
+				},
+				{
+					"name": "Sunlight Hypersensitivity",
+					"entries": [
+						"The gaki takes 20 radiant damage when it starts its turn in sunlight. While in sun light, it has disadvantage on attack rolls and ability checks."
+					]
+				},
+				{
+					"name": "Turning Defiance",
+					"entries": [
+						"The gaki and any gaki within 30 feet of it have advantage on saving throws against effects that turn undead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack (Gaki Form Only)",
+					"entries": [
+						"The gaki makes one bite attack and one attack with its claws."
+					]
+				},
+				{
+					"name": "Bite (Gaki Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one creature. {@h}10 ({@damage 2d8 + 1}) piercing damage."
+					]
+				},
+				{
+					"name": "Claw (Gaki Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 2d6 + 1}) slashing damage. If the target is a creature other than an undead, it must succeed on a {@dc 10} Constitution saving throw or be {@condition paralyzed} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Gaki are minor undead spirits, the spirits of wicked humanoids who have clawed their way back to the world of the living to avoid punishment in Diyu. Their horrible undead forms mirror their wickedness in life. Gaki come in four distinct varieties, though they can all turn invisible and shapechange into a fly.",
+					"Gaki Nature. A gaki doesn’t require air, drink, or sleep.",
+					"Jiki-Niku-Gaki",
+					"Jiki-niku-gaki are the horrible, corrupted spirits of humanoids who were guilty of excessive greed in their former lives. Those in positions of power that abuse that power for personal gain often become these ghoulish, repulsive monsters. A jiki-niku-gaki resembles a jiki-ketsu-gaki, except that it has only two eyes, and that its mouth is lined with two rows of teeth.",
+					"Jiki-niku-gaki often form small bands as they are inherently cowardly creatures. They hunger for the flesh of humanoids, though their hunger is never satisfied. When prey is scarce, they will devour almost anything, including corpses which they unearth if necessary.",
+					"They shuffle from place to place as they search the night for food. They are most frequently found near graveyards or on lonely roads and trails."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/JikiKetsuGaki.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/JikiKetsuGaki.png",
+			"traitTags": [
+				"Shapechanger",
+				"Sunlight Sensitivity",
+				"Turn Resistance"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"LF"
+			],
+			"damageTags": [
+				"P",
+				"R",
+				"S"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"paralyzed"
+			]
+		},
+		{
+			"name": "Shikki-Gaki",
+			"source": "MonstersoftheOrient",
+			"page": 23,
+			"size": "M",
+			"type": {
+				"type": "undead",
+				"tags": [
+					"spirit"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 78,
+				"formula": "12d8 + 24"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 20
+			},
+			"str": 15,
+			"dex": 10,
+			"con": 14,
+			"int": 6,
+			"wis": 11,
+			"cha": 10,
+			"save": {
+				"dex": "+2"
+			},
+			"skill": {
+				"athletics": "+4",
+				"stealth": "+2"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 10,
+			"resist": [
+				"necrotic",
+				"poison",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical weapons",
+					"cond": true
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"diseased",
+				"exhaustion",
+				"poisoned"
+			],
+			"languages": [
+				"understands the languages it knew in life",
+				"but doesn't speak"
+			],
+			"cr": "4",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The gaki's innate spellcasting ability is Charisma (spell save {@dc 10})",
+						"The gaki can innately cast the following spells, requiring no material, or verbal components:"
+					],
+					"will":[
+						"{@spell invisibility}"
+					],
+					"ability": "cha"
+				}
+			],
+			"trait": [
+				{
+					"name": "Pack Instinct",
+					"entries": [
+						"The gaki and any gaki within 30 feet of it have advantage on initiative rolls."
+					]
+				},
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"The gaki can use its action to polymorph into a Tiny fly, or back into its true form. While in fly form, the gaki retains its Int, Wis and Cha scores. If the gaki dies, it revers to its true form."
+					]
+				},
+				{
+					"name": "Stench (Gaki Form Only)",
+					"entries": [
+						"Any creature that starts its turn within 5 feet of the gaki must succeed on a {@dc 10} Constitution saving throw or be {@condition poisoned} until the start of its next turn. On a successful saving throw, the creature is immune to the gaki's Stench for 24 hours."
+					]
+				},
+				{
+					"name": "Sunlight Hypersensitivity",
+					"entries": [
+						"The gaki takes 20 radiant damage when it starts its turn in sunlight. While in sun light, it has disadvantage on attack rolls and ability checks."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack (Gaki Form Only)",
+					"entries": [
+						"The gaki makes one bite attack and two attack with its claws."
+					]
+				},
+				{
+					"name": "Bite (Gaki Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}11 ({@damage 2d8 + 2}) piercing damage. If the target is a humanoid, it must succeed on a {@dc 12} Constitution saving throw or be infected with a disease called gaki fever. While infected, the target can't regain hit points, and its hit point maximum is reduced by 10 ({@dice 3d6}) every 24 hours. If the disease reduces the target's hit point maximum to 0, the target instantly transforms into a random gaki (as determined by the DM). Only a wish spell can reverse the transformation."
+					]
+				},
+				{
+					"name": "Claw (Gaki Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d6 + 2}) slashing damage."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Gaki are minor undead spirits, the spirits of wicked humanoids who have clawed their way back to the world of the living to avoid punishment in Diyu. Their horrible undead forms mirror their wickedness in life. Gaki come in four distinct varieties, though they can all turn invisible and shapechange into a fly.",
+					"Gaki Nature. A gaki doesn’t require air, drink, or sleep.",
+					"Shikki-Gaki",
+					"Most shikki-gaki are the disease-ridden spirits of humanoids that have betrayed other people’s trust in life. A shikki-gaki resembles a jikki-niku-gaki with rotten flesh, and blunt, rotted teeth. Shikki-gaki spread the dreaded gaki fever, which in time can turn a humanoid into a gaki. They are usually found in forests, caves, or similarly damp and dark places."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/JikiKetsuGaki.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/JikiKetsuGaki.png",
+			"traitTags": [
+				"Shapechanger",
+				"Sunlight Sensitivity"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"LF"
+			],
+			"damageTags": [
+				"P",
+				"R",
+				"S"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"poisoned"
+			]
+		},
+		{
+			"name": "Shinen-Gaki",
+			"source": "MonstersoftheOrient",
+			"page": 23,
+			"size": "M",
+			"type": {
+				"type": "undead",
+				"tags": [
+					"spirit"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"average": 90,
+				"formula": "12d8 + 36"
+			},
+			"speed": {
+				"walk": 0,
+				"fly": {
+					"number": 40,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 10,
+			"dex": 16,
+			"con": 17,
+			"int": 8,
+			"wis": 13,
+			"cha": 12,
+			"save": {
+				"dex": "+7",
+				"wis": "+3",
+				"cha": "+3"
+			},
+			"skill": {
+				"acrobatics": "+7"
+			},
+			"senses": [
+				"blindsight 120 ft. (blind beyond this radius)"
+			],
+			"passive": 11,
+			"resist": [
+				"necrotic",
+				"poison",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical weapons",
+					"cond": true
+				}
+			],
+			"immune": [
+				"fire"
+			],
+			"vulnerable": [
+				"cold"
+			],
+			"conditionImmune": [
+				"charmed",
+				"diseased",
+				"exhaustion",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained",
+				"unconscious"
+			],
+			"languages": [
+				"understands the languages it knew in life",
+				"but doesn't speak"
+			],
+			"cr": "4",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The gaki's innate spellcasting ability is Charisma (spell save {@dc 11}).",
+						"The gaki can innately cast the following spells, requiring no components:"
+					],
+					"will": [
+						"{@spell invisibility}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell fireball}",
+							"{@spell wall of fire}"
+						]
+					},
+					"ability": "cha"
+				}
+			],
+			"trait": [
+				{
+					"name": "Death Burst",
+					"entries": [
+						"When the gaki dies, it explodes in a burst of fire. Each creature within 10 feet of it must make a {@dc 13} Dexterity saving throw, taking 7 ({@damage 2d6}) fire damage on a failed save, or half as much damage on a successful one. Flammable objects that aren't being worn or carried in that area are ignited."
+					]
+				},
+				{
+					"name": "Illumination (Gaki Form Only)",
+					"entries": [
+						"While in gaki form, the gaki is ablaze and sheds bright light in a 10-foot radius and dim light for an additional 10 feet."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"The gaki regains 10 hit points at the start of its turn if it has at least 1 hit point."
+					]
+				},
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"The gaki can use its action to polymorph into a Tiny fly, or back into its true form. While in fly form, the gaki retains its Int, Wis and Cha scores. If the gaki dies, it revers to its true form."
+					]
+				},
+				{
+					"name": "Sunlight Hypersensitivity",
+					"entries": [
+						"The gaki takes 20 radiant damage when it starts its turn in sunlight. While in sun light, it has disadvantage on attack rolls and ability checks."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack (Gaki Form Only)",
+					"entries": [
+						"The gaki makes two attacks with its fiery tendrils."
+					]
+				},
+				{
+					"name": "Fiery Tendrils (Gaki Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 10 ft., one target. {@h}17 ({@damage 4d6 + 3}) fire damage. If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the creature takes 3 ({@damage 1d6}) fire damage at the end of each of its turns."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Gaki are minor undead spirits, the spirits of wicked humanoids who have clawed their way back to the world of the living to avoid punishment in Diyu. Their horrible undead forms mirror their wickedness in life. Gaki come in four distinct varieties, though they can all turn invisible and shapechange into a fly.",
+					"Gaki Nature. A gaki doesn’t require air, drink, or sleep.",
+					"Shinen-Gaki",
+					"Often created from the spirit of somebody that failed to uphold a sacred vow, a shinen-gaki is the spirit of a wicked humanoid. It resembles a hovering ball of flame, usually bright red, blue, white, or yellow. Aside from the fiery tendrils that sprout and swirl from every angle of the gaki, it has no distinguishing features.",
+					"They most commonly appear at night, on lonely roads or in the woods. Its strange light attracts curious victims, and once close enough, the shinen-gaki will attempt to trap its victim in a circle of flame, before burning and consuming it.",
+					"Shinen-gaki as mostly solitary creatures, but they have been known to gather in small groups on rare occasions."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/JikiKetsuGaki.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/JikiKetsuGaki.png",
+			"traitTags": [
+				"Death Burst",
+				"Illumination",
+				"Regeneration",
+				"Shapechanger",
+				"Sunlight Sensitivity"
+			],
+			"senseTags": [
+				"B"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"LF"
+			],
+			"damageTags": [
+				"F",
+				"R"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"conditionInflictSpell": [
+				"invisible"
+			]
+		}
+		
 	],
 
 

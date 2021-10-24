@@ -26,5 +26,22 @@
 			],
 			"mythicEncounter": [],
 			"source": "MonstersoftheOrient"
+		},
+		{
+			"name": "Gashadokuro",
+			"regionalEffects": [
+				"In a 1-mile radius centered on the gashadokuro there are several unnatural effects, all caused by the gashadokuro’s unholy existence. When the gashadokuro dies, all effects immediately dissipate.",
+				{
+					"type": "list",
+					"items": [
+						"Deathly Hunger. All humanoids in the region are struck with a terrible hunger and stomach ache. A creature that is affected by this hunger cannot add its proficiency modifier to any skill checks and has disadvantage on Constitution saving throws made to maintain concentration on a spell. The hunger remains until a creature exits the region and eats a meal.",
+						"Forced Famine. Drinking and eating in the region quells neither hunger nor thirst.",
+						"Necrotic Fire. All nonmagical fire in the region burns in a black color, gives off no light, and deals necrotic damage rather than fire damage.",
+						"Withering Crops. Crops in the region wither and die, and no new crops can grow before the next season."
+					]
+				}
+			],
+			"mythicEncounter": [],
+			"source": "MonstersoftheOrient"
 		}
 	],

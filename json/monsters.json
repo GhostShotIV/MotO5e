@@ -2388,7 +2388,7 @@
 				"prone"
 			],
 			"languages": [
-				"- Taint Score 1"
+				"-"
 			],
 			"cr": "2",
 			"trait": [
@@ -2494,7 +2494,7 @@
 				"prone"
 			],
 			"languages": [
-				"- Taint Score 1"
+				"-"
 			],
 			"cr": "4",
 			"trait": [
@@ -2604,7 +2604,7 @@
 				"prone"
 			],
 			"languages": [
-				"- Taint Score 1"
+				"-"
 			],
 			"cr": "1/2",
 			"trait": [
@@ -3972,7 +3972,7 @@
 				"unconscious"
 			],
 			"languages": [
-				"- Taint Score 1"
+				"-"
 			],
 			"cr": "6",
 			"trait": [
@@ -5029,6 +5029,1634 @@
 			"conditionInflictSpell": [
 				"invisible"
 			]
+		},
+		{
+			"name": "Garegosu",
+			"isNamedCreature": true,
+			"source": "",
+			"page": 24,
+			"size": "H",
+			"type": {
+				"type": "aberration",
+				"tags": [
+					"tainted"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 63,
+				"formula": "6d12 + 24"
+			},
+			"speed": {
+				"walk": 60,
+				"swim": 60
+			},
+			"str": 24,
+			"dex": 15,
+			"con": 19,
+			"int": 2,
+			"wis": 15,
+			"cha": 10,
+			"senses": [
+				"blindsight 120 ft. (blind beyond this radius)"
+			],
+			"passive": 12,
+			"immune": [
+				"necrotic",
+				"poison"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"paralyzed",
+				"petrified",
+				"poisoned"
+			],
+			"languages": [
+				"-"
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Consume Life",
+					"entries": [
+						"If the garegosu bites a target it has {@condition grappled} that has 0 hit points and is still alive, it attempts to suck the remaining life force out of the target. The target must succeed on a {@dc 14} Constitution saving throw against this magic or die. If the target dies, the garegosu regains 21 ({@dice 6d6}) hit points."
+					]
+				},
+				{
+					"name": "Goblinoid Affection",
+					"entries": [
+						"Garegosu are naturally affectionate towards goblinoids. Garegosu refuse to harm goblinoids, even if a goblinoids harms the garegosu."
+					]
+				},
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"The garegosu can use its action to polymorph into a Huge or smaller object or back into its true form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn‘t transformed. It reverts to its true form if it dies."
+					]
+				},
+				{
+					"name": "Stone Camouflage",
+					"entries": [
+						"The garegosu has advantage on Dexterity (stealth) checks made to hide in rocky terrain."
+					]
+				},
+				{
+					"name": "Unreal Warp",
+					"entries": [
+						"The garegosu constantly warps in and out of reality. As a result, the garegosu doesn't provoke opportunity attacks, and readied attacks against the garegosu are made with disadvantage."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The garegosu attacks twice with its tentacles."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}25 ({@damage 4d8 + 7}) piercing damage. If the target is a creature, it must succeed a {@dc 14} Constitution saving throw or have its Taint score increased by 1 and be {@condition poisoned} for 1 minute. Until this poison ends, the target is {@condition paralyzed}. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				},
+				{
+					"name": "Tentacles",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 20 ft., one target. {@h}16 ({@damage 2d8 + 7}) bludgeoning damage. The target is {@condition grappled} (escape {@dc 17}) if it is a Large or smaller creature and the garegosu doesn't have eight other creatures {@condition grappled}, it. Until this grapple ends, the target is {@condition restrained}."
+					]
+				},
+				{
+					"name": "Death Cloud (Recharges after a Short or Long Rest)",
+					"entries": [
+						"A 30-foot radius cloud of death extends all around the garegosu, spreading around corners. The area is heavily obscured for 1 minute, although a strong wind disperses it. Any creature other than the garegosu itself that is fully inside the cloud at the start of its turn must make a {@dc 14} Constitution saving throw. A creature takes 14 ({@damage 4d6}) necrotic damage on a failed save, or half as much on a successful one. While fully inside the cloud, the garegosu can take the",
+						"Dodge action as a bonus action on each of its turns."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"A garegosu is an unnatural horror of massive proportions. It resembles a gigantic octopus with cancerous skin and coated in unnatural shadow. It moves just as well on land as it does in water, slithering across the ground like a many-tailed snake. Through inexplicable means, it constantly warps and it and out of reality and, coupled with its immense speed, it gives the illusion that the garegosu teleports a few feet at a time rather than actually moving.",
+					"Goblinoid Affection. Garegosu seem to have an unexplainable affection for goblinoids, and there have been claims that some goblinoids have garegosu as pets. Some scholars theorize that they evolved from bakemono that have been mutated beyond recognition by Taint, while others believe them to be simply Tainted octopuses, though this doesn’t explain their love for goblinoids."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/Garegosu.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/Garegosu.png",
+			"traitTags": [
+				"Shapechanger"
+			],
+			"senseTags": [
+				"B"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Tentacles"
+			],
+			"damageTags": [
+				"B",
+				"N",
+				"P"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"grappled",
+				"paralyzed",
+				"poisoned",
+				"restrained"
+			]
+		},
+		{
+			"name": "Gashadokuro",
+			"source": "",
+			"page": 24,
+			"size": "H",
+			"type": "construct",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				9
+			],
+			"hp": {
+				"average": 168,
+				"formula": "16d12 + 64"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": {
+					"number": 40,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 20,
+			"dex": 9,
+			"con": 18,
+			"int": 3,
+			"wis": 10,
+			"cha": 1,
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 10,
+			"immune": [
+				"fire",
+				"necrotic",
+				"poison",
+				"psychic",
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical weapons that aren't adamantine or silvered",
+					"cond": true
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned"
+			],
+			"languages": [
+				"understands the language of its creator but can't speak"
+			],
+			"cr": "8",
+			"trait": [
+				{
+					"name": "Eerie Noise",
+					"entries": [
+						"Each creature within 300 ft. of the gashadokuro hears a ringing sound that becomes louder as the gashadokuro comes closer. While within 60 ft. of the gashadokuro the ringing is so loud that it deafens a creature to all other sounds."
+					]
+				},
+				{
+					"name": "Immutable Form",
+					"entries": [
+						"The gashadokuro is immune to any spell or effect that would alter its form."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The Gashadokuro has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The gashadokuro's weapon attacks are magical."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The gashadokuro makes two slam attacks."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}23 ({@damage 4d8 + 5}) bludgeoning damage. If the target is a Medium or smaller creature, it is {@condition grappled} (escape",
+						"{@dc 16}) unless the gashadokuro already has two creatures {@condition grappled} in this manner. Until this grapple ends, the target is {@condition restrained}."
+					]
+				},
+				{
+					"name": "Swallow",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one creature it has {@condition grappled}. {@h}16 ({@damage 2d10 + 5}) piercing damage. The creature is swallowed, and the grapple ends. While swallowed, the creature takes 14 ({@damage 4d6}) necrotic damage at the start of each of its turns.",
+						"The gashadokuro's interior is heavily obscured with necrotic fire. A swallowed creature dies, if it is reduced to 0 hit points from the necrotic damage, and the gashadokuro gains temporary hit points equal to half the slain creature's maximum hit points as its bones become part of the gashadokuro. The gashadokuro can have no more than two living creatures swallowed at a time."
+					]
+				},
+				{
+					"name": "Necrotic Breath {@recharge 5}",
+					"entries": [
+						"The gashadokuro exhales necrotic fire in a 30-foot cone. Each creature in that area must make a {@dc 15} Dexterity saving throw, taking 28 ({@damage 8d6}) necrotic damage on a failed save, or half as much damage on a successful one. A humanoid reduced to 0 hit points by this damage dies, and its remains are inhaled by the gashadokuro where its bones are added to the gashadokuro's."
+					]
+				}
+			],
+			"legendaryGroup": {
+				"name": "Gashadokuro",
+				"source": "MonstersoftheOrient"
+			},
+			"fluff": {
+				"entries": [
+					"This monstrous construct is made from thousands of bones and skulls, all of which must be the remains of humanoids that died of starvation, and finally given life through unholy blood magic rituals.",
+					"The blood magic that has given life to the gashadokuro has also warped the hunger of the people that make up the gashadokuro’s body, giving it an insatiable lust to feed on the living.",
+					"Alarming Approach. A gashadokuro resembles a gigantic skeleton that comes floating through the air. Black flames ignite its eye sockets and the interior of its ribcage. It would hover about in complete silence, if it wasn’t for the loud ringing sound heard by everybody it comes near.",
+					"Unholy Creation. Creating a gashadokuro can take a very long time, but an exceptionally cunning and influential maho-tsukai might attempt to starve an entire village just to collect their bones afterwards.",
+					"Gashadokuro Nature. A gashadokuro doesn’t require air, drink, or sleep."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/Gashadokuro.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/Gashadokuro.png",
+			"traitTags": [
+				"Immutable Form",
+				"Magic Resistance",
+				"Magic Weapons"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Breath Weapon",
+				"Multiattack",
+				"Swallow"
+			],
+			"languageTags": [
+				"CS"
+			],
+			"damageTags": [
+				"B",
+				"N",
+				"P"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"conditionInflict": [
+				"grappled",
+				"restrained"
+			]
+		},
+		{
+			"name": "Chu-U",
+			"source": "",
+			"page": 26,
+			"size": "M",
+			"type": "undead",
+			"alignment": [
+				"NX",
+				"NY",
+				"N"
+			],
+			"ac": [
+				9
+			],
+			"hp": {
+				"average": 45,
+				"formula": "15d8"
+			},
+			"speed": {
+				"walk": 15
+			},
+			"str": 7,
+			"dex": 8,
+			"con": 10,
+			"int": 10,
+			"wis": 12,
+			"cha": 18,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"resist": [
+				"acid",
+				"fire",
+				"lightning",
+				"thunder",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical weapons",
+					"cond": true
+				}
+			],
+			"immune": [
+				"cold",
+				"necrotic",
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained"
+			],
+			"languages": [
+				"the Languages it knew in life"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Ethereal Sight",
+					"entries": [
+						"The chu-u can see 60 feet into the Ethereal Plane when it is on the",
+						"Material Plane, and vice versa."
+					]
+				},
+				{
+					"name": "Incorporeal Movement",
+					"entries": [
+						"The chu-u can move through other creatures and objects as if they were difficult terrain. It takes 5 ({@damage 1d10}) force damage if it ends its turn in side an object."
+					]
+				},
+				{
+					"name": "Rejuvenation",
+					"entries": [
+						"If the chu-u is destroyed, it regains all its hit points in 1 hour unless holy water is sprinkled on its remains or a dispel magic or remove curse spell is cast on them."
+					]
+				},
+				{
+					"name": "Vengeful",
+					"entries": [
+						"If the chu-u is destroyed, it bestows a curse upon the creature that dealt the killing blow. While cursed, the target creature has disadvantage on ability checks and saving throws made with an ability score of the chu-us choosing. A remove curse spell ends this effect."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Withering Touch",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}11 ({@dice 2d6}",
+						"+ 4) necrotic damage."
+					]
+				},
+				{
+					"name": "Swear Vengeance",
+					"entries": [
+						"The chu-u swears vengeance against one or more creatures within 30 feet of it that it can see. It disappears into the Ethereal Plane, and returns in {@dice 1d100} days to kill the creature's it swore vengeance against. The chu-u finds them anywhere, as long as they are on the Material Plane. If they aren't, the chu'u attacks them as soon as they return to the Material Plane. The chu-u can't swear vengeance against a second target before its first target is dead."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"A chu-u is the restless spirit of a mortal who was neither virtuous enough to be rewarded nor wicked enough to be punished in the afterlife and somehow escaped Diyu. As a result, it wanders the earth, pulling itself along with its arms in terrible agony, hoping to convince someone to testify to the court kings of Diyu on its behalf and persuade them to let it enter Youdu to await reincarnation.",
+					"When it encounters likely prospects, it begs them to listen to its life story. If they refuse to listen, interrupt the story (which typically lasts 2d4 hours), attack the chu-u, or refuse to intercede with the judges on its behalf once the story is told, the chu-u swears vengeance on them and disappears. Vengeance may take years to arrive, but a chu-u never forgets a person who has wronged it."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/Chu-u.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/Chu-u.png",
+			"traitTags": [
+				"Incorporeal Movement",
+				"Rejuvenation"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"LF"
+			],
+			"damageTags": [
+				"O"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Con-Tinh",
+			"source": "",
+			"page": 26,
+			"size": "M",
+			"type": "undead",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				11
+			],
+			"hp": {
+				"average": 45,
+				"formula": "15d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 7,
+			"dex": 13,
+			"con": 10,
+			"int": 10,
+			"wis": 12,
+			"cha": 17,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"immune": [
+				"cold",
+				"necrotic",
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained"
+			],
+			"languages": [
+				"the Languages it knew in life"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Incorporeal Movement",
+					"entries": [
+						"The chu-u can move through other creatures and objects as if they were difficult terrain. It takes 5 ({@damage 1d10}) force damage if it ends its turn in side an object."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Withering Touch",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@dice 2d6}",
+						"+ 3) necrotic damage."
+					]
+				},
+				{
+					"name": "Laughter of Madness",
+					"entries": [
+						"Each non-undead creature within 60 feet of the con-tinh that can hear it must succeed on a {@dc 13} Wisdom saving throw or gain a random short-term madness (see chapter 8 in the Dungeon Master's Guide)."
+					]
+				},
+				{
+					"name": "Limited Possession {@recharge}",
+					"entries": [
+						"One humanoid that the con-tinh can see within 5 feet of it must succeed on a {@dc 13} Charisma saving throw or be possessed by the con-tinh; the con-tinh then disappears. The con-tinh can't be targeted by any attack, spell, or other effect, except ones that turn undead. The con-tinh does not control the possessed creature.",
+						"The possession lasts until the body drops to 0 hit points, the con-tinh ends it as a bonus action, or the con-tinh is turned or forced out by an effect like the dispel evil and good spell. When the possession ends, the con-tinh reappears in an unoccupied space within 5 feet of the body. The target is immune to this con-tinh's Possession for 24 hours after succeeding on the saving throw or after the possession ends."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"The malicious con-tinh is the spirit of a maiden who was murdered due to an illicit love affair. It appears as a horrible malformation of its former self, now aberrant and monstrous to look at, lacking eyes and havingtendrils in place of hair.",
+					"A con-tinh’s spirit is bound to a single fruit tree, and it carries the fruit of that tree in its basket. It cannot travel more than 1 mile from its tree. If the tree is destroyed, the con-tinh is also destroyed immediately, releasing a terrible scream as it disappears. The scream has the same effect as the con-tinh’s Laughter of Madness."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/Con-tinh.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/Con-tinh.png",
+			"traitTags": [
+				"Incorporeal Movement"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"LF"
+			],
+			"damageTags": [
+				"O"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Gen'ei",
+			"source": "",
+			"page": 26,
+			"size": "M",
+			"type": "undead",
+			"alignment": [
+				"L",
+				"NX",
+				"C",
+				"E"
+			],
+			"ac": [
+				11
+			],
+			"hp": {
+				"average": 54,
+				"formula": "12d8"
+			},
+			"speed": {
+				"walk": 0,
+				"fly": 40
+			},
+			"str": 7,
+			"dex": 13,
+			"con": 10,
+			"int": 10,
+			"wis": 12,
+			"cha": 18,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"resist": [
+				"acid",
+				"fire",
+				"lightning",
+				"thunder",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical weapons",
+					"cond": true
+				}
+			],
+			"immune": [
+				"cold",
+				"necrotic",
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained"
+			],
+			"languages": [
+				"the Languages it knew in life Taint Score 1"
+			],
+			"cr": "6",
+			"trait": [
+				{
+					"name": "Ethereal Sight",
+					"entries": [
+						"The gen'ei can see 60 feet into the Ethereal Plane when it is on the",
+						"Material Plane, and vice versa."
+					]
+				},
+				{
+					"name": "Incorporeal Movement",
+					"entries": [
+						"The gen'ei can move through other creatures and objects as if they were difficult terrain. It takes 5 ({@damage 1d10}) force damage if it ends its turn in side an object."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Vampiric Touch",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}25 ({@dice 6d6}",
+						"+ 4) necrotic damage. The gen'ei gains temporary hit points equal to the damage dealt.",
+						"If the gen'ei scores a critical hit, the target's maximum hit points are reduced by an amount equal to the damage taken. This reduction to the target's maximum hit points can be restored with a greater restoration or wish spell."
+					]
+				},
+				{
+					"name": "Etherealness",
+					"entries": [
+						"The gen'ei enters the Ethereal Plane from the Material Plane, or vice versa.",
+						"It is visible on the Material Plane while it is in the Border Ethereal, and vice versa, yet it can't affect or be affected by anything on the other plane."
+					]
+				},
+				{
+					"name": "Horrifying Visage",
+					"entries": [
+						"Each non-undead creature within 60 feet of the gen'ei that can see it must succeed on a {@dc 15} Wisdom saving throw or be {@condition frightened} for 1 minute. If the save fails by 5 or more, the target also ages {@dice 1d4 x 10} years. A {@condition frightened} target can repeat the saving throw at the end of each of its turns, ending the {@condition frightened} condition on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to this gen'ei's Horrifying Visage for the next 24 hours. The aging effect can be reversed with a greater restoration spell, but only within 24 hours of it occurring."
+					]
+				},
+				{
+					"name": "Possession {@recharge 5}",
+					"entries": [
+						"One humanoid that the gen'ei can see within 5 feet of it must succeed on a {@dc 15} Charisma saving throw or be possessed by the gen'ei; the gen'ei then disappears, and the target is {@condition incapacitated} and loses control of its body.",
+						"The gen'ei now controls the body but doesn't deprive the target of awareness. The gen'ei can't be targeted by any attack, spell, or other effect, except ones that turn undead, and it retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being {@condition charmed} and {@condition frightened} . It otherwise uses the possessed target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies.",
+						"While the target is possessed, its hit point maximum is reduced by {@dice 1d6} every hour.",
+						"The target dies, if its hit point maximum is reduced to 0 in this manner. This reduction to the target's maximum hit points can be restored with a greater restoration or wish spell.",
+						"The possession lasts until the body drops to 0 hit points, the gen'ei ends it as a bonus action, or the gen'ei is turned or forced out by an effect like the dispel evil and good spell. When the possession ends, the gen'ei reappears in an unoccupied space within 5 feet of the body. The target is immune to this gen'ei's Possession for 24 hours after succeeding on the saving throw or after the possession ends."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Gen’ei are powerful ghosts whose essence has been corrupted by evil and Taint. When they possess a living creature, it is not enough for them to assert control of the host’s body - they also slowly corrupt the body. A gen’ei resembles its former living self, but is translucent."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/Ghost.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/Ghost.png",
+			"traitTags": [
+				"Incorporeal Movement"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"LF"
+			],
+			"damageTags": [
+				"O"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"frightened",
+				"incapacitated"
+			]
+		},
+		{
+			"name": "Tsuri Yurei",
+			"source": "",
+			"page": 27,
+			"size": "M",
+			"type": "undead",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				11
+			],
+			"hp": {
+				"average": 54,
+				"formula": "12d8"
+			},
+			"speed": {
+				"walk": 0,
+				"fly": {
+					"number": 40,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 7,
+			"dex": 13,
+			"con": 10,
+			"int": 10,
+			"wis": 12,
+			"cha": 19,
+			"skill": {
+				"deception": "+10",
+				"intimidation": "+7",
+				"persuasion": "+7",
+				"insight": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"resist": [
+				"acid",
+				"fire",
+				"lightning",
+				"thunder",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical weapons",
+					"cond": true
+				}
+			],
+			"immune": [
+				"cold",
+				"necrotic",
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained"
+			],
+			"languages": [
+				"the Languages it knew in life"
+			],
+			"cr": "5",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The tsuri yurei's innate spellcasting ability is Charisma (spell save",
+						"{@dc 15}). The tsuri yurei can innately cast the following spells, requiring no material or verbal components:"
+					],
+					"will": [
+						"{@spell dissonant whispers}",
+						"{@spell illusory script}",
+						"{@spell magic mouth}",
+						"{@spell major image}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell phantasmal force}",
+							"{@spell suggestion}"
+						],
+						"1e": [
+							"{@spell dream}",
+							"{@spell phantasmal killer}",
+							"{@spell programmed illusion}",
+							"{@spell project image}",
+							"{@spell seeming}"
+						]
+					},
+					"ability": "cha"
+				}
+			],
+			"trait": [
+				{
+					"name": "Ethereal Sight",
+					"entries": [
+						"The tsuri yurei can see 60 feet into the Ethereal Plane when it is on the",
+						"Material Plane, and vice versa."
+					]
+				},
+				{
+					"name": "Incorporeal Movement",
+					"entries": [
+						"The tsuri yurei can move through other creatures and objects as if they were difficult terrain. It takes 5 ({@damage 1d10}) force damage if it ends its turn in side an object."
+					]
+				},
+				{
+					"name": "Lethal Conviction",
+					"entries": [
+						"The tsuri yurei dies as soon as it has convinced a living creature to commit suicide and the deed is carried out."
+					]
+				},
+				{
+					"name": "Rejuvenation",
+					"entries": [
+						"If the tsuri-yurei is destroyed and it hasn't convinced another creature to commit suicide, it regains all its hit points in 24 hours unless holy water is sprinkled on its remains or a dispel magic or remove curse spell is cast on them."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The tsuri yurei makes two attacks with its withering touch."
+					]
+				},
+				{
+					"name": "Withering Touch",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}25 ({@dice 6d6}",
+						"+ 4) necrotic damage."
+					]
+				},
+				{
+					"name": "Etherealness",
+					"entries": [
+						"The tsuri yurei enters the Ethereal Plane from the Material Plane, or vice versa. It is visible on the Material Plane while it is in the Border Ethereal, and vice versa, yet it can't affect or be affected by anything on the other plane."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Those who commit suicide are doomed to become ghosts, their spirits lingering in the Material Plane until they convince another person to kill themselves. They appear as they did in life, but translucent. They often direct their anger against those that wronged them in life. A woman driven to suicide by a cheating husband might target either the husband or the mistress, while a man that feels society has always worked against him uses his powers of deceit and illusion to tantalize anybody who is already imbalanced, showing them how a quick death solves their problems.",
+					"When a tsuri yurei dies, it releases a malevolent scream and morphs into a 2-inch radius glimmering white sphere that falls to the ground. The sphere remains until the tsuri yurei reanimates, or until holy water is sprinkled on it or a dispel magic or remove curse spell is cast on it, at which point the sphere disappears in a flash and the tsuri yurei is released from its torment."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/TsuriYurei.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/TsuriYurei.png",
+			"traitTags": [
+				"Incorporeal Movement",
+				"Rejuvenation"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"LF"
+			],
+			"damageTags": [
+				"O"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflictSpell": [
+				"blinded",
+				"deafened",
+				"frightened"
+			]
+		},
+		{
+			"name": "Ubume",
+			"source": "",
+			"page": 27,
+			"size": "M",
+			"type": "undead",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				11
+			],
+			"hp": {
+				"average": 190,
+				"formula": "20d8 + 100"
+			},
+			"speed": {
+				"walk": 60
+			},
+			"str": 7,
+			"dex": 13,
+			"con": 20,
+			"int": 10,
+			"wis": 12,
+			"cha": 19,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"resist": [
+				"acid",
+				"fire",
+				"lightning",
+				"thunder",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical weapons",
+					"cond": true
+				}
+			],
+			"immune": [
+				"cold",
+				"necrotic",
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained"
+			],
+			"languages": [
+				"understands the Languages it knew in life",
+				"but doesn't speak"
+			],
+			"cr": "10",
+			"trait": [
+				{
+					"name": "Ethereal Sight",
+					"entries": [
+						"The ubume can see 60 feet into the Ethereal Plane when it is on the",
+						"Material Plane, and vice versa."
+					]
+				},
+				{
+					"name": "Grieving Sorrow",
+					"entries": [
+						"The ubume cannot be reasoned with, and is {@condition blinded} by her rage when engaged in combat."
+					]
+				},
+				{
+					"name": "Incorporeal Movement",
+					"entries": [
+						"The ubume can move through other creatures and objects as if they were difficult terrain. It takes 5 ({@damage 1d10}) force damage if it ends its turn in side an object."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"The ubume regains 10 hit points at the start of its turn if it has at least 1 hit point."
+					]
+				},
+				{
+					"name": "Rejuvenation",
+					"entries": [
+						"If the ubume is destroyed, it regains all its hit points in 1 hour, again holding its baby in its arms, unless holy water is sprinkled on its remains or a dispel magic or remove curse spell is cast on them."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The ubume can use its Horrifying Visage. It then makes three attacks: two with its withering touch and one with its umbilical cord. It can use its Mourn instead of its umbilical cord."
+					]
+				},
+				{
+					"name": "Etherealness",
+					"entries": [
+						"The ubume enters the Ethereal Plane from the Material Plane, or vice versa. It is visible on the Material Plane while it is in the Border Ethereal, and vice versa, yet it can't affect or be affected by anything on the other plane."
+					]
+				},
+				{
+					"name": "Horrifying Visage",
+					"entries": [
+						"Each non-undead creature within 60 feet of the ubume that can see it must succeed on a {@dc 16} Wisdom saving throw or be {@condition frightened} for 1 minute. If the save fails by 5 or more, the target also ages {@dice 1d4 x 10} years. A {@condition frightened} target can repeat the saving throw at the end of each of its turns, ending the {@condition frightened} condition on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to this ubume Horrifying Visage for the next 24 hours. The aging effect can be reversed with a greater restoration spell, but only within 24 hours of it occurring."
+					]
+				},
+				{
+					"name": "Mourn",
+					"entries": [
+						"{@atk rs} {@hit 8} to hit, range 30/120 ft., one target. {@h}32 ({@damage 8d6 + 4}) psychic damage."
+					]
+				},
+				{
+					"name": "Umbilical Cord",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 15 ft., one target. {@h}18 ({@dice 4d6} +",
+						"4) necrotic damage. If the target is a creature, it is {@condition grappled} (escape {@dc 16}) and pulled to an empty space next to the ubume. Until this grapple ends, the target is {@condition restrained}, and suffers half of any damage the ubume suffers. The ubume cannot attack with its umbilical cord if it is grappling a creature with it."
+					]
+				},
+				{
+					"name": "Withering Touch",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}25 ({@dice 6d6}",
+						"+ 4) necrotic damage."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"The “mourning ones” are the spirits of women who have died during childbirth or while pregnant, fueled by an immense will to bring the child into the world. An ubume appears as a living woman, often weeping and dressed in white. An ubume doesn’t simply attack bypassers, but politely asks others to hold its child. If a character refuses to hold the child, the ubume attacks without mercy. If a character agrees to hold the child, it grows increasingly heavy, forcing the character to make three successful Strength checks (DC 10, 15, and 20). Failing one of these checks causes the character to drop the unnaturally heavy infant, brining the ubume into a fury. However, if a character succeeds at all three checks, the ghostly infant turns into a living, breathing baby, causing the ubume to pass on into the afterlife. Grateful for bringing its unborn baby into the world, an ubume usually gives a successful character some reward."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/Ubume.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/Ubume.png",
+			"traitTags": [
+				"Incorporeal Movement",
+				"Regeneration",
+				"Rejuvenation"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"LF"
+			],
+			"damageTags": [
+				"O",
+				"Y"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"frightened",
+				"grappled",
+				"restrained"
+			]
+		},
+		{
+			"name": "Ghast Lord",
+			"source": "",
+			"page": 28,
+			"size": "M",
+			"type": "undead",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				19
+			],
+			"hp": {
+				"average": 210,
+				"formula": "28d8 + 84"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 19,
+			"dex": 23,
+			"con": 17,
+			"int": 18,
+			"wis": 12,
+			"cha": 10,
+			"skill": {
+				"acrobatics": "+11",
+				"arcana": "+8",
+				"perception": "+6"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 16,
+			"resist": [
+				"necrotic"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"poisoned"
+			],
+			"languages": [
+				"Oni",
+				"Oriental Taint Score 6"
+			],
+			"cr": "15",
+			"trait": [
+				{
+					"name": "Taint Aura",
+					"entries": [
+						"At the start of each of the ghast's turns, each non-undead creature within 5 feet of it takes 22 ({@damage 4d10}) necrotic damage unless it is protected by jade. A creature that touches the ghast or hits it with a melee attack while within 5 feet of it takes 22 ({@damage 4d10}) necrotic damage."
+					]
+				},
+				{
+					"name": "Turning Defiance",
+					"entries": [
+						"The ghast and any undead within 60 feet of it have advantage on saving throws against effects that turn undead."
+					]
+				},
+				{
+					"name": "Unarmored Defense",
+					"entries": [
+						"The ghoul's AC includes its Constitution modifier."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The ghast makes one bite attack and two claw attacks."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d8 + 6}) piercing damage plus 9 ({@damage 2d8}) necrotic damage. If the target is a creature other than an undead, it must succeed a {@dc 16} Constitution saving throw against disease, or have its Taint score increased by 1 and become {@condition poisoned} until the disease is cured. While {@condition poisoned}, the target has disadvantage on Constitution saving throws and cannot concentrate on spells."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 6}) slashing damage. If the target is a creature other than an undead, it must succeed on a {@dc 16} Constitution saving throw or be {@condition paralyzed} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"The ghast lord is a regular ghast that has been corrupted by massive amounts of Taint, warping its stench into a foul aura, and giving its skin armor-like properties. Their saliva carries a pestilent disease, which affects the central nervous system of other creatures if it enters the blood stream.",
+					"They are powerful and intelligent enough to rally hordes of ghouls around them, making them a foe not to be taken lightly.",
+					"Undead Nature. A ghast lord doesn’t require drink or sleep."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/GhastLord.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/GhastLord.png",
+			"traitTags": [
+				"Turn Resistance"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"N",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"paralyzed",
+				"poisoned"
+			]
+		},
+		{
+			"name": "Ghoul Crawler",
+			"source": "",
+			"page": 28,
+			"size": "M",
+			"type": "undead",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"average": 88,
+				"formula": "16d8 + 16"
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40
+			},
+			"str": 14,
+			"dex": 17,
+			"con": 12,
+			"int": 7,
+			"wis": 10,
+			"cha": 6,
+			"skill": {
+				"acrobatics": "+9",
+				"stealth": "+9"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"poisoned"
+			],
+			"languages": [
+				"Oni",
+				"Oriental Taint Score 1"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"The ghoul can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The ghoul makes one bite attack and two claw attacks."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d8 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) slashing damage. If the target is a creature other than an undead, it must succeed on a {@dc 11} Constitution saving throw or be {@condition paralyzed} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"The ghast lord is a regular ghast that has been corrupted by massive amounts of Taint, warping its stench into a foul aura, and giving its skin armor-like properties. Their saliva carries a pestilent disease, which affects the central nervous system of other creatures if it enters the blood stream.",
+					"They are powerful and intelligent enough to rally hordes of ghouls around them, making them a foe not to be taken lightly.",
+					"Undead Nature. A ghast lord doesn’t require drink or sleep."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/GhoulCrawler.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/GhoulCrawler.png",
+			"traitTags": [
+				"Spider Climb"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"paralyzed"
+			]
+		},
+		{
+			"name": "Ghoulem",
+			"source": "",
+			"page": 29,
+			"size": "H",
+			"type": "undead",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				8
+			],
+			"hp": {
+				"average": 414,
+				"formula": "36d12 + 180"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 26,
+			"dex": 7,
+			"con": 20,
+			"int": 6,
+			"wis": 10,
+			"cha": 5,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"resist": [
+				"necrotic"
+			],
+			"immune": [
+				"poison",
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical weapons that aren't jaded",
+					"cond": true
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"Oni",
+				"Oriental Taint Score 5"
+			],
+			"cr": "15",
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The ghoulem has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Reckless",
+					"entries": [
+						"At the start of its turn, the ghoulem can gain advantage on all melee weapon attack rolls it makes during that turn, but attack rolls against it have advantage until the start of its next turn."
+					]
+				},
+				{
+					"name": "Siege Monster",
+					"entries": [
+						"The ghoulem deals double damage to objects and structures."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The ghoulem makes three melee attacks."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 5 ft., one target. {@h}22 ({@damage 4d6 + 8}) slashing damage. If the target is a creature other than an undead, it must succeed on a {@dc 18} Constitution saving throw or be {@condition paralyzed} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				},
+				{
+					"name": "Crude Nodachi",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 5 ft., one target. {@h}29 ({@dice 6d6}",
+						"+ 8) slashing damage."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 5 ft., one target. {@h}26 ({@damage 4d8 + 8}) bludgeoning damage. If the target is a creature, it must succeed a {@dc 21} Strength saving throw or be knocked {@condition prone}."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"These hulking brutes are regular ghouls that have consumed very large amounts of Tainted flesh, warping them into the horrific ghoulem.",
+					"Undead Nature. A ghoulem doesn’t require drink or sleep."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/Ghoulem.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/Ghoulem.png",
+			"traitTags": [
+				"Magic Resistance",
+				"Reckless",
+				"Siege Monster"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"paralyzed",
+				"prone"
+			]
+		},
+		{
+			"name": "Shadow Ghast",
+			"source": "",
+			"page": 29,
+			"size": "M",
+			"type": "undead",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				15
+			],
+			"hp": {
+				"average": 108,
+				"formula": "24d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 20,
+			"con": 10,
+			"int": 11,
+			"wis": 10,
+			"cha": 8,
+			"skill": {
+				"stealth": "+12"
+			},
+			"senses": [
+				"blindsight 60 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 10,
+			"resist": [
+				"necrotic"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"poisoned"
+			],
+			"languages": [
+				"Oni",
+				"Oriental Taint Score 2"
+			],
+			"cr": "12",
+			"trait": [
+				{
+					"name": "Invisible in Darkness",
+					"entries": [
+						"The ghast is {@condition invisible} and has advantage on Dexterity (stealth) checks while in darkness."
+					]
+				},
+				{
+					"name": "Living Shadow",
+					"entries": [
+						"While in dim light or darkness, the ghast has resistance to damage that isn't force, psychic, or radiant."
+					]
+				},
+				{
+					"name": "Sunlight Sensitivity",
+					"entries": [
+						"While in sunlight, the ghast has disadvantage on attack rolls, as well as on Wisdom (perception) checks that rely on sight."
+					]
+				},
+				{
+					"name": "Surprise Attack",
+					"entries": [
+						"If the ghast surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 21 ({@damage 6d6}) necrotic damage from the attack."
+					]
+				},
+				{
+					"name": "Turning Defiance",
+					"entries": [
+						"The ghast and any ghouls within 30 feet of it have advantage on saving throws against effects that turn undead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The ghast makes three Drain attacks."
+					]
+				},
+				{
+					"name": "Drain",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}19 ({@damage 4d6 + 5}) necrotic damage. If the target is a creature other than an undead, it must succeed on a {@dc 12} Constitution saving throw or be {@condition paralyzed} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a target fails its saving throw by 5 or more, its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the creature finishes a long rest.",
+						"The target dies if this effect reduces its hit point maximum to 0."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"When a ghast spends its life in darkness within the Shadowlands, it might eventually meld into the darkness, morphing its very fabric into one of shadow and becoming a shadow ghast.",
+					"Undead Nature. A ghast lord doesn’t require air, food, drink or sleep."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/ShadowGhast.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/ShadowGhast.png",
+			"traitTags": [
+				"Sunlight Sensitivity",
+				"Turn Resistance"
+			],
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"N"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"invisible",
+				"paralyzed"
+			]
 		}
-		
 	],

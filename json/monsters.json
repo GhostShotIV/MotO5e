@@ -7247,6 +7247,24 @@
 					]
 				}
 			],
+			"fluff": {
+				"entries": [
+					"Goblin spiders are monstrous spiders about half the size of an adult human. They are hairy, but always give the impression of being harmless at first sight. Only female goblin spiders exist. They can live for several hundred years, but only ever lays eggs every ten years. In order to do so, they must first consume a humanoid male, allowing them to lay 1d12 eggs.",
+					"Cunning Predators. They have the ability to change into a beautiful female humanoid, and they favor manipulating and toying with their food. Humanoid females hold no interest to them, however, and they prefer to avoid them, or simply kill them quickly if they must. If it finds itself in a tight spot, it can turn invisible and scurry away until a more opportune moment presents itself.",
+					"One of the goblin spider’s favorite sports is to frequent lodging establishments at night, telling secrets to or kissing any male that makes advances towards it.",
+					"Where the Food is. They usually build themselves a lair near places that attract many male humanoids, such as a mining town. It doesn’t tempt fate by taking residence near samurai training grounds, however. A goblin spider knows when it is outmatched, and avoids fights it knows it cannot win."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/GoblinSpider.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/GoblinSpider.png",
 			"legendaryGroup": {
 				"name": "Goblin Spider",
 				"source": "MonstersoftheOrient"
@@ -7452,6 +7470,24 @@
 					]
 				}
 			],
+			"fluff": {
+				"entries": [
+					"Goblin spiders are monstrous spiders about half the size of an adult human. They are hairy, but always give the impression of being harmless at first sight. Only female goblin spiders exist. They can live for several hundred years, but only ever lays eggs every ten years. In order to do so, they must first consume a humanoid male, allowing them to lay 1d12 eggs.",
+					"Cunning Predators. They have the ability to change into a beautiful female humanoid, and they favor manipulating and toying with their food. Humanoid females hold no interest to them, however, and they prefer to avoid them, or simply kill them quickly if they must. If it finds itself in a tight spot, it can turn invisible and scurry away until a more opportune moment presents itself.",
+					"One of the goblin spider’s favorite sports is to frequent lodging establishments at night, telling secrets to or kissing any male that makes advances towards it.",
+					"Where the Food is. They usually build themselves a lair near places that attract many male humanoids, such as a mining town. It doesn’t tempt fate by taking residence near samurai training grounds, however. A goblin spider knows when it is outmatched, and avoids fights it knows it cannot win."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/GoblinSpider.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/GoblinSpider.png",
 			"traitTags": [
 				"Hold Breath",
 				"Shapechanger",

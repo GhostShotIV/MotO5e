@@ -43,5 +43,32 @@
 			],
 			"mythicEncounter": [],
 			"source": "MonstersoftheOrient"
-		}
+		},
+		{
+			"name": "Goblin Spider",
+			"lairActions": [
+				"On initiative count 20 (losing initiative ties), the goblin spider takes a lair action to create one of the following effects though it can’t use the same effect two rounds in a row:",
+				{
+					"type": "list",
+					"items": [
+						"Dominate. A creature within the lair that the goblin spider can see is affected by the dominate person spell (save DC 15). The goblin spider does not need to maintain concentration on this spell. If a creature succeeds its saving throw, it becomes immune to this lair action for 24 hours. A goblin spider might use this to force a creature to tell its secret if the goblin spider has previously used its Tell Secret action on the creature.",
+						"Mirror Image. The goblin spider is affected by the mirror image spell.",
+						"Recharge Secret. The goblin spider recharges its Tell Secret action."
+					]
+				}
+			],
+			"regionalEffects": [
+				"The region containing the goblin spider’s lair is influenced by the goblin spider’s powerful presence, creating any of the following effects:",
+				{
+					"type": "list",
+					"items": [
+						"Cozy Atmosphere. The atmosphere in the region is magically cozy, joyful, and warm, making humanoids less prone to be alert and suspicious of others.",
+						"Spiders. There’s a noticeable increase in the population of spiders in the region. Lifting a tankard in an inn might reveal dozens of small spiders underneath, and basements might become home to one or more giant spiders.",
+						"Webbed Vegetation. Plants within 1 mile of the lair are covered in cobwebs. The cobwebs don’t become more prominent the closer they are to the lair, so the lair cannot be found by applying this logic."
+					]
+				}
+			],
+			"mythicEncounter": [],
+			"source": "MonstersoftheOrient"
+		},
 	],

@@ -240,8 +240,18 @@
 			"fluff": {
 				"entries": [
 					"Chiwen. The chiwen is a dragon-fish hybrid, representing safeguarding against evil influence, often adorned on both ends of the ridgepoles of roofs. It lives in the sea, eating fish and seaweed. On more than one occasion has a chiwen rescued a person lost at sea."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/Chiwen.png"
+						}
+					}
 				]
 			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/Chiwen.png",
 			"traitTags": [
 				"Amphibious"
 			],
@@ -466,8 +476,18 @@
 			"fluff": {
 				"entries": [
 					"These massive wyrms are the noblest of warriors, smiting evil wherever they find it and capable of controlling the weather itself. Though few in number, their presence signals safety to the good people of the Orient, and the Scorpionfly in particular believe they signal safe travel at sea. Lung dragons and the Nine Sons of the Dragon are believed to be descendants of the great wyrms."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/GreatWyrm.png"
+						}
+					}
 				]
 			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/GreatWyrm.png",
 			"traitTags": [
 				"Amphibious",
 				"Legendary Resistances",
@@ -2496,6 +2516,22 @@
 					]
 				}
 			],
+			"fluff": {
+				"entries": [
+					"Blood oozes are created by maho-tsukai as a strategic tool. They are often created from prisoners as it requires a humanoid sacrifice to create a blood ooze. A blood ooze is bound to a single master, and if that master dies another maho-tsukai must soon take control of the blood ooze lest it be destroyed.",
+					"Ooze Nature. An ooze doesn’t require sleep."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/ArcaneSlime.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/ArcaneSlime.png",
 			"traitTags": [
 				"Amorphous"
 			],
@@ -2609,6 +2645,22 @@
 					]
 				}
 			],
+			"fluff": {
+				"entries": [
+					"Blood oozes are created by maho-tsukai as a strategic tool. They are often created from prisoners as it requires a humanoid sacrifice to create a blood ooze. A blood ooze is bound to a single master, and if that master dies another maho-tsukai must soon take control of the blood ooze lest it be destroyed.",
+					"Ooze Nature. An ooze doesn’t require sleep."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/ArcaneSlime.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/ArcaneSlime.png",
 			"traitTags": [
 				"Amorphous",
 				"Spider Climb"
@@ -2707,6 +2759,22 @@
 					]
 				}
 			],
+			"fluff": {
+				"entries": [
+					"Blood oozes are created by maho-tsukai as a strategic tool. They are often created from prisoners as it requires a humanoid sacrifice to create a blood ooze. A blood ooze is bound to a single master, and if that master dies another maho-tsukai must soon take control of the blood ooze lest it be destroyed.",
+					"Ooze Nature. An ooze doesn’t require sleep."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/Plasmin.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/Plasmin.png",
 			"traitTags": [
 				"Amorphous"
 			],
@@ -2897,6 +2965,23 @@
 					]
 				}
 			],
+			"fluff": {
+				"entries": [
+					"These bony, one-eyed creatures spread a dreadful curse with their horrible bite, causing their victims to transform into mindless savages at night.",
+					"Busos are tall and gaunt, standing about 7 feet tall and weighing around 140 pounds. Their hair is curly, their noses are flat, their mouths are lined with sharp fangs, and their gnarled fingers end in sharp claws.",
+					"Buso Curse. Busos spread a curse upon their victims, transforming them into busolings during the night: horrible creature identical to busos in every way, except that they cannot spread the curse themselves. They wreak havoc upon their surroundings and loved ones when the curse changes them during the night."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/Buso.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/Buso.png",
 			"senseTags": [
 				"D"
 			],

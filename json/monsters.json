@@ -98,8 +98,18 @@
 			"fluff": {
 				"entries": [
 					"The bixi resembles a dragon-turtle hybrid, representing history and lineage, and is often adorned on stone pillars and tombstones. A bixi feeds mostly on shellfish and plants. It lives in any area with enough water for it to feel free. A bixi can remember even the smallest details of any memory or story it has heard."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/Bixi.png"
+						}
+					}
 				]
 			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/Bixi.png",
 			"traitTags": [
 				"Amphibious"
 			],
@@ -184,8 +194,7 @@
 				{
 					"name": "Innate Spellcasting",
 					"headerEntries": [
-						"The dragon’s innate spellcasting ability is Wisdom (spell save DC",
-						"12). The dragon can innately cast the following spells, requiring no components:"
+						"The dragon’s innate spellcasting ability is Wisdom (spell save {@dc 12}). The dragon can innately cast the following spells, requiring no components:"
 					],
 					"will": [
 						"{@spell detect evil and good}",

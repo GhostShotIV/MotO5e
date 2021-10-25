@@ -2835,7 +2835,7 @@
 			],
 			"languages": [
 				"Oriental (common)",
-				"Oni Taint Score 6"
+				"Oni"
 			],
 			"cr": "2",
 			"trait": [
@@ -3318,7 +3318,7 @@
 			],
 			"languages": [
 				"understands Oriental (common) and Oni",
-				"but doesn't speak Taint Score 6"
+				"but doesn't speak"
 			],
 			"cr": {
 				"cr": "18",
@@ -3595,7 +3595,7 @@
 			],
 			"languages": [
 				"understands Oni",
-				"but doesn't speak Taint Score 6"
+				"but doesn't speak"
 			],
 			"cr": "6",
 			"trait": [
@@ -5845,7 +5845,7 @@
 				"restrained"
 			],
 			"languages": [
-				"the Languages it knew in life Taint Score 1"
+				"the Languages it knew in life"
 			],
 			"cr": "6",
 			"trait": [
@@ -6357,7 +6357,7 @@
 			],
 			"languages": [
 				"Oni",
-				"Oriental Taint Score 6"
+				"Oriental"
 			],
 			"cr": "15",
 			"trait": [
@@ -6484,7 +6484,7 @@
 			],
 			"languages": [
 				"Oni",
-				"Oriental Taint Score 1"
+				"Oriental"
 			],
 			"cr": "5",
 			"trait": [
@@ -6605,7 +6605,7 @@
 			],
 			"languages": [
 				"Oni",
-				"Oriental Taint Score 5"
+				"Oriental"
 			],
 			"cr": "15",
 			"trait": [
@@ -6741,7 +6741,7 @@
 			],
 			"languages": [
 				"Oni",
-				"Oriental Taint Score 2"
+				"Oriental"
 			],
 			"cr": "12",
 			"trait": [
@@ -8286,5 +8286,3402 @@
 			"miscTags": [
 				"MW"
 			]
-		}		
+		},
+		{
+			"name": "Hanemuri",
+			"source": "MonstersoftheOrient",
+			"page": 34,
+			"size": "T",
+			"type": {
+				"type": "undead",
+				"tags": [
+					"tainted"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 7,
+				"formula": "2d4 + 2"
+			},
+			"speed": {
+				"walk": 5,
+				"fly": 30
+			},
+			"str": 12,
+			"dex": 15,
+			"con": 12,
+			"int": 3,
+			"wis": 12,
+			"cha": 7,
+			"skill": {
+				"perception": "+3"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"languages": [
+				"-"
+			],
+			"cr": "1/8",
+			"trait": [
+				{
+					"name": "Undead Fortitude",
+					"entries": [
+						"If damage reduces the hanemuri to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the hanemuri drops to 1 hit point instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Hanemuri are bony and featherless birds, with parchment-like skin. Alone they are cowardly creatures, but in large enough packs they are fearless and become capable of slaying much larger foes.",
+					"They live in large numbers in the Shadowlands, but sometimes a flock dares (or is directed?) into Imperial lands, where they prey upon anything living they can find. Undead Nature. A hanemuri doesn’t require air, food, drink, or sleep."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/Hanemuri.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/Hanemuri.png",
+			"traitTags": [
+				"Undead Fortitude"
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Hannya",
+			"source": "MonstersoftheOrient",
+			"page": 34,
+			"size": "M",
+			"type": "fiend",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 55,
+				"formula": "10d8 + 10"
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 30
+			},
+			"str": 12,
+			"dex": 15,
+			"con": 12,
+			"int": 10,
+			"wis": 11,
+			"cha": 13,
+			"save": {
+				"dex": "+4",
+				"cha": "+3"
+			},
+			"skill": {
+				"athletics": "+5",
+				"acrobatics": "+6",
+				"stealth": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"resist": [
+				"necrotic",
+				"poison",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from non magical weapons",
+					"cond": true
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"diseased",
+				"exhaustion",
+				"poisoned"
+			],
+			"languages": [
+				"Oriental"
+			],
+			"cr": "4",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The hannya's innate spellcasting ability is Charisma (spell save DC"
+					],
+					"ability": "cha"
+				}
+			],
+			"trait": [
+				{
+					"name": "Hannya Weakness",
+					"entries": [
+						"The hannya is {@condition frightened} of any creature that wears a hannya mask that it can see."
+					]
+				},
+				{
+					"name": "Hold Breath",
+					"entries": [
+						"The hannya can hold its breath for 1 hour."
+					]
+				},
+				{
+					"name": "12)",
+					"entries": [
+						"The hannya can innately cast the following spells, requiring no material, or verbal components:",
+						"At will: invisibility, suggestion"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack The hannya either makes one bite attack and one attack with its claws or",
+					"entries": [
+						" uses its Constrict and makes two attacks with its masakari."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one creature. {@h}10 ({@damage 2d8 + 1}) piercing damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 2d6 + 1}) slashing damage. If the target is a creature other than an undead, it must succeed on a {@dc 10} Constitution saving throw or be {@condition paralyzed} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				},
+				{
+					"name": "Masakari",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8 + 1}) slashing damage or 6 ({@damage 1d10 + 1}) slashing damage if held with two hands."
+					]
+				},
+				{
+					"name": "Constrict",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 10 ft., one creature. {@h}11 ({@damage 3d6 + 1}) bludgeoning damage. If the target is Medium or smaller, it is {@condition grappled} (escape {@dc 13}) and pulled 5 feet toward the hannya. Until this grapple ends, the target is {@condition restrained} and the hannya can't constrict another target."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"A hannya is a female human wu jen, sorcerer, shaman, or shugenja who has made an unholy pact with a dark spirit to effect her permanent transformation, turning her into a fiendish serpent-like creature. Some retain vaguely humanoid faces, though they all have the lower torso of a serpent, covered in bony scales and secreting a foul-smelling, milky substance.",
+					"They are creatures of cruelty and malice, preying on the weak and helpless. A hannya knows when it is outmatched and does its utmost to escape with its life intact."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/Hannya.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/Hannya.png",
+			"traitTags": [
+				"Hold Breath"
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"B",
+				"P",
+				"S"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"grappled",
+				"paralyzed",
+				"restrained"
+			]
+		},
+		{
+			"name": "Hellbeast",
+			"source": "MonstersoftheOrient",
+			"page": 35,
+			"size": "L",
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"tainted"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 126,
+				"formula": "12d10 + 60"
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 24,
+			"dex": 11,
+			"con": 20,
+			"int": 2,
+			"wis": 12,
+			"cha": 6,
+			"skill": {
+				"athletics": "+10"
+			},
+			"senses": [
+				"blindsight 120 ft. (blind beyond this radius)"
+			],
+			"passive": 11,
+			"languages": [
+				"-"
+			],
+			"cr": "6",
+			"trait": [
+				{
+					"name": "Impale",
+					"entries": [
+						"If the hellbeast moves at least 20 feet straight toward a creature right before hitting it with a gore attack, the target takes an extra 18 ({@damage 4d8}) piercing damage. If the target is a creature, it is {@condition grappled} (escape {@dc 18}). Until this grapple ends, the target is {@condition restrained}, and the rhino can't impale another target."
+					]
+				},
+				{
+					"name": "Relentless (Recharges after a Short or Long Rest)",
+					"entries": [
+						"If the hellbeast takes damage that reduces it to 0 hit points, unless the damage is from a critical hit, it drops to 1 hit point instead."
+					]
+				},
+				{
+					"name": "Sure-Footed",
+					"entries": [
+						"Whenever the hellbeast would be knocked {@condition prone}, it stays on its feet if it succeeds on a {@dc 10} Strength saving throw."
+					]
+				},
+				{
+					"name": "Taint Aura",
+					"entries": [
+						"At the start of each of the hellbeast's turns, each creature within 5 feet of it takes 11 ({@damage 2d10}) necrotic damage unless it is protected by jade. A creature that touches the hellbeast or hits it with a melee attack while within 5 feet of it takes 11 ({@damage 2d10}) necrotic damage."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The hellbeast makes two gore attacks."
+					]
+				},
+				{
+					"name": "Gore",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}16 ({@damage 2d8 + 7}) piercing damage."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"These hulking beasts are the mutated remains of once-proud rhinoceroses, ridden into the Shadowlands by the Rhino Clan. In their Tainted forms, they are even more ferocious than in their natural state, and are sometimes used as monstrous mounts by the denizens of the Shadowlands.",
+					"Tainted Nature. A hellbeast doesn’t require food, drink, or sleep."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/Hellbeast.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/Hellbeast.png",
+			"senseTags": [
+				"B"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"N",
+				"P"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"conditionInflict": [
+				"grappled",
+				"prone",
+				"restrained"
+			]
+		},
+		{
+			"name": "Giant Hellbeast",
+			"source": "MonstersoftheOrient",
+			"page": 35,
+			"size": "H",
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"tainted"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 150,
+				"formula": "12d12 + 72"
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 26,
+			"dex": 11,
+			"con": 23,
+			"int": 2,
+			"wis": 12,
+			"cha": 6,
+			"skill": {
+				"athletics": "+12"
+			},
+			"senses": [
+				"blindsight 120 ft. (blind beyond this radius)"
+			],
+			"passive": 11,
+			"languages": [
+				"-"
+			],
+			"cr": "9",
+			"trait": [
+				{
+					"name": "Impale",
+					"entries": [
+						"If the hellbeast moves at least 20 feet straight toward a creature right before hitting it with a gore attack, the target takes an extra 27 ({@damage 6d8}) piercing damage. If the target is a creature, it is {@condition grappled} (escape {@dc 20}). Until this grapple ends, the target is {@condition restrained}, and the rhino can't impale another target."
+					]
+				},
+				{
+					"name": "Relentless (Recharges after a Short or Long Rest)",
+					"entries": [
+						"If the hellbeast takes damage that reduces it to 0 hit points, unless the damage is from a critical hit, it drops to 1 hit point instead."
+					]
+				},
+				{
+					"name": "Sure-Footed",
+					"entries": [
+						"Whenever the hellbeast would be knocked {@condition prone}, it stays on its feet if it succeeds on a {@dc 10} Strength saving throw."
+					]
+				},
+				{
+					"name": "Taint Aura",
+					"entries": [
+						"At the start of each of the hellbeast's turns, each creature within 5 feet of it takes 11 ({@damage 2d10}) necrotic damage unless it is protected by jade. A creature that touches the hellbeast or hits it with a melee attack while within 5 feet of it takes 11 ({@damage 2d10}) necrotic damage."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The hellbeast makes two gore attacks and either hurls a creature or uses its slam attack."
+					]
+				},
+				{
+					"name": "Gore",
+					"entries": [
+						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}21 ({@damage 3d8 + 8}) piercing damage."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}17 ({@damage 2d8 + 8}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Hurl",
+					"entries": [
+						"The hellbeast hurls away a creature it has {@condition grappled} with its Impale trait. The creature is hurled through the air and lands in an empty space of the hellbeast's choosing within 30 feet of it. The creature takes falling damage when it hits the ground and lands {@condition prone}."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"These hulking beasts are the mutated remains of once-proud rhinoceroses, ridden into the Shadowlands by the Rhino Clan. In their Tainted forms, they are even more ferocious than in their natural state, and are sometimes used as monstrous mounts by the denizens of the Shadowlands.",
+					"Tainted Nature. A hellbeast doesn’t require food, drink, or sleep."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/Hellbeast.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/Hellbeast.png",
+			"senseTags": [
+				"B"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B",
+				"N",
+				"P"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"conditionInflict": [
+				"grappled",
+				"prone",
+				"restrained"
+			]
+		},
+		{
+			"name": "Hsing-sing",
+			"source": "MonstersoftheOrient",
+			"page": 38,
+			"size": "L",
+			"type": "humanoid",
+			"alignment": [
+				{
+					"alignment": [
+						"N"
+					]
+				},
+				{
+					"alignment": [
+						"NX",
+						"NY",
+						"N"
+					]
+				}
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 60,
+				"formula": "8d10 + 16"
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40,
+				"swim": 30
+			},
+			"str": 21,
+			"dex": 14,
+			"con": 15,
+			"int": 7,
+			"wis": 12,
+			"cha": 10,
+			"skill": {
+				"athletics": "+7"
+			},
+			"passive": 11,
+			"languages": [
+				"Vanara"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Reckless",
+					"entries": [
+						"At the start of its turn, the hsing-sing can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) bludgeoning damage. If the target is a creature, it must succeed a {@dc 15} Strength saving throw or be knocked {@condition prone}."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"The hsing-sing are a race of reclusive ape-like humanoids. Many scholars consider the hsing-sing to personify the principles of pacifism and harmony with nature. When threatened, however, they can be formidable and merciless opponents.",
+					"Hsing-sing have bulky bodies covered with thick white fur. As they age, their fur darkens to rich, golden tones. Their long arms extend nearly to the ground. When swimming, their large, flat feet propel them through the water with ease. Their hairless faces look almost human, with bright blue or brown eyes, small noses, and smooth skin. However, their teeth are much longer and sharper than human teeth, resembling the fangs of carnivorous apes.",
+					"They eat fruit during the summer and small animals such as rabbits and lemmings during the winter. They consider insects a delicacy.",
+					"Social Structure. Internally they live in shrewdnesses which function very similar to clans. Each shrewdness is lead by a patriarch, as well as a matriarch who serves as a spiritual advisor and is responsible for the young, ensuring they grow up to be honorable and kind creatures. The role of patriarch is inherited by the ruling couple’s firstborn male, who in turn chooses his mate from among the other hsing-sing.",
+					"They keep mostly to themselves, living their lives in the great forests, uncaring about the larger world or even the Empire. They do, however, have an honor guard that protects the matriarch and the children.",
+					"Loyalty. Hsing-sing come of age when they are about 15 years old and they live to be between 80 and 90 years. They usually find a mate before they become 20 years old, and once they have found a mate, they stay together for life. On average, a hsing-sing couple produce between 4 and 6 offspring during their lifetime."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/HsingSing.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/HsingSing.png",
+			"traitTags": [
+				"Reckless"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"prone"
+			]
+		},
+		{
+			"name": "Hsing-sing Matriarch",
+			"source": "MonstersoftheOrient",
+			"page": 38,
+			"size": "L",
+			"type": "humanoid",
+			"alignment": [
+				{
+					"alignment": [
+						"N"
+					]
+				},
+				{
+					"alignment": [
+						"NX",
+						"NY",
+						"N"
+					]
+				}
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 75,
+				"formula": "10d10 + 20"
+			},
+			"speed": {
+				"walk": 40,
+				"climb": {
+					"number": 40,
+					"condition": "swim 30 ft."
+				}
+			},
+			"str": 21,
+			"dex": 14,
+			"con": 15,
+			"int": 8,
+			"wis": 12,
+			"cha": 10,
+			"skill": {
+				"athletics": "+7"
+			},
+			"passive": 11,
+			"languages": [
+				"Vanara"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Reckless",
+					"entries": [
+						"At the start of its turn, the hsing-sing can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) bludgeoning damage. If the target is a creature, it must succeed a {@dc 15} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Mother's Cry (Recharges after a Short or Long Rest)",
+					"entries": [
+						"For 1 minute, the hsing-sing can cry out to its pack. For the duration, whenever a hsing-sing within 30 feet of it that can hear it scores a critical hit, it rolls three times the number of damace dice, rather than double. Additionally, each hsing-sing critically hits on a roll of 19 and 20, as long as it attacks a creature within 5 feet of the matriarch."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"The hsing-sing are a race of reclusive ape-like humanoids. Many scholars consider the hsing-sing to personify the principles of pacifism and harmony with nature. When threatened, however, they can be formidable and merciless opponents.",
+					"Hsing-sing have bulky bodies covered with thick white fur. As they age, their fur darkens to rich, golden tones. Their long arms extend nearly to the ground. When swimming, their large, flat feet propel them through the water with ease. Their hairless faces look almost human, with bright blue or brown eyes, small noses, and smooth skin. However, their teeth are much longer and sharper than human teeth, resembling the fangs of carnivorous apes.",
+					"They eat fruit during the summer and small animals such as rabbits and lemmings during the winter. They consider insects a delicacy.",
+					"Social Structure. Internally they live in shrewdnesses which function very similar to clans. Each shrewdness is lead by a patriarch, as well as a matriarch who serves as a spiritual advisor and is responsible for the young, ensuring they grow up to be honorable and kind creatures. The role of patriarch is inherited by the ruling couple’s firstborn male, who in turn chooses his mate from among the other hsing-sing.",
+					"They keep mostly to themselves, living their lives in the great forests, uncaring about the larger world or even the Empire. They do, however, have an honor guard that protects the matriarch and the children.",
+					"Loyalty. Hsing-sing come of age when they are about 15 years old and they live to be between 80 and 90 years. They usually find a mate before they become 20 years old, and once they have found a mate, they stay together for life. On average, a hsing-sing couple produce between 4 and 6 offspring during their lifetime."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/HsingSing.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/HsingSing.png",
+			"traitTags": [
+				"Reckless"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"prone"
+			]
+		},
+		{
+			"name": "Hsing-sing Honor Guard",
+			"source": "MonstersoftheOrient",
+			"page": 38,
+			"size": "L",
+			"type": "humanoid",
+			"alignment": [
+				{
+					"alignment": [
+						"N"
+					]
+				},
+				{
+					"alignment": [
+						"NX",
+						"NY",
+						"N"
+					]
+				}
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 90,
+				"formula": "12d10 + 24"
+			},
+			"speed": {
+				"walk": 40,
+				"climb": {
+					"number": 40,
+					"condition": "swim 30 ft."
+				}
+			},
+			"str": 21,
+			"dex": 14,
+			"con": 15,
+			"int": 7,
+			"wis": 12,
+			"cha": 10,
+			"skill": {
+				"athletics": "+7"
+			},
+			"passive": 11,
+			"languages": [
+				"Vanara"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Aggressive",
+					"entries": [
+						"As a bonus action, the hsing-sing can move up to its speed toward a hostile creature that it can see."
+					]
+				},
+				{
+					"name": "Reckless",
+					"entries": [
+						"At the start of its turn, the hsing-sing can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The hsing-sing makes two slam attacks."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) bludgeoning damage. If the target is a creature, it must succeed a {@dc 15} Strength saving throw or be knocked {@condition prone}."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"The hsing-sing are a race of reclusive ape-like humanoids. Many scholars consider the hsing-sing to personify the principles of pacifism and harmony with nature. When threatened, however, they can be formidable and merciless opponents.",
+					"Hsing-sing have bulky bodies covered with thick white fur. As they age, their fur darkens to rich, golden tones. Their long arms extend nearly to the ground. When swimming, their large, flat feet propel them through the water with ease. Their hairless faces look almost human, with bright blue or brown eyes, small noses, and smooth skin. However, their teeth are much longer and sharper than human teeth, resembling the fangs of carnivorous apes.",
+					"They eat fruit during the summer and small animals such as rabbits and lemmings during the winter. They consider insects a delicacy.",
+					"Social Structure. Internally they live in shrewdnesses which function very similar to clans. Each shrewdness is lead by a patriarch, as well as a matriarch who serves as a spiritual advisor and is responsible for the young, ensuring they grow up to be honorable and kind creatures. The role of patriarch is inherited by the ruling couple’s firstborn male, who in turn chooses his mate from among the other hsing-sing.",
+					"They keep mostly to themselves, living their lives in the great forests, uncaring about the larger world or even the Empire. They do, however, have an honor guard that protects the matriarch and the children.",
+					"Loyalty. Hsing-sing come of age when they are about 15 years old and they live to be between 80 and 90 years. They usually find a mate before they become 20 years old, and once they have found a mate, they stay together for life. On average, a hsing-sing couple produce between 4 and 6 offspring during their lifetime."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/HsingSing.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/HsingSing.png",
+			"traitTags": [
+				"Aggressive",
+				"Reckless"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"prone"
+			]
+		},
+		{
+			"name": "Hsing-sing Patriarch",
+			"source": "MonstersoftheOrient",
+			"page": 38,
+			"size": "L",
+			"type": "humanoid",
+			"alignment": [
+				{
+					"alignment": [
+						"N"
+					]
+				},
+				{
+					"alignment": [
+						"NX",
+						"NY",
+						"N"
+					]
+				}
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 120,
+				"formula": "16d10 + 32"
+			},
+			"speed": {
+				"walk": 50,
+				"climb": {
+					"number": 50,
+					"condition": "swim 30 ft."
+				}
+			},
+			"str": 23,
+			"dex": 14,
+			"con": 15,
+			"int": 8,
+			"wis": 12,
+			"cha": 10,
+			"skill": {
+				"athletics": "+8"
+			},
+			"passive": 11,
+			"languages": [
+				"Vanara"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Aggressive",
+					"entries": [
+						"As a bonus action, the hsing-sing can move up to its speed toward a hostile creature that it can see."
+					]
+				},
+				{
+					"name": "Reckless",
+					"entries": [
+						"At the start of its turn, the hsing-sing can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The hsing-sing makes two slam attacks. If a creature is knocked {@condition prone} by the hsing-sing, it can make a third slam attack by using a bonus action."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 6}) bludgeoning damage. If the target is a creature, it must succeed a {@dc 16} Strength saving throw or be knocked {@condition prone}."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"The hsing-sing are a race of reclusive ape-like humanoids. Many scholars consider the hsing-sing to personify the principles of pacifism and harmony with nature. When threatened, however, they can be formidable and merciless opponents.",
+					"Hsing-sing have bulky bodies covered with thick white fur. As they age, their fur darkens to rich, golden tones. Their long arms extend nearly to the ground. When swimming, their large, flat feet propel them through the water with ease. Their hairless faces look almost human, with bright blue or brown eyes, small noses, and smooth skin. However, their teeth are much longer and sharper than human teeth, resembling the fangs of carnivorous apes.",
+					"They eat fruit during the summer and small animals such as rabbits and lemmings during the winter. They consider insects a delicacy.",
+					"Social Structure. Internally they live in shrewdnesses which function very similar to clans. Each shrewdness is lead by a patriarch, as well as a matriarch who serves as a spiritual advisor and is responsible for the young, ensuring they grow up to be honorable and kind creatures. The role of patriarch is inherited by the ruling couple’s firstborn male, who in turn chooses his mate from among the other hsing-sing.",
+					"They keep mostly to themselves, living their lives in the great forests, uncaring about the larger world or even the Empire. They do, however, have an honor guard that protects the matriarch and the children.",
+					"Loyalty. Hsing-sing come of age when they are about 15 years old and they live to be between 80 and 90 years. They usually find a mate before they become 20 years old, and once they have found a mate, they stay together for life. On average, a hsing-sing couple produce between 4 and 6 offspring during their lifetime."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/HsingSing.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/HsingSing.png",
+			"traitTags": [
+				"Aggressive",
+				"Reckless"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"prone"
+			]
+		},
+		{
+			"name": "Hyekuhei",
+			"source": "MonstersoftheOrient",
+			"page": 0,
+			"size": "M",
+			"type": {
+				"type": "undead",
+				"tags": [
+					"tainted"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"lamellar armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 95,
+				"formula": "10d8 + 50"
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 19,
+			"dex": 17,
+			"con": 20,
+			"int": 10,
+			"wis": 12,
+			"cha": 10,
+			"save": {
+				"wis": "+3"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"resist": [
+				"acid",
+				"cold",
+				"necrotic"
+			],
+			"immune": [
+				"poison"
+			],
+			"languages": [
+				"the languages it knew in life"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Martial Advantage",
+					"entries": [
+						"Once per turn, the hyekuhei can deal an extra 7 ({@damage 2d6}) damage to a creature it hits with a weapon attack if that creature is within 5 feet of an ally of the hyekuhei that isn't {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Taint Shield",
+					"entries": [
+						"When the hyekuhei falls below 50 hit points, its eye sockets begin to glow a brighter green, encircling the hyekuhei with an unholy damage-absorbant shield of"
+					]
+				},
+				{
+					"name": "Taint",
+					"entries": [
+						"At the start of each of the hyekuhei's turns, the shield gains 20 hit points. Whenever the hyekuhei takes damage, the shield takes the damage instead. If this damage reduces the shield to 0 hit points, the hyekuhei takes the remaining damage. While the shield has 0 hit points, it can't absorb damage, but it's magic remains. While the shield is active and has hit points remaining, a creature takes 3 ({@damage 1d6}) necrotic damage whenever it touches the hyekuhei or makes a melee attack against it while within 5 feet of it."
+					]
+				},
+				{
+					"name": "Undead Fortitude",
+					"entries": [
+						"If damage reduces the hyekuhei to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The hyekuhei uses its Sickly Glare. It then either attacks once with its bite and makes a one-handed attack with its katana, or makes two two-handed attacks with its katana."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage. The target must succeed a {@dc 15} Constitution saving throw or become {@condition poisoned} for 1 hour. If the target fails its saving throw by 5 or more, its Taint score is also increased by 1."
+					]
+				},
+				{
+					"name": "Katana",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage, or 9 ({@damage 1d10 + 4}) slashing damage if used with two hands."
+					]
+				},
+				{
+					"name": "Sickly Glare",
+					"entries": [
+						"The hyekuhei targets one creature it can see within 60 feet of it. If the target can see the hyekuhei, it must succeed on a {@dc 16} Wisdom saving throw against this magic or become {@condition frightened} until the end of its next turn. If the target fails the saving throw by 5 or more, it is also {@condition paralyzed} for the same duration . A target that succeeds on the saving throw is immune to the Sickly Glare of all hyekuhei for the next 24 hours."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Normally, when a mortal dies in the Shadowlands, they come back as taint zombies. When a samurai dies, however, they more often than not return to life as a hyekuhei. At first glance, if they have shed their skin, they might even appear as mere shambling undead, but they are far more intelligent and much faster than regular taint zombies. They often use this fact to their advantage, hiding among numerous taint zombies and mimicking their behavior, so approaching Crawdad warriors cannot discern their true nature until it is too late.",
+					"Intelligent Zombies. Hyekuhei are equals to regular samurai in terms of tactics. Their speech is a coarse whisper, rendering them unable to speak with each other from afar, making them rely on hand gestures and other body language to communicate. When engaging in combat, their eyes radiate a sickly green smoke, clearly identifying them from the more common zombie.",
+					"Undead Nature. A hyekuhei doesn’t require air, food, drink, or sleep."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/Hyekuhei.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/Hyekuhei.png",
+			"traitTags": [
+				"Undead Fortitude"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"LF"
+			],
+			"damageTags": [
+				"N",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"frightened",
+				"paralyzed",
+				"poisoned"
+			]
+		},
+		{
+			"name": "Ikiryo",
+			"source": "MonstersoftheOrient",
+			"page": 39,
+			"size": "M",
+			"type": {
+				"type": "undead",
+				"tags": [
+					"spirit"
+				]
+			},
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 81,
+				"formula": "18d8"
+			},
+			"speed": {
+				"walk": 0,
+				"fly": {
+					"number": 30,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 9,
+			"dex": 14,
+			"con": 10,
+			"int": 10,
+			"wis": 13,
+			"cha": 16,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"immune": [
+				"cold",
+				"necrotic",
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained"
+			],
+			"languages": [
+				"understands the languages it knew in life",
+				"but doesn't speak"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Incorporeal Movement",
+					"entries": [
+						"The ikiryo can move through other creatures and objects as if they were difficult terrain. It takes 5 ({@damage 1d10}) force damage if it ends its turn in side an object."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Spectral Blade",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}11 ({@dice 2d8} +",
+						"2) necrotic damage."
+					]
+				},
+				{
+					"name": "Horrifying Visage",
+					"entries": [
+						"Each non-undead creature within 60 feet of the ikiryo that can see it must succeed on a {@dc 13} Wisdom saving throw or be {@condition frightened} for 1 minute. If the save fails by 5 or more, the target also ages {@dice 1d4 x 10} years. A {@condition frightened} target can repeat the saving throw at the end of each of its turns, ending the {@condition frightened} condition on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to this ikiryo's Horrifying Visage for the next 24 hours. The aging effect can be reversed with a greater restoration spell, but only within 24 hours of it occurring."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"A warrior sworn to guard a lord or another person will often continue to do so in death, especially so if they failed to do so in life. Ikiryo are often found in tombs where they viciously protect their charge, destroying anybody who comes close.",
+					"An ikiryo is incorporeal and resembles a translucent skeleton with a shimmer of their former selves flashing across them from time to time. They fade away at the waist into a translucent trail, hovering across the ground.",
+					"Undead Nature. An ikiryo doesn’t require air, food, drink, or sleep."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/Ikiryo.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/Ikiryo.png",
+			"traitTags": [
+				"Incorporeal Movement"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"LF"
+			],
+			"damageTags": [
+				"O"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"frightened"
+			]
+		},
+		{
+			"name": "Inugami Samurai",
+			"source": "MonstersoftheOrient",
+			"page": 40,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"spirit"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"lamellar + radiant armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 46,
+				"formula": "7d8 + 14"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 13,
+			"con": 14,
+			"int": 11,
+			"wis": 13,
+			"cha": 15,
+			"save": {
+				"dexterity": "+3",
+				"charisma": "+6"
+			},
+			"skill": {
+				"athletics": "+4",
+				"perception": "+3"
+			},
+			"senses": [
+				"truesight 30 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 13,
+			"resist": [
+				"psychic",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical weapons",
+					"cond": true
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"paralyzed"
+			],
+			"languages": [
+				"Oriental"
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Clash (1/Turn)",
+					"entries": [
+						"The inugami deals an additional 9 ({@damage 2d8}) force damage with a successful attack."
+					]
+				},
+				{
+					"name": "Grace",
+					"entries": [
+						"The inugami cannot suffer from disadvantage when attacking with its nodachi."
+					]
+				},
+				{
+					"name": "Weapon Bond",
+					"entries": [
+						"The inugami can summon its weapon into its hand using a bonus action.",
+						"The inugami can't be disarmed of its weapon unless {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Keen Senses",
+					"entries": [
+						"The inugami has advantage on Wisdom (perception) checks that rely on sight, hearing, or smell."
+					]
+				},
+				{
+					"name": "Limited Magic Immunity",
+					"entries": [
+						"Unless it wishes to be affected, the inugami is immune to spells of 3rd level or lower. It has advantage against all other spells and magical effects."
+					]
+				},
+				{
+					"name": "Radiant Armor",
+					"entries": [
+						"The inugami adds its Charisma modifier to its AC."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The inugami uses its Eldritch Howl and makes two attacks with its nodachi."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d8 + 2}) slashing damage and the inugami regains hit points equal to the damage done. The target must make a {@dc 12} Constitution saving throw. On a failed save, the target can't take reactions and is unable to add its Dexterity bonus to its AC until the end of the inugami's next turn."
+					]
+				},
+				{
+					"name": "Nodachi",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d6 + 2}) slashing damage."
+					]
+				},
+				{
+					"name": "Hankyu",
+					"entries": [
+						"{@atk rw} {@hit 3} to hit, range (80/320), one target. {@h}4 ({@dice 1d6} +",
+						"1) piercing damage."
+					]
+				},
+				{
+					"name": "Eldritch Howl",
+					"entries": [
+						"The inugami howls into the air. Any non-permanent spells of 6th level or lower within 10 ft. of the inugami are forcefully ended."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Inugami are wild animal spirits that have been mistreated in life. They seek revenge on the living by possessing other living creatures, hoping to sow discord and spread chaos through their possessed body. They absorb the knowledge and memories of those they possess, making them a lot more capable than they ever were as animals.",
+					"The conscience of the possessed creature cannot control the body in any way, but observers everything."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/Inugami.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/Inugami.png",
+			"traitTags": [
+				"Keen Senses"
+			],
+			"senseTags": [
+				"SD",
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"O",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			]
+		},
+		{
+			"name": "Jubokko",
+			"source": "MonstersoftheOrient",
+			"page": 40,
+			"size": "H",
+			"type": "plant",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 189,
+				"formula": "14d12 + 98"
+			},
+			"speed": {
+				"walk": 0
+			},
+			"str": 23,
+			"dex": 8,
+			"con": 24,
+			"int": 10,
+			"wis": 10,
+			"cha": 12,
+			"save": {
+				"con": "+11"
+			},
+			"skill": {
+				"athletics": "+10"
+			},
+			"senses": [
+				"blindsight 180 ft. (blind beyond this radius)"
+			],
+			"passive": 10,
+			"resist": [
+				"bludgeoning",
+				"piercing"
+			],
+			"immune": [
+				"necrotic",
+				"poison",
+				"prone"
+			],
+			"conditionImmune": [
+				"blinded",
+				"deafened"
+			],
+			"languages": [
+				"Druidic",
+				"Sylvan"
+			],
+			"cr": "11",
+			"trait": [
+				{
+					"name": "Axiomatic Mind",
+					"entries": [
+						"The jubokko can't be compelled to act in a manner contrary to its nature or its instructions."
+					]
+				},
+				{
+					"name": "False Appearance",
+					"entries": [
+						"While the jubokko remains motionless, it is indistinguishable from a normal tree."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the jubokko fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Thorns",
+					"entries": [
+						"Whenever a creature fails to escape the jubokko's grapple, the creature takes 7 ({@damage 2d6}) piercing damage from the thorns."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The jubokko makes two melee attacks."
+					]
+				},
+				{
+					"name": "Drain",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., a creature that is {@condition grappled} by the jubokko. {@h}13 ({@damage 2d6 + 6}) piercing damage plus 14 ({@damage 4d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the jubokko regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum"
+					]
+				},
+				{
+					"name": "to 0",
+					"entries": [
+						"A creature slain in this way becomes entangled 20 feet high and continues to be {@condition grappled} - the creature can only be freed after the jubokko has been slain by spending 1 minute hacking at its remains with a weapon that deals slashing damage.."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}28 ({@damage 4d10 + 6}) bludgeoning damage. Instead of dealing damage, the jubokko can grapple the target and lift it 20 feet into the air. Until this grapple ends, the target is {@condition restrained}."
+					]
+				},
+				{
+					"name": "Cursed Skull",
+					"entries": [
+						"{@atk rw} {@hit 10} to hit, range 60/180 ft., one target. {@h}24 ({@damage 4d8 + 6}) bludgeoning damage. On a successful hit, the skull explodes and releases a wave of necrotic energy in all directions. Each creature within 20 ft. of the point of impact must make a Constitution saving throw. On a failed save, a creature takes 22 ({@damage 4d10}) necrotic damage and becomes {@condition paralyzed} until the end of its next turn. On a successful save, a creature takes half the necrotic damage and isn't {@condition paralyzed}. Creatures that are resistant or immune to necrotic damage automatically succeed on the saving throw."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"On a battlefield or other places where numerous creatures have died, the seemingly endless streams of blood seep into the soil. Sometimes the blood is absorbed by a tree in place of water, slowly transforming the tree into a horrible growth of blood lust and malice: a jubokko. When a jubokko is wounded, it bleeds the blood of its victims. Rooted. From afar, a jubokko resembles any other tree, but a successful DC 20 Wisdom (perception) check while within 60 feet of the jubokko reveals numerous skulls half-buried in the ground around the tree, as well as the bones that are intertwined between its branches and vines. A jubokko is rooted firmly into the ground and cannot move.",
+					"Patient Bloodthirster. When an unsuspecting creature comes close to the jubokko, it will grab hold of the creature with one of its many thorned branches. The victim is pulled into the air, and has its skin pierced by the jubokko’s tube-like thorns which drain the victim of its blood. When a creature dies in this manner, it is intertwined into the jubokko, and as its flesh decays and is eaten by insects, the bones are pulled out and help strengthen the jubokko. The victim’s skull falls to the ground next to the jubokko.",
+					"Skulls of the Dead. A creature that dies by having all its blood drained by a jubokko becomes cursed, filling all parts of its corpse with necrotic energies. The skulls that lie in the ground next to the jubokko serve as ammunition for the jubokko, as it can throw at enemies that are out of reach to deal massive injuries. The skulls radiate necrotic energies and their eye sockets are filled with darkness."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/Jubokko.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/Jubokko.png",
+			"traitTags": [
+				"False Appearance",
+				"Legendary Resistances"
+			],
+			"senseTags": [
+				"B"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"DU",
+				"S"
+			],
+			"damageTags": [
+				"B",
+				"N",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"RW"
+			],
+			"conditionInflict": [
+				"paralyzed",
+				"restrained"
+			]
+		},
+		{
+			"name": "Jubokko Bone Blight",
+			"source": "MonstersoftheOrient",
+			"page": 41,
+			"size": "M",
+			"type": "plant",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 63,
+				"formula": "14d8"
+			},
+			"speed": {
+				"walk": 25
+			},
+			"str": 16,
+			"dex": 9,
+			"con": 12,
+			"int": 1,
+			"wis": 8,
+			"cha": 1,
+			"skill": {
+				"athletics": "+7"
+			},
+			"senses": [
+				"blindsight 60 ft. (blind beyond this radius)"
+			],
+			"passive": 9,
+			"resist": [
+				"bludgeoning",
+				"piercing"
+			],
+			"immune": [
+				"necrotic",
+				"poison"
+			],
+			"conditionImmune": [
+				"blinded",
+				"deafened"
+			],
+			"languages": [
+				"Druidic",
+				"Sylvan"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Axiomatic Mind",
+					"entries": [
+						"The jubokko can't be compelled to act in a manner contrary to its nature or its instructions."
+					]
+				},
+				{
+					"name": "Blood Frenzy",
+					"entries": [
+						"The bone blight has advantage on melee attack rolls against any creature that doesn't have all its hit points."
+					]
+				},
+				{
+					"name": "False Appearance",
+					"entries": [
+						"While the bone blight remains motionless, it is indistinguishable from a tangle of vines."
+					]
+				},
+				{
+					"name": "Surprise Attack",
+					"entries": [
+						"If the bone blight surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 11 ({@damage 2d10}) damage from the attack."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d10 + 3}) bludgeoning damage. If the target is a creature, it must succeed a {@dc 15} Strength check or be knocked {@condition prone}.."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"On a battlefield or other places where numerous creatures have died, the seemingly endless streams of blood seep into the soil. Sometimes the blood is absorbed by a tree in place of water, slowly transforming the tree into a horrible growth of blood lust and malice: a jubokko. When a jubokko is wounded, it bleeds the blood of its victims. Rooted. From afar, a jubokko resembles any other tree, but a successful DC 20 Wisdom (perception) check while within 60 feet of the jubokko reveals numerous skulls half-buried in the ground around the tree, as well as the bones that are intertwined between its branches and vines. A jubokko is rooted firmly into the ground and cannot move.",
+					"Patient Bloodthirster. When an unsuspecting creature comes close to the jubokko, it will grab hold of the creature with one of its many thorned branches. The victim is pulled into the air, and has its skin pierced by the jubokko’s tube-like thorns which drain the victim of its blood. When a creature dies in this manner, it is intertwined into the jubokko, and as its flesh decays and is eaten by insects, the bones are pulled out and help strengthen the jubokko. The victim’s skull falls to the ground next to the jubokko.",
+					"Skulls of the Dead. A creature that dies by having all its blood drained by a jubokko becomes cursed, filling all parts of its corpse with necrotic energies. The skulls that lie in the ground next to the jubokko serve as ammunition for the jubokko, as it can throw at enemies that are out of reach to deal massive injuries. The skulls radiate necrotic energies and their eye sockets are filled with darkness.",
+					"Jubokko Bone Blight",
+					"When a jubokko has absorbed too many bones to keep them all contained, it lets some of them fall to the ground along with some of its vines. The vines entangle the bones and form a bone blight; a horrible, bipedal abomination, living only to help the jubokko kill its next victim."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/Jubokko.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/Jubokko.png",
+			"traitTags": [
+				"False Appearance"
+			],
+			"senseTags": [
+				"B"
+			],
+			"languageTags": [
+				"DU",
+				"S"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"prone"
+			]
+		},
+		{
+			"name": "Jubokko Skull Blight",
+			"source": "MonstersoftheOrient",
+			"page": 41,
+			"size": "M",
+			"type": "plant",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 77,
+				"formula": "14d8 + 14"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 17,
+			"dex": 10,
+			"con": 10,
+			"int": 4,
+			"wis": 8,
+			"cha": 3,
+			"skill": {
+				"athletics": "+7"
+			},
+			"senses": [
+				"blindsight 60 ft. (blind beyond this radius)"
+			],
+			"passive": 9,
+			"resist": [
+				"bludgeoning",
+				"piercing"
+			],
+			"immune": [
+				"necrotic",
+				"poison"
+			],
+			"conditionImmune": [
+				"blinded",
+				"deafened"
+			],
+			"languages": [
+				"Druidic",
+				"Sylvan"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Axiomatic Mind",
+					"entries": [
+						"The jubokko can't be compelled to act in a manner contrary to its nature or its instructions."
+					]
+				},
+				{
+					"name": "Death Throes",
+					"entries": [
+						"When the skull blight dies its skull explodes, releasing a wave of necrotic energy in all directions. Each creature within 20 ft. of the skull blight must make a Constitution saving throw. On a failed save, a creature takes 22 ({@damage 4d10}) necrotic damage and becomes {@condition paralyzed} until the end of its next turn. On a successful save, a creature takes half the necrotic damage and isn't {@condition paralyzed}. Creatures that are resistant or immune to necrotic damage automatically succeed on the saving throw."
+					]
+				},
+				{
+					"name": "False Appearance",
+					"entries": [
+						"While the skull blight remains motionless, it is indistinguishable from a tangle of vines."
+					]
+				},
+				{
+					"name": "Thorns",
+					"entries": [
+						"Whenever a creature fails to escape the skull blight's grapple, the creature takes 3 ({@damage 1d6}) piercing damage from the thorns."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Constrict",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 10 ft., one target. {@h}10 ({@damage 2d6 + 3}) bludgeoning damage, and a Large or smaller target is {@condition grappled} (escape {@dc 13}) . Until this grapple ends, the target is re strained, and the blight can't constrict another target."
+					]
+				},
+				{
+					"name": "Drain",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., a creature that is {@condition grappled} by the skull blight. {@h}6 ({@damage 1d6 + 3}) piercing damage plus 7 ({@damage 2d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the skull blight regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"On a battlefield or other places where numerous creatures have died, the seemingly endless streams of blood seep into the soil. Sometimes the blood is absorbed by a tree in place of water, slowly transforming the tree into a horrible growth of blood lust and malice: a jubokko. When a jubokko is wounded, it bleeds the blood of its victims. Rooted. From afar, a jubokko resembles any other tree, but a successful DC 20 Wisdom (perception) check while within 60 feet of the jubokko reveals numerous skulls half-buried in the ground around the tree, as well as the bones that are intertwined between its branches and vines. A jubokko is rooted firmly into the ground and cannot move.",
+					"Patient Bloodthirster. When an unsuspecting creature comes close to the jubokko, it will grab hold of the creature with one of its many thorned branches. The victim is pulled into the air, and has its skin pierced by the jubokko’s tube-like thorns which drain the victim of its blood. When a creature dies in this manner, it is intertwined into the jubokko, and as its flesh decays and is eaten by insects, the bones are pulled out and help strengthen the jubokko. The victim’s skull falls to the ground next to the jubokko.",
+					"Skulls of the Dead. A creature that dies by having all its blood drained by a jubokko becomes cursed, filling all parts of its corpse with necrotic energies. The skulls that lie in the ground next to the jubokko serve as ammunition for the jubokko, as it can throw at enemies that are out of reach to deal massive injuries. The skulls radiate necrotic energies and their eye sockets are filled with darkness.",
+					"Jubokko Skull Blight",
+					"When there are too many skulls beneath a jubokko for them to be half-hidden beneath the earth, the jubokko will release some of its vines. When they hit the ground, they will begin intertwining with the skull. A skull blight resembles a mass of slithering creepers with a skull for a face."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/Jubokko.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/Jubokko.png",
+			"traitTags": [
+				"Death Burst",
+				"False Appearance"
+			],
+			"senseTags": [
+				"B"
+			],
+			"languageTags": [
+				"DU",
+				"S"
+			],
+			"damageTags": [
+				"B",
+				"N",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"grappled",
+				"paralyzed"
+			]
+		},
+		{
+			"name": "Kaluk",
+			"source": "MonstersoftheOrient",
+			"page": 42,
+			"size": "H",
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"spirit"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 230,
+				"formula": "20d12 + 100"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 30
+			},
+			"str": 24,
+			"dex": 9,
+			"con": 21,
+			"int": 10,
+			"wis": 17,
+			"cha": 12,
+			"save": {
+				"strength": "+13",
+				"constitution": "+11",
+				"wisdom": "+9"
+			},
+			"skill": {
+				"arcana": "+6",
+				"history": "+6",
+				"intimidation": "+7"
+			},
+			"senses": [
+				"truesight 60 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 13,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical weapons",
+					"cond": true
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"restrained",
+				"stunned"
+			],
+			"languages": [
+				"Oriental",
+				"telepathy 30 ft."
+			],
+			"cr": "17",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The kaluk is a 11th-level spellcaster. Its spellcasting ability is Wisdom"
+					],
+					"ability": "wis"
+				}
+			],
+			"trait": [
+				{
+					"name": "Diving Smash",
+					"entries": [
+						"If the kaluk is flying and dives at least 20 feet straight toward the ground, it creates a shockwave upon impact. Each creature within 10 feet of the kaluk when it lands, must succeed a {@dc 21} Strength saving throw or take 11 ({@damage 2d10}) bludgeoning damage and be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Keen Hearing",
+					"entries": [
+						"The kaluk has advantage on Wisdom (perception) checks that rely on hearing."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the kaluk fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "(spell save {@dc 17}, +9 to hit with spell attacks)",
+					"entries": [
+						"It has the following cleric spells prepared, requiring no material or somatic components:",
+						"Cantrips: guidance, light, mending, sacred flame, thaumaturgy",
+						"1st level (4 slots): elemental burst, inflict wounds, sanctuary, shield of faith",
+						"2nd level (3 slots): blindness/deafness, hold person, silence",
+						"3rd level (3 slots): bestow curse, dispel magic",
+						"4th level (3 slots): banishment, freedom of movement",
+						"5th level (2 slots): contagion, geas",
+						"6th level (1 slot): forbiddance"
+					]
+				},
+				{
+					"name": "Trampling Charge",
+					"entries": [
+						"If the kaluk moves at least 20 feet straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a {@dc 21} Strength saving throw or be knocked {@condition prone}. If the target is {@condition prone}, the kaluk can make one stomp attack against it as a bonus action. The kaluk cannot make a Trampling",
+						"Charge on the same round it made a Diving Smash."
+					]
+				},
+				{
+					"name": "Treasure Sense",
+					"entries": [
+						"The kaluk can magically pinpoint the location of precious metals and stones, such as coins and gems, within 120 feet of it."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The kaluk makes three attacks: one gore attack and two stomp attacks."
+					]
+				},
+				{
+					"name": "Gore",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 10 ft., one target. {@h}25 ({@damage 4d8 + 7}) piercing damage."
+					]
+				},
+				{
+					"name": "Stomp",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 5 ft., one target. {@h}29 ({@dice 4d10} +",
+						"7) bludgeoning damage. If the target is a {@condition prone} creature, it must succeed a {@dc 21} Strength saving throw or have its speed reduced by half on its next turn."
+					]
+				},
+				{
+					"name": "Greed {@recharge 5}",
+					"entries": [
+						"The kaluk performs a short ritual, attempting to suck in valuables near it. Each creature within 30 feet of the kaluk, must succeed a {@dc 17} Dexterity saving throw, or have valuables magically lifted from their pockets. The valuables for each affected creature have a total value of {@dice 4d6 x 100} gp. The valuables are absorbed by the kaluk, never to be seen again. For every 1,000 gp worth of valuables the kaluk absorbs, it regains {@dice 1d10} hit points."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Gore Attack",
+					"entries": [
+						"The kaluk makes one gore attack."
+					]
+				},
+				{
+					"name": "Wing Attack (Costs 2 Actions)",
+					"entries": [
+						"The kaluk beats its wings. Each creature within 10 feet of the kaluk must succeed on a {@dc 21} Dexterity saving throw or take 14 ({@damage 2d6 + 7}) bludgeoning damage and be knocked {@condition prone}. The kaluk can then fly up to half its flying speed."
+					]
+				},
+				{
+					"name": "Cast a Spell (Costs 3 Actions)",
+					"entries": [
+						"The kaluk casts a spell from its list of prepared spells, using a spell slot as normal."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"The kaluk resembles an elephant that walks on it hind legs. Its frame is thinner than an elephant’s, and it has a huge, protruding belly. A sparse layer of short silver hair covers its thick black hide, which has the texture of leather and smells like rotting meat. The beast has the legs and feet of an elephant, but its arms are those of a massive human. Its fingers are blunt stubs that cannot effectively manipulate tools or weapons. It has ears like a hare, a trunklike snout, two large, leathery wings, and two huge, bulging violet eyes with black pupils. Two crimson tusks extend from its mouth, curving outward to a length of 5 feet. It leaves sparkles of gold in its tracks for a short time after eating.",
+					"Extreme Cupidity. The kaluk is a manifestation of human avarice and a scourge of the greedy, motivated by an insatiable lust for wealth. It continuously seeks out humanoid victims to rob. When a kaluk encounters a victim, it demands that he give up all of his gems, coins, and other treasure. The kaluk has no interest in weapons, unless they are made of precious metals or are encrusted with jewels. The beast has no interested in magical items, either, except enchanted jewelry or gems. Victims who offer even token resistance are attacked without mercy.",
+					"A kaluk eats the valuables it finds or is given, gaining sustenance from it. It has no interest in regular food."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/Kaluk.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/Kaluk.png",
+			"traitTags": [
+				"Keen Senses",
+				"Legendary Resistances"
+			],
+			"senseTags": [
+				"SD",
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"TP"
+			],
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"prone"
+			]
+		},
+		{
+			"name": "Kappa",
+			"source": "MonstersoftheOrient",
+			"page": 43,
+			"size": "S",
+			"type": "humanoid",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 56,
+				"formula": "16d6"
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 50
+			},
+			"str": 18,
+			"dex": 17,
+			"con": 10,
+			"int": 7,
+			"wis": 14,
+			"cha": 11,
+			"save": {
+				"dex": "+5"
+			},
+			"skill": {
+				"athletics": "+6",
+				"acrobatics": "+5"
+			},
+			"passive": 12,
+			"resist": [
+				"cold"
+			],
+			"conditionImmune": [
+				"blinded"
+			],
+			"languages": [
+				"Aquan",
+				"Oriental (common)"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Aquan Regeneration",
+					"entries": [
+						"The kappa can use a bonus action on its turn to regain 9 ({@dice 2d8}) hit points. Doing so consumes 1 pint of water from the kappa's head bowl."
+					]
+				},
+				{
+					"name": "Head Bowl",
+					"entries": [
+						"The indentation on the top of the kappa's head is filled with water from the lake, pond, or stream where it lives. The kappa's martial skill ensures the water doesn't spill. As long as there is still water in the bowl, the kappa doesn't dry out and can breathe outside of water. A full bowl holds 8 pints of water, with each pint providing enough water for a full day's nourishment. The kappa automatically fills its bowl when it is submerged in water."
+					]
+				},
+				{
+					"name": "Underwater Camouflage",
+					"entries": [
+						"The kappa has advantage on Dexterity (stealth) checks made while underwater."
+					]
+				},
+				{
+					"name": "Water Breathing",
+					"entries": [
+						"The kappa can breathe only underwater."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The kappa makes two attacks."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage. If the target is a Medium or smaller creature it is {@condition grappled} (escape {@dc 14}).",
+						"Until this grapple ends, the target is {@condition restrained}, and the kappa can't bite another target."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage."
+					]
+				},
+				{
+					"name": "Circle Kick",
+					"entries": [
+						"Each Medium or smaller creature within 5 ft. of the kappa must succeed a",
+						"{@dc 13} Dexterity saving throw or take 7 ({@damage 1d8 + 3}) bludgeoning damage and land {@condition prone}."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Crushing Parry",
+					"entries": [
+						"The kappa adds 4 to its AC against one melee attack that would hit it.",
+						"If the attack is made with a nonmagical weapon and doesn't hit, the weapon takes a permanent cumulative -1 penalty to damage rolls . If its penalty drops to -5, the weapon is destroyed."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"These turtle-like humanoids have a hard shell covering their backs and thick green or yellow scales protecting the rest of their bodies. Near the base of their abdomen, they have pouched pot bellies protruding, their hands and feet are clawed and wide, with webbing between each digit. They have very flat heads, with a bowl-like indentation at the top. Within the bowl is water from their home lake, river, or pond, which doesn’t spill even when the kappa is engaged in combat. Their mouths are filled with multiple rows of hooked teeth, and their bright yellow eyes seemingly never close, as they are covered by a transparent lid, enabling them to see well underwater.",
+					"Martial Arts. Kappa are also trained from childhood in a style of martial arts unique to them, allowing them to hit multiple opponents with a single kick as well as disarm attackers. This style is referred to as “kappa fu”, though the kappa themselves refer to it as “screaming human”.",
+					"Big Tempers, Small Drowners. The kappa are feared and highly unpredictable. They are uncomfortable around humanoids larger than themselves as it easily makes them feel threatened. They are known for dragging humanoids into water and drowning them.",
+					"Polite and Vain. Kappa are obsessed with politeness and also very vain creatures. By appealing to their vanity, they might even be persuaded to trust outsiders. When meeting a kappa, they might even be tricked into spilling the water in their head bowl by simply bowing politely before them, as it is impolite to not return the bow. To make a bow seem convincingly polite, make a Charisma (deception) check or Charisma (performance) check contested by the kappa’s Wisdom (insight) check."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/Kappa.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/Kappa.png",
+			"traitTags": [
+				"Water Breathing"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"AQ"
+			],
+			"damageTags": [
+				"B",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"grappled",
+				"restrained"
+			]
+		},
+		{
+			"name": "Red Kitsune",
+			"source": "MonstersoftheOrient",
+			"page": 44,
+			"size": "M",
+			"type": {
+				"type": "fey",
+				"tags": [
+					"shapechanger"
+				]
+			},
+			"alignment": [
+				{
+					"alignment": [
+						"C",
+						"G"
+					]
+				},
+				{
+					"alignment": [
+						"C",
+						"E"
+					]
+				}
+			],
+			"ac": [
+				14,
+				{
+					"ac": 17,
+					"condition": "with 3 tails",
+					"braces": true
+				}
+			],
+			"hp": {
+				"average": 26,
+				"formula": "4d8 + 8"
+			},
+			"speed": {
+				"walk": 40,
+				"swim": 30
+			},
+			"str": 10,
+			"dex": 19,
+			"con": 14,
+			"int": 12,
+			"wis": 16,
+			"cha": 17,
+			"skill": {
+				"acrobatics": "+6",
+				"deception": "+5",
+				"insight": "+7",
+				"perception": "+5",
+				"stealth": "+6"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 15,
+			"resist": [
+				"fire"
+			],
+			"conditionImmune": [
+				"charmed",
+				"poisoned"
+			],
+			"languages": [
+				"Oriental"
+			],
+			"cr": "2",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The kitsune is a 4th level spellcaster. Its spellcasting ability is Charisma"
+					],
+					"ability": "cha"
+				}
+			],
+			"trait": [
+				{
+					"name": "Avoidance",
+					"entries": [
+						"If the kitsune is subjected to an effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+					]
+				},
+				{
+					"name": "Magic Resistance (Requires 9 Tails)",
+					"entries": [
+						"The kitsune has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Multiple Tails",
+					"entries": [
+						"The kitsune grows more tails as it ages, up to a maximum of nine tails.",
+						"Each tail beyond one gives the kitsune additional abilities: 2 tails: The kitsune gains truesight with a range of 60 feet. 3 tails: The kitsune adds its Charisma modifier to its AC, increasing its AC to 17. Its",
+						"CR increases to 3 (700 XP). 4 tails: The kitsune's movement speed increases to 50 feet and it can take the Dash action as a bonus action. 5 tails: The kitsune becomes a 5th level spellcaster and can cast 3rd level spells. 6 tails: The kitsune's maximum hit points increases to 52 ({@dice 8d8 + 16}). Its CR increases to 4 (1,100 XP). 7 tails: The kitsune gains a flying speed of 30 feet. 8 tails: The kitsune gains immunity to the {@condition frightened}, {@condition paralyzed}, and {@condition stunned} conditions. 9 tails: The kitsune gains the Magic Resistance trait and its maximum hit points increases to 78 ({@dice 12d8 + 24}). Its proficiency bonus increases by 1, to a total of +3.",
+						"Its CR increases to 5 (1,800 XP)."
+					]
+				},
+				{
+					"name": "Reactive Tails (Kitsune or Beast Form Only)",
+					"entries": [
+						"The kitsune has up to nine tails. For each tail the kitsune has beyond one, it gets an extra reaction that can be used only to make opportunity attacks with its tail."
+					]
+				},
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"The kitsune can use its action to polymorph into a Small or Medium humanoid it can imagine, into a Small, Medium, or Large beast with a CR of 3 or lower, or back into its true form. Its size changes depending on the creature it shapechanges"
+					]
+				},
+				{
+					"name": "into",
+					"entries": [
+						"If it changes into a beast, its Strength, Dexterity, and Constitution scores also change and it gains the beast's actions. Its other statistics are the same in each form. In any form other than humanoid form, the kitsune always has its tails. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+					]
+				},
+				{
+					"name": "(spell save {@dc 13}, +5 to hit with spell attacks)",
+					"entries": [
+						"It has the following sorcerer spells prepared, requiring no material or somatic components:",
+						"Cantrips: dancing lights, fire bolt, light, minor illusion, prestidigitation",
+						"1st level (4 slots): color spray, silent image",
+						"2nd level (3 slots): blur, mirror image",
+						"3rd level (2 slots, Requires 5 Tails): fireball, hypnotic pattern"
+					]
+				},
+				{
+					"name": "Keen Smell",
+					"entries": [
+						"The kitsune has advantage on Wisdom (perception) checks that rely on smell."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The kitsune makes one bite attack and one attack with each of its tails."
+					]
+				},
+				{
+					"name": "Bite (Kitsune or Beast Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one creature. {@h}9 ({@damage 1d10 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Tail (Kitsune or Beast Form Only)",
+					"entries": [
+						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 30/60 ft., one creature. {@h}3 ({@damage 1d6}) fire damage."
+					]
+				},
+				{
+					"name": "Teleport (1/Day For Each Tail)",
+					"entries": [
+						"The kitsune magically teleports, along with any equipment it is wearing or carrying, up to 30 feet to an unoccupied space it can see."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Kitsune are fey of mystical origin. They cannot die of old age, but instead grow an additional tail for every 100 years of life. Once it grows its ninth tail, it becomes what is known as a nine-tailed fox. All kitsune are master shapechangers, capable of changing into any humanoid shape or even the shape of an animal. They are magic in nature, capable of shooting magical blasts with their tails and even teleportation.",
+					"The Red Kitsune. The red kitsune has an elongated body and relatively short limbs. The tail or tails, which are longer than half the body length, is fluffy and reaches the ground when in a standing position. Their pupils are oval and vertically Oriented. They are very agile and swim well. When a red kitsune grows its ninth tail, its fur changes from red to a shining gold.",
+					"It is the largest of the kitsune. They measure up to 3 feet high at the shoulder and up to 4 feet in length with the tails adding another 3 feet to its length. While they are rare compared to other creatures, they can be found in almost any forest in the Orient.",
+					"Inari and Zenko Variants. Both red and white kitsunes can be benevolent, in which case they are referred to as Inari. Meeting an Inari is considered a sign of good fortune. They can, however, also be mischievous or even outright malicious, in which case they are referred to as Zenko."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/RedKitsune.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/RedKitsune.png",
+			"traitTags": [
+				"Keen Senses",
+				"Magic Resistance",
+				"Shapechanger"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Teleport"
+			],
+			"damageTags": [
+				"F",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			]
+		},
+		{
+			"name": "White Kitsune",
+			"source": "MonstersoftheOrient",
+			"page": 44,
+			"size": "M",
+			"type": {
+				"type": "fey",
+				"tags": [
+					"shapechanger"
+				]
+			},
+			"alignment": [
+				{
+					"alignment": [
+						"C",
+						"G"
+					]
+				},
+				{
+					"alignment": [
+						"C",
+						"E"
+					]
+				}
+			],
+			"ac": [
+				17
+			],
+			"hp": {
+				"average": 91,
+				"formula": "14d8 + 28"
+			},
+			"speed": {
+				"walk": 50,
+				"fly": 30
+			},
+			"str": 10,
+			"dex": 19,
+			"con": 14,
+			"int": 12,
+			"wis": 17,
+			"cha": 19,
+			"skill": {
+				"acrobatics": "+7",
+				"deception": "+6",
+				"insight": "+9",
+				"perception": "+6",
+				"stealth": "+7"
+			},
+			"senses": [
+				"darkvision 120 ft.",
+				"truesight 60 ft."
+			],
+			"passive": 15,
+			"resist": [
+				"lightning"
+			],
+			"immune": [
+				"cold"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"paralyzed",
+				"stunned"
+			],
+			"languages": [
+				"Oriental"
+			],
+			"cr": "6",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The kitsune is a 7th level spellcaster. Its spellcasting ability is Charisma"
+					],
+					"ability": "cha"
+				}
+			],
+			"trait": [
+				{
+					"name": "Avoidance",
+					"entries": [
+						"If the kitsune is subjected to an effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day, Requires 9 Tails)",
+					"entries": [
+						"If the kitsune fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The kitsune has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Multiple Tails",
+					"entries": [
+						"The kitsune grows more tails as it ages, up to a maximum of nine tails.",
+						"The kitsune gains additional abilities when it grows its 3rd, 6th, and 9th tail: 3 tails: The kitsune's maximum hit points increases to 104 ({@dice 16d8 + 32}) and the reach of its tails increases to 10 feet. Its CR increases to 7 (2,900 XP). 6 tails: The kitsune's maximum hit points increases to 117 ({@dice 18d8 + 36}) and the reach of its tails increases to 15 feet. Its CR increases to 8 (3,900 XP). 9 tails: The kitsune gains the Legendary Resistance trait and its proficiency bonus increases by 1, to a total of +4. It also gains an additional 4th level spell slot, for a total of 2, it learns the slow spell, and the reach of its tails increases to 20 feet. Its",
+						"CR increases to 9 (1,800 XP)."
+					]
+				},
+				{
+					"name": "Reactive Tails (Kitsune or Beast Form Only)",
+					"entries": [
+						"The kitsune has up to nine tails. For each tail the kitsune has beyond one, it gets an extra reaction that can be used only to make opportunity attacks with its tail."
+					]
+				},
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"The kitsune can use its action to polymorph into a Small or Medium humanoid it can imagine, into a Small, Medium, or Large beast with a CR of 3 or lower, or back into its true form. Its size changes depending on the creature it shapechanges"
+					]
+				},
+				{
+					"name": "into",
+					"entries": [
+						"If it changes into a beast, its Strength, Dexterity, and Constitution scores also change and it gains the beast's actions. Its other statistics are the same in each form. In any form other than humanoid form, the kitsune always has its tails. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+					]
+				},
+				{
+					"name": "Snow Camouflage",
+					"entries": [
+						"The kitsune has advantage on Dexterity (stealth) checks made to hide in snowy terrain."
+					]
+				},
+				{
+					"name": "(spell save {@dc 15}, +7 to hit with spell attacks)",
+					"entries": [
+						"It has the following sorcerer spells prepared, requiring no material or somatic components:",
+						"Cantrips: friends, minor illusion, prestidigitation, ray of frost, shocking grasp",
+						"1st level (4 slots): color spray, silent image",
+						"2nd level (3 slots): blur, mirror image",
+						"3rd level (3 slots): counterspell, sleet storm",
+						"4th level (1 slot): confusion, ice storm"
+					]
+				},
+				{
+					"name": "Keen Smell",
+					"entries": [
+						"The kitsune has advantage on Wisdom (perception) checks that rely on smell."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The kitsune makes one bite attack and one attack with each of its tails."
+					]
+				},
+				{
+					"name": "Bite (Kitsune or Beast Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one creature. {@h}8 ({@damage 1d8 + 4}) piercing damage plus 7 ({@damage 2d6}) lightning damage."
+					]
+				},
+				{
+					"name": "Tail (Kitsune or Beast Form Only)",
+					"entries": [
+						"{@atk mw,rw} {@hit 7} to hit, reach 5 ft. or range 60/120 ft., one creature. {@h}7 ({@damage 2d6}) cold damage or 7 ({@damage 2d6}) lightning damage (kitsune's choice)."
+					]
+				},
+				{
+					"name": "Teleport",
+					"entries": [
+						"The kitsune magically teleports, along with any equipment it is wearing or carrying, up to 30 feet to an unoccupied space it can see."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Kitsune are fey of mystical origin. They cannot die of old age, but instead grow an additional tail for every 100 years of life. Once it grows its ninth tail, it becomes what is known as a nine-tailed fox. All kitsune are master shapechangers, capable of changing into any humanoid shape or even the shape of an animal. They are magic in nature, capable of shooting magical blasts with their tails and even teleportation.",
+					"The White Kitsune. The white kitsune is slightly smaller than the red kitsune and has a rounded body to minimize the escape of body heat. It measures up to 2 feet high at the shoulder and up to 3 feet in length, with tails up to nearly 8 feet in length. When a white kitsune grows more tails, its tails become longer, reaching up to 20 feet when it grows its ninth tail.",
+					"It lives high in the mountains, though even while actively searching for them, it could take many lifetimes to find even one.",
+					"Inari and Zenko Variants. Both red and white kitsunes can be benevolent, in which case they are referred to as Inari. Meeting an Inari is considered a sign of good fortune. They can, however, also be mischievous or even outright malicious, in which case they are referred to as Zenko."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/WhiteKitsune.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/WhiteKitsune.png",
+			"traitTags": [
+				"Keen Senses",
+				"Legendary Resistances",
+				"Magic Resistance",
+				"Shapechanger"
+			],
+			"senseTags": [
+				"SD",
+				"U"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Teleport"
+			],
+			"damageTags": [
+				"C",
+				"L",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			]
+		},
+		{
+			"name": "Kumo Araneomorphae",
+			"source": "MonstersoftheOrient",
+			"page": 46,
+			"size": "L",
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"shapechanger"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				14
+			],
+			"hp": {
+				"average": 68,
+				"formula": "8d10 + 24"
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40
+			},
+			"str": 15,
+			"dex": 19,
+			"con": 17,
+			"int": 11,
+			"wis": 13,
+			"cha": 14,
+			"skill": {
+				"deception": "+6",
+				"insight": "+3",
+				"stealth": "+8"
+			},
+			"senses": [
+				"blindsight 60 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 11,
+			"resist": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"poisoned"
+			],
+			"languages": [
+				"Kumo plus any languages of creatures previously absorbed"
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Ambusher",
+					"entries": [
+						"The kumo has advantage on attack rolls against any creature it has surprised."
+					]
+				},
+				{
+					"name": "Light Sensitivity",
+					"entries": [
+						"While in bright light, the kumo has disadvantage on attack rolls and Wisdom (Perception) checks that rely on sight."
+					]
+				},
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"The kumo can use its action to polymorph into a Small or Medium humanoid it has absorbed or back into its true form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed . It reverts to its true form if it dies."
+					]
+				},
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"The kumo can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+					]
+				},
+				{
+					"name": "Web Sense",
+					"entries": [
+						"While in contact with a web, the kumo knows the exact location of any other creature in contact with the same web."
+					]
+				},
+				{
+					"name": "Web Walker",
+					"entries": [
+						"The kumo ignores movement restrictions caused by webbing."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The kumo attacks twice with its bite."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one creature. {@h}13 ({@damage 2d8 + 4}) piercing damage, and the target must make a {@dc 13} Constitution saving throw, taking 18 ({@damage 4d8}) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but {@condition poisoned} for 1 hour, even after regaining hit points, and is {@condition paralyzed} while {@condition poisoned} in this way."
+					]
+				},
+				{
+					"name": "Web {@recharge 4}",
+					"entries": [
+						"{@atk rw} {@hit 6} to hit, range 30/60 ft., one creature. {@h}The target is {@condition restrained} by webbing. As an action, the {@condition restrained} target can make a {@dc 14} Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 12; hp 10; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage)."
+					]
+				},
+				{
+					"name": "Read Thoughts",
+					"entries": [
+						"The kumo magically reads the surface thoughts of one creature within 60 feet of it. The effect can penetrate barriers, but 3 feet of wood or dirt, 2 feet of stone, 2 inches of metal, or a thin sheet of lead blocks it. While the target is in range, the kumo can continue reading its thoughts, as long as the kumo's concentration isn't broken (as if concentrating on a spell). While reading the target's mind, the kumo has advantage on Wisdom (insight) and Charisma (deception, intimidation, and persuasion) checks against the target."
+					]
+				},
+				{
+					"name": "Absorb (Recharges after a Short or Long Rest)",
+					"entries": [
+						"The kumo targets one creature it can see within 5 feet of it that has 0 hit points and is still alive. The target must succeed on a",
+						"{@dc 12} Constitution saving throw against this magic or die. If the target dies, the kumo absorbs all of the creature's memories and can take on the creature's appearance with its Shapechanger trait."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"The kumo are a race of massive spider-like monstrosities. They live in vast underground interconnected societies. They are very aristocratic and proud, though they possess an immense hatred for surface-dwellers.",
+					"Perfect Infiltrators. They are carnivores, and while they can (and do) hunt animal prey, there is no sweeter taste to them, than that of fresh surface-dweller meat. Kumo love to ambush travelers that find themselves wandering too far into the wrong cave, but they also hunt on the surface during night time. They are at their most dangerous, however, when they’ve absorbed an unconscious creature (which kills the creature), allowing them to recall the memories of their prey, as well as change their shape and appearance to become identical to the absorbed creature. This, in combination with their innate ability to read minds, allows them to infiltrate any surface-dweller settlement, stealing children during the night, or (some have theorized) slowly replace the populace of entire villages.",
+					"Types of Kumo. Kumo come in two variants. Araneomorphae are the smaller variety: they are hairless, quick, and can shoot webbing from afar. Mygalomorphae are the larger variety: they have long, coarse hair covering their legs and bodies, and their legs are large enough to tear the roof off a common house."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/Kumo.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/Kumo.png",
+			"traitTags": [
+				"Ambusher",
+				"Light Sensitivity",
+				"Shapechanger",
+				"Spider Climb",
+				"Web Sense",
+				"Web Walker"
+			],
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"I",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			],
+			"conditionInflict": [
+				"paralyzed",
+				"poisoned",
+				"restrained"
+			]
+		},
+		{
+			"name": "Kumo Mygalomorphae",
+			"source": "MonstersoftheOrient",
+			"page": 46,
+			"size": "H",
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"shapechanger"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 199,
+				"formula": "19d12 + 76"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"str": 22,
+			"dex": 14,
+			"con": 19,
+			"int": 11,
+			"wis": 13,
+			"cha": 13,
+			"skill": {
+				"athletics": "+9",
+				"intimidation": "+4",
+				"stealth": "+8"
+			},
+			"senses": [
+				"blindsight 60 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 11,
+			"resist": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"poisoned"
+			],
+			"languages": [
+				"Kumo plus any languages of creatures previously absorbed"
+			],
+			"cr": "7",
+			"trait": [
+				{
+					"name": "Ambusher",
+					"entries": [
+						"The kumo has advantage on attack rolls against any creature it has surprised."
+					]
+				},
+				{
+					"name": "Light Sensitivity",
+					"entries": [
+						"While in bright light, the kumo has disadvantage on attack rolls and Wisdom (Perception) checks that rely on sight."
+					]
+				},
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"The kumo can use its action to polymorph into a Small or Medium humanoid it has absorbed or back into its true form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed . It reverts to its true form if it dies."
+					]
+				},
+				{
+					"name": "Siege Monster (Spider Form Only)",
+					"entries": [
+						"The kumo deals double damage to objects and structures."
+					]
+				},
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"The kumo can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+					]
+				},
+				{
+					"name": "Web Walker",
+					"entries": [
+						"The kumo ignores movement restrictions caused by webbing."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The kumo makes two melee attacks."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one creature. {@h}15 ({@damage 2d8 + 6}) piercing damage, and the target must make a {@dc 15} Constitution saving throw, taking 27 ({@damage 6d8}) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but {@condition poisoned} for 1 hour, even after regaining hit points, and is {@condition paralyzed} while {@condition poisoned} in this way."
+					]
+				},
+				{
+					"name": "Slam (Spider Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 10ft., one target. {@h}15 ({@damage 2d8 + 6}) bludgeoning damage plus 2 ({@damage 1d4}) piercing damage. If the target is",
+						"Medium or smaller, it must succeed on a {@dc 17} Strength saving throw or be {@condition stunned} until the end of the kumo's next turn."
+					]
+				},
+				{
+					"name": "Read Thoughts",
+					"entries": [
+						"The kumo magically reads the surface thoughts of one creature within 60 feet of it. The effect can penetrate barriers, but 3 feet of wood or dirt, 2 feet of stone, 2 inches of metal, or a thin sheet of lead blocks it. While the target is in range, the kumo can continue reading its thoughts, as long as the kumo's concentration isn't broken (as if concentrating on a spell). While reading the target's mind, the kumo has advantage on Wisdom (insight) and Charisma (deception, intimidation, and persuasion) checks against the target."
+					]
+				},
+				{
+					"name": "Absorb (Recharges after a Short or Long Rest)",
+					"entries": [
+						"The kumo targets one creature it can see within 5 feet of it that has 0 hit points and is still alive. The target must succeed on a",
+						"{@dc 12} Constitution saving throw against this magic or die. If the target dies, the kumo absorbs all of the creature's memories and can take on the creature's appearance with its Shapechanger trait."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"The kumo are a race of massive spider-like monstrosities. They live in vast underground interconnected societies. They are very aristocratic and proud, though they possess an immense hatred for surface-dwellers.",
+					"Perfect Infiltrators. They are carnivores, and while they can (and do) hunt animal prey, there is no sweeter taste to them, than that of fresh surface-dweller meat. Kumo love to ambush travelers that find themselves wandering too far into the wrong cave, but they also hunt on the surface during night time. They are at their most dangerous, however, when they’ve absorbed an unconscious creature (which kills the creature), allowing them to recall the memories of their prey, as well as change their shape and appearance to become identical to the absorbed creature. This, in combination with their innate ability to read minds, allows them to infiltrate any surface-dweller settlement, stealing children during the night, or (some have theorized) slowly replace the populace of entire villages.",
+					"Types of Kumo. Kumo come in two variants. Araneomorphae are the smaller variety: they are hairless, quick, and can shoot webbing from afar. Mygalomorphae are the larger variety: they have long, coarse hair covering their legs and bodies, and their legs are large enough to tear the roof off a common house."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/Kumo.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/Kumo.png",
+			"traitTags": [
+				"Ambusher",
+				"Light Sensitivity",
+				"Shapechanger",
+				"Siege Monster",
+				"Spider Climb",
+				"Web Walker"
+			],
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B",
+				"I",
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"paralyzed",
+				"poisoned"
+			]
+		},
+		{
+			"name": "Atlach-Nacha",
+			"isNamedCreature": true,
+			"source": "MonstersoftheOrient",
+			"page": 0,
+			"size": "G",
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"shapechanger"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 407,
+				"formula": "22d20 + 176"
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40
+			},
+			"str": 30,
+			"dex": 11,
+			"con": 27,
+			"int": 15,
+			"wis": 16,
+			"cha": 19,
+			"save": {
+				"intelligence": "+9",
+				"wisdom": "+10",
+				"charisma": "+11"
+			},
+			"skill": {
+				"athletics": "+17",
+				"deception": "+11",
+				"insight": "+10",
+				"intimidation": "+11",
+				"stealth": "+7"
+			},
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 13,
+			"resist": [
+				"acid",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical weapons",
+					"cond": true
+				}
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"frightened",
+				"paralyzed",
+				"poisoned"
+			],
+			"languages": [
+				"all"
+			],
+			"cr": "21",
+			"trait": [
+				{
+					"name": "Discorporation",
+					"entries": [
+						"If Atlach-Nacha drops to 0 hit points or dies, its body is destroyed but its essence travels far below the earth, and it is unable to take physical form for a time."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If Atlach-Nacha fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Atlach-Nacha has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"Atlach-Nacha can use its action to polymorph into a Small or Medium humanoid it has absorbed or back into its true form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It cannot shapechange while it has a Small or larger creature swallowed. It reverts to its true form if it dies."
+					]
+				},
+				{
+					"name": "Siege Monster (Spider Form Only)",
+					"entries": [
+						"Atlach-Nacha deals double damage to objects and structures."
+					]
+				},
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"Atlach-Nacha can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+					]
+				},
+				{
+					"name": "Sunlight Hypersensitivity",
+					"entries": [
+						"Atlach-Nacha takes 20 radiant damage when it starts its turn in sunlight. While in bright light or sunlight, Atlach-Nacha has disadvantage on attack rolls and ability checks."
+					]
+				},
+				{
+					"name": "Web Sense",
+					"entries": [
+						"While in contact with a web, Atlach-Nacha knows the exact location of any other creature in contact with the same web."
+					]
+				},
+				{
+					"name": "Web Walker",
+					"entries": [
+						"Atlach-Nacha ignores movement restrictions caused by webbing."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Atlach-Nacha uses its Frightful Presence. It then makes two attacks, only one of which can be a slam attack."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 17} to hit, reach 10 ft., one creature. {@h}19 ({@damage 2d8 + 10}) piercing damage, and the target must make a {@dc 23} Constitution saving throw, taking 36 ({@damage 8d6}) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but {@condition poisoned} for 1 hour, even after regaining hit points, and is {@condition paralyzed} while {@condition poisoned} in this way."
+					]
+				},
+				{
+					"name": "Corrosive Bolt",
+					"entries": [
+						"Ranged Weapon Attack:+ {@hit 17} to hit, range 30/120 ft., one target. {@h}35 ({@damage 10d6}) acid damage. In addition, non magical armor worn by the target is partly dissolved and takes a permanent and cumulative -2 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10."
+					]
+				},
+				{
+					"name": "Slam (Spider Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 17} to hit, reach 15 ft., one target. {@h}28 ({@damage 4d8 + 10}) bludgeoning damage. If the target is Large or smaller, it must succeed on a {@dc 25} Strength saving throw or be {@condition stunned} until the end of it's next turn."
+					]
+				},
+				{
+					"name": "Read Thoughts",
+					"entries": [
+						"Atlach-Nacha magically reads the surface thoughts of one creature within 120 feet of it. The effect can penetrate all barriers. While the target is in range, Atlach-Nacha can continue reading its thoughts, as long as Atlach-Nacha's concentration isn't broken (as if concentrating on a spell). While reading the target's mind, Atlach- Nacha has advantage on Wisdom (insight) and Charisma (deception, intimidation, and persuasion) checks against the target."
+					]
+				},
+				{
+					"name": "Absorb {@recharge 4}",
+					"entries": [
+						"Atlach-Nacha targets one creature it can see within 5 feet of it that is {@condition paralyzed} or {@condition unconscious}. The target must succeed on a {@dc 19} Constitution saving throw against this magic or die. If the target dies, Atlach-Nacha absorbs all of the creature's memories and can take on the creature's appearance with her Shapechanger trait. Atlach-Nacha can target other kumo in this manner even if they aren't {@condition paralyzed} or {@condition unconscious}. A kumo targeted in this manner automatically fails its saving throw."
+					]
+				},
+				{
+					"name": "Frightful Presence",
+					"entries": [
+						"Each creature of Atlach-Nacha's choice within 120 feet of it and aware of it must succeed on a {@dc 19} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, with disadvantage if Atlach-Nacha is within line of sight, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to Atlach-Nacha's Frightful Presence for the next 24 hours."
+					]
+				},
+				{
+					"name": "Swallow (Spider Form Only)",
+					"entries": [
+						"Atlach-Nacha makes one bite attack against a Large or smaller creature. If the attack hits, the target is swallowed. While swallowed, the creature is {@condition blinded} and {@condition restrained}, it has total cover against attacks and other effects outside",
+						"Atlach-Nacha, and it takes 35 ({@damage 10d6}) acid damage at the start of each of Atlach-Nacha's turns. If Atlach-Nacha takes 40 damage or more on a single turn from a creature inside it, Atlach-Nacha must succeed on a {@dc 22} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition prone} in a space within 10 feet"
+					]
+				},
+				{
+					"name": "of Atlach-Nacha",
+					"entries": [
+						"If a creature dies while inside Atlach-Nacha, Atlach-Nacha can use its reaction to use its Absorb ability on it, even though Atlach-Nacha cannot see the target and whether or not it has the ability charged."
+					]
+				}
+			],
+			"legendaryActions": 2,
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"Atlach-Nacha makes one bite attack or launches a corrosive bolt."
+					]
+				},
+				{
+					"name": "Move",
+					"entries": [
+						"Atlach-Nacha moves up to half its speed."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"The kumo are a race of massive spider-like monstrosities. They live in vast underground interconnected societies. They are very aristocratic and proud, though they possess an immense hatred for surface-dwellers.",
+					"Perfect Infiltrators. They are carnivores, and while they can (and do) hunt animal prey, there is no sweeter taste to them, than that of fresh surface-dweller meat. Kumo love to ambush travelers that find themselves wandering too far into the wrong cave, but they also hunt on the surface during night time. They are at their most dangerous, however, when they’ve absorbed an unconscious creature (which kills the creature), allowing them to recall the memories of their prey, as well as change their shape and appearance to become identical to the absorbed creature. This, in combination with their innate ability to read minds, allows them to infiltrate any surface-dweller settlement, stealing children during the night, or (some have theorized) slowly replace the populace of entire villages.",
+					"Atlach-Nacha",
+					"The most feared of all kumo, however, is the first of their kind: Atlach-Nacha. An enormous spider-god, also known as the Great Spider and the Ruler of the Deep, said to be eternally bound to the Orient and incapable of ever truly dying. Some say the Great Spider once struck a deal with otherworldly powers, binding its life force eternally to the Orient in exchange for its sinister service, though there exists no proof of such a deal ever having taken place.",
+					"Immortal Nature. Atlach-Nacha doesn’t require air, food, drink, or sleep."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/AtlachNacha.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/AtlachNacha.png",
+			"traitTags": [
+				"Legendary Resistances",
+				"Magic Resistance",
+				"Shapechanger",
+				"Siege Monster",
+				"Spider Climb",
+				"Sunlight Sensitivity",
+				"Web Sense",
+				"Web Walker"
+			],
+			"senseTags": [
+				"U"
+			],
+			"actionTags": [
+				"Frightful Presence",
+				"Multiattack",
+				"Swallow"
+			],
+			"languageTags": [
+				"XX"
+			],
+			"damageTags": [
+				"A",
+				"B",
+				"I",
+				"P",
+				"R"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"blinded",
+				"frightened",
+				"paralyzed",
+				"poisoned",
+				"restrained",
+				"stunned"
+			]
+		},
+		{
+			"name": "Lost One",
+			"source": "MonstersoftheOrient",
+			"page": 48,
+			"size": "M",
+			"type": "undead",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				17
+			],
+			"hp": {
+				"average": 127,
+				"formula": "17d8 + 51"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 16,
+			"con": 17,
+			"int": 10,
+			"wis": 16,
+			"cha": 18,
+			"save": {
+				"dexterity": "+7",
+				"charisma": "+8"
+			},
+			"skill": {
+				"athletics": "+8",
+				"intimidation": "+8",
+				"perception": "+7"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 17,
+			"resist": [
+				"necrotic",
+				"psychic"
+			],
+			"conditionImmune": [
+				"blinded",
+				"frightened"
+			],
+			"languages": [
+				"-"
+			],
+			"cr": "9",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The lost one's innate spellcasting ability is Charisma (spell save",
+						"{@dc 16}). The lost one can innately cast the following spells, requiring no material, or verbal components:"
+					],
+					"will": [
+						"{@spell phantasmal killer}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell harm}"
+						]
+					},
+					"ability": "cha"
+				}
+			],
+			"trait": [
+				{
+					"name": "Crimson Cuts",
+					"entries": [
+						"The lost one regains hit points equal to half the damage done, whenever the lost one deals slashing damage with its katana."
+					]
+				},
+				{
+					"name": "Despair",
+					"entries": [
+						"The lost one deals an additional 7 ({@damage 2d6}) psychic damage when it successfully attacks a creature that is {@condition frightened}."
+					]
+				},
+				{
+					"name": "Grace",
+					"entries": [
+						"The lost one cannot suffer from disadvantage when attacking with its katana."
+					]
+				},
+				{
+					"name": "Unarmored Defense",
+					"entries": [
+						"While the lost one is wearing no armor and wielding no shield, its",
+						"AC includes its Charisma modifier."
+					]
+				},
+				{
+					"name": "Weapon Bond",
+					"entries": [
+						"The lost one can summon its katana into its hand using a bonus action.",
+						"The lost one can't be disarmed of its katana unless {@condition incapacitated}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The lost one casts phantasmal killer and then attacks twice with its katana."
+					]
+				},
+				{
+					"name": "Katana",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage or 9 ({@dice 1d10 + 4}) if held with two hands."
+					]
+				},
+				{
+					"name": "Eyes of Dread",
+					"entries": [
+						"The lost one targets a creature within 60 feet of it that it can see. The target must succeed a {@dc 16} Wisdom saving throw, or be affected by one of the following effects (lost one's choice):"
+					]
+				},
+				{
+					"name": "Asleep",
+					"entries": [
+						"The target falls {@condition unconscious}. It wakes up if it takes any damage or if another creature uses its action to shake the sleeper awake."
+					]
+				},
+				{
+					"name": "Panicked",
+					"entries": [
+						"The target is {@condition frightened} of the lost one. On each of its turns, the {@condition frightened} creature must take the Dash action and move away from the lost one by the safest and shortest available route, unless there is nowhere to move. If the target moves to a place at least 60 feet away from the lost one where it can no longer see the lost one, this effect ends."
+					]
+				},
+				{
+					"name": "Sickened",
+					"entries": [
+						"The target has disadvantage on attack rolls and ability checks. At the end of each of its turns, it can make another Wisdom saving throw. If it succeeds, the effect ends."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"The lost ones are kensai that died in the Shadowlands, twisted and corrupted into horrific creatures of despair and death. Their tortured souls have lost any ability to communicate or regard any living creature as anything other than prey. They are not undead, but not alive either; they are something in between.",
+					"Ravagers. Sometimes a kensai dying in the Shadowlands doesn’t become a lost one - when it retains some measure of its former self and the ability to make calculated decisions - instead, it becomes a ravager. Ravagers can be of any alignment, and they retain any languages they knew in life.",
+					"Undead Nature. A lost one doesn’t require air, food, drink, or sleep."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/LostOne.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/LostOne.png",
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"S",
+				"Y"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"frightened"
+			],
+			"conditionInflictSpell": [
+				"frightened"
+			]
+		}
 	],

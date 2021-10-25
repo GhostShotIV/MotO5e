@@ -2858,6 +2858,22 @@
 					]
 				}
 			],
+			"fluff": {
+				"entries": [
+					"These hideous hags live in bogs, swamps, and waterways. They originate within the Shadowlands, but are most often found within the Empire where they prey upon the humanoids that populate the nearby lands.",
+					"Disguises of Pure Evil. Bog hags resemble old crones with sharp claws, green skin, and glowing, red eyes. They stand about 6 feet tall and weigh around 110 pounds on average. Bog hags thrive by stealing the skin of their victims, wearing the skin like a suit, altering their shape to match, and even masquerading as the victim for short stretches of time."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/BogHag.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/BogHag.png",
 			"traitTags": [
 				"Amphibious",
 				"Regeneration"

@@ -580,8 +580,18 @@
 			"fluff": {
 				"entries": [
 					"The baxia resembles a dragon-snake hybrid, representing safe passage on rivers and lakes, and is often adorned on bridges. They are shy but observant, living in rivers, ponds, and lakes that they rarely leave."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/Baxia.png"
+						}
+					}
 				]
 			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/Baxia.png",
 			"traitTags": [
 				"Amphibious"
 			],
@@ -698,8 +708,18 @@
 			"fluff": {
 				"entries": [
 					"The bi’an resembles a dragon-tiger hybrid, representing fairness and litigation, and is often adorned on court houses and prison gates, symbolically keeping guard. A bi’an eats small wild life and lives on open plains. Running from a bi’an can make it instinctively give chase."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/Bixi.png"
+						}
+					}
 				]
 			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/Bixi.png",
 			"senseTags": [
 				"D",
 				"U"
@@ -814,8 +834,18 @@
 			"fluff": {
 				"entries": [
 					"The pulao is a dragon-dog hybrid that represents alertness, and is often adorned on bells and chimes. It lives in the forests, hunting rabbits and other critters. They are exceptionally friendly and once a pulao’s trust has been gained, it is loyal like no other creature."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/Pulao.png"
+						}
+					}
 				]
 			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/Pulao.png",
 			"traitTags": [
 				"Keen Senses"
 			],
@@ -938,8 +968,18 @@
 			"fluff": {
 				"entries": [
 					"The qiuniu resembles a dragon-cow hybrid, representing music and joy, and is often adorned on musical instruments and the garments of entertainers. They live on open plains eating grass and other plants. They are very inquisitive and love to sing."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/Qiuniu.png"
+						}
+					}
 				]
 			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/Qiuniu.png",
 			"senseTags": [
 				"D",
 				"U"
@@ -1070,8 +1110,18 @@
 			"fluff": {
 				"entries": [
 					"The suanni resembles a dragon-lion hybrid that represents contemplation and reflection; it is often found adorned on temples and shrines. Suanni tend to live near holy sites. If left to their own devices they hunt small critters, but they are mostly fed by the caretakers of a nearby temple or similar establishment. They love to discuss philosophy with any and all good-natured people."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/Suanni.png"
+						}
+					}
 				]
 			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/Suanni.png",
 			"senseTags": [
 				"D",
 				"U"
@@ -1196,8 +1246,18 @@
 			"fluff": {
 				"entries": [
 					"Finally, the yazi resembles a dragon-wolf hybrid that represents honor and war, and is often found adorned on armor and weapons. Though they are good by nature, they are also quick to anger. They love honorable duels, however, and skilled warriors that defeat a yazi in single combat will forever earn its respect. They sometimes live near dojos and samurai training ground, though they mostly live in the wilds where prey is plentiful."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/Yazi.png"
+						}
+					}
 				]
 			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/Yazi.png",
 			"traitTags": [
 				"Hold Breath",
 				"Rampage"

@@ -11683,5 +11683,2023 @@
 			"conditionInflictSpell": [
 				"frightened"
 			]
+		},
+		{
+			"name": "Carp Dragon",
+			"source": "MonstersoftheOrient",
+			"page": 50,
+			"size": "M",
+			"type": {
+				"type": "dragon",
+				"tags": [
+					"spirit"
+				]
+			},
+			"alignment": [
+				{
+					"alignment": [
+						"N"
+					]
+				},
+				{
+					"alignment": [
+						"NX",
+						"NY",
+						"N"
+					]
+				}
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 33,
+				"formula": "6d8 + 6"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 30,
+				"swim": 60
+			},
+			"str": 15,
+			"dex": 14,
+			"con": 13,
+			"int": 8,
+			"wis": 11,
+			"cha": 14,
+			"save": {
+				"dex": "+4",
+				"con": "+3",
+				"wis": "+2",
+				"cha": "+4"
+			},
+			"skill": {
+				"perception": "+4",
+				"stealth": "+4"
+			},
+			"senses": [
+				"truesight 10 ft.",
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"resist": [
+				"cold",
+				"lightning",
+				"thunder"
+			],
+			"languages": [
+				"Draconic",
+				"Kami"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The dragon can breathe air and water."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d10 + 2}) piercing damage plus 3 ({@damage 1d6}) lightning damage."
+					]
+				},
+				{
+					"name": "Lightning Breath {@recharge 5}",
+					"entries": [
+						"The dragon exhales lightning in a 30-foot line that is 5 feet wide. Each creature in that line must make a {@dc 11} Dexterity saving throw, taking 22 ({@damage 5d8}) lightning damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Carp dragons resemble large fish with legs and a dragon-like head. They are lung dragon wyrmlings, and much like tadpoles mature into frogs, carp dragons mature into true lung dragons by becoming either a border dragon, earth dragon, or sea dragon. Once the wyrmling reaches a sufficient age, this metamorphosis happens instantaneously, transforming the carp dragon in a flash of light as a thunderous boom is released violently.",
+					"When the wyrmling transforms, it transforms depending on its actions in life: If it has done predominantly good deeds it turns into a border dragon, if it has lived according to an unwavering code or done evil deeds it turns into an earth dragon, and if it has lived a truly neutral life, it becomes a river dragon.",
+					"Carp dragons are often reclusive and shy, by far the most docile of the lung dragons"
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/CarpDragon.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/CarpDragon.png",
+			"traitTags": [
+				"Amphibious"
+			],
+			"senseTags": [
+				"D",
+				"U"
+			],
+			"actionTags": [
+				"Breath Weapon"
+			],
+			"languageTags": [
+				"DR"
+			],
+			"damageTags": [
+				"L",
+				"P"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			]
+		},
+		{
+			"name": "Border Dragon",
+			"source": "MonstersoftheOrient",
+			"page": 50,
+			"size": "L",
+			"type": {
+				"type": "dragon",
+				"tags": [
+					"spirit"
+				]
+			},
+			"alignment": [
+				"N",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 110,
+				"formula": "13d10 + 39"
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 40,
+				"swim": 40
+			},
+			"str": 19,
+			"dex": 10,
+			"con": 17,
+			"int": 12,
+			"wis": 11,
+			"cha": 15,
+			"save": {
+				"dex": "+5",
+				"con": "+8",
+				"wis": "+5",
+				"cha": "+7"
+			},
+			"skill": {
+				"perception": "+10",
+				"persuasion": "+7",
+				"stealth": "+5"
+			},
+			"senses": [
+				"truesight 30 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 16,
+			"resist": [
+				"force",
+				"radiant"
+			],
+			"languages": [
+				"Draconic",
+				"Kami",
+				"Oriental"
+			],
+			"cr": "6",
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The dragon can breathe air and water."
+					]
+				},
+				{
+					"name": "Ethereal Sight",
+					"entries": [
+						"The dragon can see 60 feet into the Ethereal Plane when it is on the",
+						"Material Plane, and vice versa."
+					]
+				},
+				{
+					"name": "Incorporeal Movement",
+					"entries": [
+						"The dragon can move through other creatures and objects as if they were difficult terrain. It takes 5 ({@damage 1d10}) force damage if it ends its turn in side an object."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The dragon makes three attacks: one with its bite and two with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d10 + 4}) piercing damage plus 4 ({@damage 1d8}) radiant damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Sleep Breath {@recharge 5}",
+					"entries": [
+						"The dragon exhales a magical breath in a 30-foot cone.",
+						"Each creature in that area must succeed on a {@dc 14} Constitution saving throw or fall {@condition unconscious} for 5 minutes. This effect ends for a creature if the creature takes damage or someone uses an action to wake it."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Border, spirit and celestial dragons believe that living a moral life involves doing good deeds and ensuring that one’s actions cause no undeserved harm to other sentient beings.",
+					"Heavenly Pacifists. They are pacifist creatures, thought they fight in self defense or defense of the helpless. Once a border dragon comes of age, and becomes a spirit dragon, it can enter the Ethereal Plane at will and begins to form a bond with the Heavens; a bond that is unbreakable if it ever becomes a celestial dragon.",
+					"Primordial Beauty. Their bodies are long and serpentine, often coiling in on itself as the dragon moves or fights. Its scales are dull gold, red, yellow, or white as a border dragon, but brighten to a brilliant, shining gold, orange, or yellow by the time it becomes a celestial dragon. A multihued mane surrounds its neck, and similarly colorful whiskers branch from its snout and rise over the top of its head like antlers. A wispy golden beard dangles below its chin. They exude an aroma reminiscent of cherry blossoms."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/BorderDragon.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/BorderDragon.png",
+			"traitTags": [
+				"Amphibious",
+				"Incorporeal Movement"
+			],
+			"senseTags": [
+				"SD",
+				"U"
+			],
+			"actionTags": [
+				"Breath Weapon",
+				"Multiattack"
+			],
+			"languageTags": [
+				"DR"
+			],
+			"damageTags": [
+				"O",
+				"P",
+				"R"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"conditionInflict": [
+				"unconscious"
+			]
+		},
+		{
+			"name": "Spirit Dragon",
+			"source": "MonstersoftheOrient",
+			"page": 50,
+			"size": "H",
+			"type": {
+				"type": "dragon",
+				"tags": [
+					"spirit"
+				]
+			},
+			"alignment": [
+				"N",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 172,
+				"formula": "15d12 + 75"
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 120,
+				"swim": 40
+			},
+			"str": 23,
+			"dex": 10,
+			"con": 21,
+			"int": 14,
+			"wis": 13,
+			"cha": 17,
+			"save": {
+				"dex": "+5",
+				"con": "+10",
+				"wis": "+6",
+				"cha": "+8"
+			},
+			"skill": {
+				"history": "+7",
+				"perception": "+11",
+				"persuasion": "+8",
+				"stealth": "+5"
+			},
+			"senses": [
+				"truesight 60 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 16,
+			"resist": [
+				"force"
+			],
+			"immune": [
+				"radiant"
+			],
+			"languages": [
+				"Draconic",
+				"Kami",
+				"Oriental"
+			],
+			"cr": "13",
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The dragon can breathe air and water."
+					]
+				},
+				{
+					"name": "Ethereal Sight",
+					"entries": [
+						"The dragon can see 60 feet into the Ethereal Plane when it is on the",
+						"Material Plane, and vice versa."
+					]
+				},
+				{
+					"name": "Incorporeal Movement",
+					"entries": [
+						"The dragon can move through other creatures and objects as if they were difficult terrain. It takes 5 ({@damage 1d10}) force damage if it ends its turn in side an object."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the dragon fails a saving throw, it can choose to succeed instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The dragon uses its Trembling Heavens. It then makes three attacks: one with its bite and two with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}17 ({@damage 2d10 + 6}) piercing damage plus 4 ({@damage 1d8}) radiant damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 6}) piercing damage."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 15 ft., one target. {@h}15 ({@damage 2d8 + 6}) piercing damage."
+					]
+				},
+				{
+					"name": "Etherealness",
+					"entries": [
+						"The dragon enters the Ethereal Plane from the Material Plane, or vice versa. It is visible on the Material Plane while it is in the Border Ethereal, and vice versa, yet it can't affect or be affected by anything on the other plane."
+					]
+				},
+				{
+					"name": "Spirit Breath {@recharge 4}",
+					"entries": [
+						"The dragon exhales a magical breath in a 60-foot line that is 15 feet wide. Each creature in that area must succeed on a {@dc 18} Constitution saving throw or fall {@condition unconscious} for 5 minutes. This effect ends for a creature if the creature takes damage or someone uses an action to wake it."
+					]
+				},
+				{
+					"name": "Trembling Heavens",
+					"entries": [
+						"Each creature of the dragon' choice that is within 60 feet of the dragon must make a {@dc 16} Constitution saving throw. On a failed save, the creature can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the creature can use either an action or a bonus action on its turn, but not both. These effects last for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself with a successful save. If the initial save fails by 5 or more, the target also permanently ages {@dice 1d4 x 10} years."
+					]
+				},
+				{
+					"name": "Change Shape",
+					"entries": [
+						"The dragon magically polymorphs into a humanoid or beast that has a challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the dragon's choice). In a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Detect",
+					"entries": [
+						"The dragon makes a Wisdom (perception) check."
+					]
+				},
+				{
+					"name": "Tail Attack",
+					"entries": [
+						"The dragon makes a tail attack."
+					]
+				},
+				{
+					"name": "Lung Jump (Costs 2 Actions)",
+					"entries": [
+						"The dragon's physical form momentarily shifts into pure energy as it bursts forward with immense speed, moving 60 feet in a straight line. Each creature in the dragon's path must succeed a {@dc 19} Dexterity saving throw or take 11 ({@damage 3d6}) force damage and be knocked {@condition prone}."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Border, spirit and celestial dragons believe that living a moral life involves doing good deeds and ensuring that one’s actions cause no undeserved harm to other sentient beings.",
+					"Heavenly Pacifists. They are pacifist creatures, thought they fight in self defense or defense of the helpless. Once a border dragon comes of age, and becomes a spirit dragon, it can enter the Ethereal Plane at will and begins to form a bond with the Heavens; a bond that is unbreakable if it ever becomes a celestial dragon.",
+					"Primordial Beauty. Their bodies are long and serpentine, often coiling in on itself as the dragon moves or fights. Its scales are dull gold, red, yellow, or white as a border dragon, but brighten to a brilliant, shining gold, orange, or yellow by the time it becomes a celestial dragon. A multihued mane surrounds its neck, and similarly colorful whiskers branch from its snout and rise over the top of its head like antlers. A wispy golden beard dangles below its chin. They exude an aroma reminiscent of cherry blossoms."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/SpiritDragon.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/SpiritDragon.png",
+			"traitTags": [
+				"Amphibious",
+				"Incorporeal Movement",
+				"Legendary Resistances"
+			],
+			"senseTags": [
+				"SD",
+				"U"
+			],
+			"actionTags": [
+				"Breath Weapon",
+				"Multiattack",
+				"Shapechanger"
+			],
+			"languageTags": [
+				"DR"
+			],
+			"damageTags": [
+				"O",
+				"P",
+				"R"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"prone",
+				"unconscious"
+			]
+		},
+		{
+			"name": "Celestial Dragon",
+			"source": "MonstersoftheOrient",
+			"page": 51,
+			"size": "G",
+			"type": {
+				"type": "dragon",
+				"tags": [
+					"spirit"
+				]
+			},
+			"alignment": [
+				"N",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 297,
+				"formula": "17d20 + 119"
+			},
+			"speed": {
+				"walk": 50,
+				"fly": 160,
+				"swim": 50
+			},
+			"str": 27,
+			"dex": 10,
+			"con": 25,
+			"int": 16,
+			"wis": 15,
+			"cha": 19,
+			"save": {
+				"dex": "+6",
+				"con": "+13",
+				"wis": "+8",
+				"cha": "+10"
+			},
+			"skill": {
+				"history": "+9",
+				"perception": "+14",
+				"persuasion": "+10",
+				"stealth": "+6"
+			},
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 26,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical weapons",
+					"cond": true
+				},
+				"force"
+			],
+			"immune": [
+				"radiant"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned"
+			],
+			"languages": [
+				"Draconic",
+				"Kami",
+				"Oriental"
+			],
+			"cr": "20",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The dragon's innate spellcasting ability is Charisma (spell save DC",
+						"18, {@hit 10} to hit with spell attacks). The dragon can innately cast the following spells, requiring no material or somatic components:",
+						"At will : lesser restoration, zone of truth, dispel magic"
+					],
+					"daily": {
+						"3e": [
+							"{@spell forbiddance}",
+							"{@spell hallow}",
+							"{@spell heal}"
+						],
+						"1e": [
+							"{@spell divine word}"
+						]
+					},
+					"ability": "cha"
+				}
+			],
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The dragon can breathe air and water."
+					]
+				},
+				{
+					"name": "Ethereal Sight",
+					"entries": [
+						"The dragon can see 60 feet into the Ethereal Plane when it is on the",
+						"Material Plane, and vice versa."
+					]
+				},
+				{
+					"name": "Immutable Form",
+					"entries": [
+						"The dragon is immune to any spell or effect that would alter its form."
+					]
+				},
+				{
+					"name": "Incorporeal Movement",
+					"entries": [
+						"The dragon can move through other creatures and objects as if they were difficult terrain. It takes 5 ({@damage 1d10}) force damage if it ends its turn in side an object."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the dragon fails a saving throw, it can choose to succeed instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The dragon uses its Trembling Heavens. It then makes three attacks: one with its bite and two with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 15} to hit, reach 15 ft., one target. {@h}19 ({@damage 2d10 + 8}) piercing damage plus 9 ({@damage 2d8}) radiant damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 15} to hit, reach 10 ft., one target. {@h}15 ({@damage 2d10 + 8}) radiant damage."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 15} to hit, reach 20 ft., one target. {@h}17 ({@damage 2d8 + 8}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Etherealness",
+					"entries": [
+						"The dragon enters the Ethereal Plane from the Material Plane, or vice versa. It is visible on the Material Plane while it is in the Border Ethereal, and vice versa, yet it can't affect or be affected by anything on the other plane."
+					]
+				},
+				{
+					"name": "Spirit Breath {@recharge 4}",
+					"entries": [
+						"The dragon exhales a magical breath in a 60-foot line that is 15 feet wide. Each creature in that area must succeed on a {@dc 21} Constitution saving throw or fall {@condition unconscious} for 5 minutes. This effect ends for a creature if the creature takes damage or someone uses an action to wake it."
+					]
+				},
+				{
+					"name": "Trembling Heavens",
+					"entries": [
+						"Each creature of the dragon' choice that is within 60 feet of the dragon must make a {@dc 18} Constitution saving throw. On a failed save, the creature can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the creature can use either an action or a bonus action on its turn, but not both. These effects last for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself with a successful save. If the initial save fails by 5 or more, the target also permanently ages {@dice 1d4 x 10} years."
+					]
+				},
+				{
+					"name": "Change Shape",
+					"entries": [
+						"The dragon magically polymorphs into a humanoid or beast that has a challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the dragon's choice). In a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Detect",
+					"entries": [
+						"The dragon makes a Wisdom (perception) check."
+					]
+				},
+				{
+					"name": "Tail Attack",
+					"entries": [
+						"The dragon makes a tail attack."
+					]
+				},
+				{
+					"name": "Lung Jump (Costs 2 Actions)",
+					"entries": [
+						"The dragon's physical form momentarily shifts into pure energy as it bursts forward with immense speed, moving 80 feet in a straight line. Each creature in the dragon's path must succeed a {@dc 23} Dexterity saving throw or take 15 ({@damage 4d6}) force damage and be knocked {@condition prone}."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Border, spirit and celestial dragons believe that living a moral life involves doing good deeds and ensuring that one’s actions cause no undeserved harm to other sentient beings.",
+					"Heavenly Pacifists. They are pacifist creatures, thought they fight in self defense or defense of the helpless. Once a border dragon comes of age, and becomes a spirit dragon, it can enter the Ethereal Plane at will and begins to form a bond with the Heavens; a bond that is unbreakable if it ever becomes a celestial dragon.",
+					"Primordial Beauty. Their bodies are long and serpentine, often coiling in on itself as the dragon moves or fights. Its scales are dull gold, red, yellow, or white as a border dragon, but brighten to a brilliant, shining gold, orange, or yellow by the time it becomes a celestial dragon. A multihued mane surrounds its neck, and similarly colorful whiskers branch from its snout and rise over the top of its head like antlers. A wispy golden beard dangles below its chin. They exude an aroma reminiscent of cherry blossoms."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/CelestialDragon.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/CelestialDragon.png",
+			"traitTags": [
+				"Amphibious",
+				"Immutable Form",
+				"Incorporeal Movement",
+				"Legendary Resistances"
+			],
+			"senseTags": [
+				"U"
+			],
+			"actionTags": [
+				"Breath Weapon",
+				"Multiattack",
+				"Shapechanger"
+			],
+			"languageTags": [
+				"DR"
+			],
+			"damageTags": [
+				"B",
+				"O",
+				"P",
+				"R"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"prone",
+				"unconscious"
+			],
+			"conditionInflictSpell": [
+				"blinded",
+				"deafened",
+				"stunned"
+			]
+		},
+		{
+			"name": "Earth Dragon",
+			"source": "MonstersoftheOrient",
+			"page": 52,
+			"size": "L",
+			"type": {
+				"type": "dragon",
+				"tags": [
+					"spirit"
+				]
+			},
+			"alignment": [
+				{
+					"alignment": [
+						"L",
+						"N"
+					]
+				},
+				{
+					"alignment": [
+						"N",
+						"E"
+					]
+				}
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 133,
+				"formula": "14d10 + 56"
+			},
+			"speed": {
+				"walk": 40,
+				"burrow": 20,
+				"fly": 60,
+				"swim": 40
+			},
+			"str": 18,
+			"dex": 10,
+			"con": 18,
+			"int": 9,
+			"wis": 12,
+			"cha": 12,
+			"save": {
+				"dex": "+3",
+				"con": "+7",
+				"wis": "+3",
+				"cha": "+4"
+			},
+			"skill": {
+				"perception": "+6",
+				"stealth": "+3"
+			},
+			"senses": [
+				"truesight 30 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 16,
+			"resist": [
+				"acid",
+				"poison"
+			],
+			"languages": [
+				"Draconic",
+				"Kami",
+				"Oriental"
+			],
+			"cr": "6",
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The dragon can breathe air and water."
+					]
+				},
+				{
+					"name": "Tunneler",
+					"entries": [
+						"The dragon can burrow through solid rock at half its burrow speed and leaves a 5-foot-diameter tunnel in its wake."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The dragon makes three attacks: one with its bite and two with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d10 + 4}) piercing damage plus 4 ({@damage 1d8}) acid damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Acid Breath {@recharge 5}",
+					"entries": [
+						"The dragon exhales lightning in a 30-foot line that is 5 feet wide. Each creature in that line must make a {@dc 15} Dexterity saving throw, taking 49 ({@damage 11d8}) acid damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Most of these dragons guard and protect crypts or temples. The guardianship of a specific location is passed down from generation to generation, assuming carp offspring become earth dragons. A single family can maintain the same lair for thousands of years.",
+					"The Pull of Evil. While they are known as guardian dragons, they are also prone to become evil. Why this is nobody can say, but the older they get, the greater the chance of turning evil. The younger generations must often band together to slay an older dragon that has turned evil. Sometimes a dragon successfully hides its evil intentions for hundreds of years; plotting, scheming, and finding allies from the shadows.",
+					"Magnificent Variety. They are all long, thin, serpentine dragons. As an earth dragon, its scales are gray, but while some quickly develop vibrant color, others become dark brown or black, changing hues as the dragon matures. Various shades of red, green, and orange are the most common colors among the vibrant ones, and a natural oily secretion makes the scales gleam in sunlight. Dark whiskers grow from its snout, and some have a multicolored mane. Deep dragons begin to grow antlers, which can become massive in size once it becomes a coiled dragon."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/EarthDragon.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/EarthDragon.png",
+			"traitTags": [
+				"Amphibious"
+			],
+			"senseTags": [
+				"SD",
+				"U"
+			],
+			"actionTags": [
+				"Breath Weapon",
+				"Multiattack"
+			],
+			"languageTags": [
+				"DR"
+			],
+			"damageTags": [
+				"A",
+				"P"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			]
+		},
+		{
+			"name": "Deep Dragon",
+			"source": "MonstersoftheOrient",
+			"page": 52,
+			"size": "H",
+			"type": {
+				"type": "dragon",
+				"tags": [
+					"spirit"
+				]
+			},
+			"alignment": [
+				{
+					"alignment": [
+						"L",
+						"N"
+					]
+				},
+				{
+					"alignment": [
+						"N",
+						"E"
+					]
+				}
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 200,
+				"formula": "16d12 + 96"
+			},
+			"speed": {
+				"walk": 40,
+				"burrow": 40,
+				"fly": 80,
+				"swim": 40
+			},
+			"str": 22,
+			"dex": 10,
+			"con": 22,
+			"int": 9,
+			"wis": 12,
+			"cha": 12,
+			"save": {
+				"dex": "+5",
+				"con": "+11",
+				"wis": "+6",
+				"cha": "+6"
+			},
+			"skill": {
+				"perception": "+11",
+				"stealth": "+5"
+			},
+			"senses": [
+				"truesight 60 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 21,
+			"immune": [
+				"acid",
+				"poison"
+			],
+			"languages": [
+				"Draconic",
+				"Kami",
+				"Oriental"
+			],
+			"cr": "13",
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The dragon can breathe air and water."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the dragon fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Tunneler",
+					"entries": [
+						"The dragon can burrow through solid rock at half its burrow speed and leaves a 5-foot-diameter tunnel in its wake."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The dragon uses its Petrifying Gaze. It then makes three attacks: one with its bite and two with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}17 ({@damage 2d10 + 6}) piercing damage plus 4 ({@damage 1d8}) acid damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 6}) slashing damage."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 15 ft., one target. {@h}15 ({@damage 2d8 + 6}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Deep Breath {@recharge 5}",
+					"entries": [
+						"The dragon sprays acid in a 60-foot line that is 10 feet wide. Each creature in that line must make a {@dc 18} Dexterity saving throw, taking 54 ({@damage 12d8}) acid damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Petrifying Gaze",
+					"entries": [
+						"Each creature of the dragon' choice that is within 60 feet of the dragon and can see it must make a {@dc 14} Constitution saving throw. On a failed save, the creature magically begins to turn to stone and is {@condition restrained}. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is {@condition petrified} until freed by the greater restoration spell or other magic. A creature that isn't surprised can avert its eyes to avoid the saving throw at the start of its turn. If it does so, it can't see the dragon until the start of its next turn, when it can avert its eyes again. If it looks at the dragon in the meantime, it must immediately make the save."
+					]
+				},
+				{
+					"name": "Change Shape",
+					"entries": [
+						"The dragon magically polymorphs into a humanoid or beast that has a challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the dragon's choice). In a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Detect",
+					"entries": [
+						"The dragon makes a Wisdom (perception) check."
+					]
+				},
+				{
+					"name": "Tail Attack",
+					"entries": [
+						"The dragon makes a tail attack."
+					]
+				},
+				{
+					"name": "Lung Jump (Costs 2 Actions)",
+					"entries": [
+						"The dragon's physical form momentarily shifts into pure energy as it bursts forward with immense speed, moving 40 feet in a straight line.",
+						"Each creature in the dragon's path must succeed a {@dc 19} Dexterity saving throw or take 11 ({@damage 3d6}) force damage and be knocked {@condition prone}. If the dragon ends its lung jump in an occupied space, it takes 11 ({@damage 2d10}) force damage and is pushed to the nearest unoccupied space."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Most of these dragons guard and protect crypts or temples. The guardianship of a specific location is passed down from generation to generation, assuming carp offspring become earth dragons. A single family can maintain the same lair for thousands of years.",
+					"The Pull of Evil. While they are known as guardian dragons, they are also prone to become evil. Why this is nobody can say, but the older they get, the greater the chance of turning evil. The younger generations must often band together to slay an older dragon that has turned evil. Sometimes a dragon successfully hides its evil intentions for hundreds of years; plotting, scheming, and finding allies from the shadows.",
+					"Magnificent Variety. They are all long, thin, serpentine dragons. As an earth dragon, its scales are gray, but while some quickly develop vibrant color, others become dark brown or black, changing hues as the dragon matures. Various shades of red, green, and orange are the most common colors among the vibrant ones, and a natural oily secretion makes the scales gleam in sunlight. Dark whiskers grow from its snout, and some have a multicolored mane. Deep dragons begin to grow antlers, which can become massive in size once it becomes a coiled dragon."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/DeepDragon.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/DeepDragon.png",
+			"traitTags": [
+				"Amphibious",
+				"Legendary Resistances"
+			],
+			"senseTags": [
+				"SD",
+				"U"
+			],
+			"actionTags": [
+				"Breath Weapon",
+				"Multiattack",
+				"Shapechanger"
+			],
+			"languageTags": [
+				"DR"
+			],
+			"damageTags": [
+				"A",
+				"B",
+				"O",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"petrified",
+				"prone",
+				"restrained"
+			]
+		},
+		{
+			"name": "Coiled Dragon",
+			"source": "MonstersoftheOrient",
+			"page": 53,
+			"size": "G",
+			"type": {
+				"type": "dragon",
+				"tags": [
+					"spirit"
+				]
+			},
+			"alignment": [
+				{
+					"alignment": [
+						"L",
+						"N"
+					]
+				},
+				{
+					"alignment": [
+						"N",
+						"E"
+					]
+				}
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 333,
+				"formula": "18d20 + 144"
+			},
+			"speed": {
+				"walk": 60,
+				"burrow": 60,
+				"fly": 80,
+				"swim": 40
+			},
+			"str": 26,
+			"dex": 10,
+			"con": 26,
+			"int": 10,
+			"wis": 13,
+			"cha": 14,
+			"save": {
+				"dex": "+9",
+				"con": "+14",
+				"wis": "+7",
+				"cha": "+8"
+			},
+			"skill": {
+				"perception": "+13",
+				"stealth": "+6"
+			},
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 26,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical weapons",
+					"cond": true
+				}
+			],
+			"immune": [
+				"acid",
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned"
+			],
+			"languages": [
+				"Draconic",
+				"Kami",
+				"Oriental"
+			],
+			"cr": "20",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The dragon's innate spellcasting ability is Charisma (spell save DC",
+						"16, {@hit 8} to hit with spell attacks). The dragon can innately cast the following spells, requiring no material or somatic components:"
+					],
+					"daily": {
+						"3e": [
+							"{@spell cloudkill}",
+							"{@spell contagion}",
+							"{@spell control earth}"
+						],
+						"1e": [
+							"{@spell earthquake}"
+						]
+					},
+					"ability": "cha"
+				}
+			],
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The dragon can breathe air and water."
+					]
+				},
+				{
+					"name": "Immutable Form",
+					"entries": [
+						"The dragon is immune to any spell or effect that would alter its form."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the dragon fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Tunneler",
+					"entries": [
+						"The dragon can burrow through solid rock at half its burrow speed and leaves a 5-foot-diameter tunnel in its wake."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The dragon uses its Petrifying Gaze. It then makes three attacks: one with its bite and two with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 15} to hit, reach 15 ft., one target. {@h}19 ({@damage 2d10 + 8}) piercing damage plus 9 ({@damage 2d8}) acid damage.."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 15} to hit, reach 10 ft., one target. {@h}15 ({@damage 2d10 + 8}) slashing damage."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 15} to hit, reach 20 ft., one target. {@h}17 ({@damage 2d8 + 8}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Deep Breath {@recharge 4}",
+					"entries": [
+						"The dragon sprays acid in a 120-foot line that is 10 feet wide. Each creature in that line must make a {@dc 18} Dexterity saving throw, taking 72 ({@damage 16d8}) acid damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Petrifying Gaze",
+					"entries": [
+						"Each creature of the dragon' choice that is within 60 feet of the dragon and can see it must make a {@dc 16} Constitution saving throw. On a failed save, the creature magically begins to turn to stone and is {@condition restrained}. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is {@condition petrified} until freed by the greater restoration spell or other magic. A creature that isn't surprised can avert its eyes to avoid the saving throw at the start of its turn. If it does so, it can't see the dragon until the start of its next turn, when it can avert its eyes again. If it looks at the dragon in the meantime, it must immediately make the save."
+					]
+				},
+				{
+					"name": "Change Shape",
+					"entries": [
+						"The dragon magically polymorphs into a humanoid or beast that has a challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the dragon's choice). In a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Detect",
+					"entries": [
+						"The dragon makes a Wisdom (perception) check."
+					]
+				},
+				{
+					"name": "Tail Attack",
+					"entries": [
+						"The dragon makes a tail attack."
+					]
+				},
+				{
+					"name": "Lung Jump (Costs 2 Actions)",
+					"entries": [
+						"The dragon's physical form momentarily shifts into pure energy as it bursts forward with immense speed, moving 40 feet in a straight line.",
+						"Each creature in the dragon's path must succeed a {@dc 23} Dexterity saving throw or take 14 ({@damage 4d6}) force damage and be knocked {@condition prone}. If the dragon ends its lung jump in an occupied space, it takes 11 ({@damage 2d10}) force damage and is pushed to the nearest unoccupied space."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Most of these dragons guard and protect crypts or temples. The guardianship of a specific location is passed down from generation to generation, assuming carp offspring become earth dragons. A single family can maintain the same lair for thousands of years.",
+					"The Pull of Evil. While they are known as guardian dragons, they are also prone to become evil. Why this is nobody can say, but the older they get, the greater the chance of turning evil. The younger generations must often band together to slay an older dragon that has turned evil. Sometimes a dragon successfully hides its evil intentions for hundreds of years; plotting, scheming, and finding allies from the shadows.",
+					"Magnificent Variety. They are all long, thin, serpentine dragons. As an earth dragon, its scales are gray, but while some quickly develop vibrant color, others become dark brown or black, changing hues as the dragon matures. Various shades of red, green, and orange are the most common colors among the vibrant ones, and a natural oily secretion makes the scales gleam in sunlight. Dark whiskers grow from its snout, and some have a multicolored mane. Deep dragons begin to grow antlers, which can become massive in size once it becomes a coiled dragon."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/CoiledDragon.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/CoiledDragon.png",
+			"traitTags": [
+				"Amphibious",
+				"Immutable Form",
+				"Legendary Resistances"
+			],
+			"senseTags": [
+				"U"
+			],
+			"actionTags": [
+				"Breath Weapon",
+				"Multiattack",
+				"Shapechanger"
+			],
+			"languageTags": [
+				"DR"
+			],
+			"damageTags": [
+				"A",
+				"B",
+				"O",
+				"P",
+				"S"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"petrified",
+				"prone",
+				"restrained"
+			],
+			"conditionInflictSpell": [
+				"blinded",
+				"poisoned",
+				"prone",
+				"stunned"
+			]
+		},
+		{
+			"name": "Sea Dragon",
+			"source": "MonstersoftheOrient",
+			"page": 54,
+			"size": "L",
+			"type": {
+				"type": "dragon",
+				"tags": [
+					"spirit"
+				]
+			},
+			"alignment": [
+				{
+					"alignment": [
+						"N"
+					]
+				},
+				{
+					"alignment": [
+						"NX",
+						"NY",
+						"N"
+					]
+				}
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 127,
+				"formula": "15d10 + 45"
+			},
+			"speed": {
+				"walk": 20,
+				"fly": 20,
+				"swim": 90
+			},
+			"str": 19,
+			"dex": 14,
+			"con": 17,
+			"int": 12,
+			"wis": 11,
+			"cha": 15,
+			"save": {
+				"dex": "+5",
+				"con": "+6",
+				"wis": "+3",
+				"cha": "+5"
+			},
+			"skill": {
+				"perception": "+6",
+				"stealth": "+5"
+			},
+			"senses": [
+				"truesight 30 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 16,
+			"resist": [
+				"cold",
+				"lightning",
+				"thunder"
+			],
+			"languages": [
+				"Draconic",
+				"Kami",
+				"Oriental"
+			],
+			"cr": "7",
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The dragon can breathe air and water."
+					]
+				},
+				{
+					"name": "Invisible in Water",
+					"entries": [
+						"The dragon is {@condition invisible} while fully immersed in water."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The dragon makes three attacks: one with its bite and two with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d10 + 4}) piercing damage plus 4 ({@damage 1d8}) cold damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Cold Breath {@recharge 5}",
+					"entries": [
+						"The dragon exhales freezing winds in a 30-foot line that is 5 feet wide. Each creature in that line must make a {@dc 14} Constitution saving throw, taking 49 ({@damage 11d8}) cold damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"They have long, sinuous bodies covered with thick scales in a variety of colors, with blue, blue-green, dark red, and violet among the most common. They have dark, beady eyes, stringy beards dangling from their chins, and enormous jaws lined with hooked teeth as sharp as razors.",
+					"Oceanic Devotion. They are protectors and allies of ocean creatures such as sharks, whales, crabs, and fish. Wild as they are, they dispense destructive hurricanes and typhoons, controlling both the weather and the sea itself. They care nothing for the lives of humanoids. Though typhoon dragons can transform into humanoids, the only reason they would ever do so would be to infiltrate a town if it had caught more fish then they could reasonably consume, find the people responsible, and exact terrible vengeance."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/SeaDragon.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/SeaDragon.png",
+			"traitTags": [
+				"Amphibious"
+			],
+			"senseTags": [
+				"SD",
+				"U"
+			],
+			"actionTags": [
+				"Breath Weapon",
+				"Multiattack"
+			],
+			"languageTags": [
+				"DR"
+			],
+			"damageTags": [
+				"C",
+				"P"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"conditionInflict": [
+				"invisible"
+			]
+		},
+		{
+			"name": "Storm Dragon",
+			"source": "MonstersoftheOrient",
+			"page": 0,
+			"size": "H",
+			"type": {
+				"type": "dragon",
+				"tags": [
+					"spirit"
+				]
+			},
+			"alignment": [
+				{
+					"alignment": [
+						"N"
+					]
+				},
+				{
+					"alignment": [
+						"NX",
+						"NY",
+						"N"
+					]
+				}
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 195,
+				"formula": "17d12 + 85"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 30,
+				"swim": 120
+			},
+			"str": 23,
+			"dex": 14,
+			"con": 21,
+			"int": 14,
+			"wis": 13,
+			"cha": 17,
+			"save": {
+				"dex": "+7",
+				"con": "+10",
+				"wis": "+6",
+				"cha": "+8"
+			},
+			"skill": {
+				"perception": "+11",
+				"stealth": "+7"
+			},
+			"senses": [
+				"truesight 60 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 21,
+			"immune": [
+				"cold",
+				"lightning",
+				"thunder"
+			],
+			"languages": [
+				"Draconic",
+				"Kami",
+				"Oriental"
+			],
+			"cr": "14",
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The dragon can breathe air and water."
+					]
+				},
+				{
+					"name": "Invisible in Water",
+					"entries": [
+						"The dragon is {@condition invisible} while fully immersed in water."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the dragon fails a saving throw, it can choose to succeed instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The dragon uses its Tempestuous Roar. It then makes three attacks: one with its bite and two with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}17 ({@damage 2d10 + 6}) piercing damage plus 4 ({@damage 1d8}) cold damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 6}) piercing damage."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 15 ft., one target. {@h}15 ({@damage 2d8 + 6}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Tempestuous Roar",
+					"entries": [
+						"Each creature of the dragon' choice that is within 120 feet of the dragon and can hear it must succeed on a {@dc 18} Constitution saving throw or become {@condition deafened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success and taking 5 ({@damage 1d10}) thunder damage on a failed save. If a creatures saving throw is successful or the effect ends for it, the creature is immune to the dragon's Tempestuous Roar for the next 24 hours."
+					]
+				},
+				{
+					"name": "Storm Breath {@recharge 5}",
+					"entries": [
+						"The dragon exhales lightning in a 60-foot line that is 10 feet wide. Each creature in that line must make a {@dc 18} Constitution saving throw, taking 54 ({@damage 12d8}) cold damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Change Shape",
+					"entries": [
+						"The dragon magically polymorphs into a humanoid or beast that has a challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the dragon's choice). In a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Detect",
+					"entries": [
+						"The dragon makes a Wisdom (perception) check."
+					]
+				},
+				{
+					"name": "Tail Attack",
+					"entries": [
+						"The dragon makes a tail attack."
+					]
+				},
+				{
+					"name": "Lung Jump (Costs 2 Actions)",
+					"entries": [
+						"The dragon's physical form momentarily shifts into pure energy as it bursts forward with immense speed, moving 60 feet in a straight line.",
+						"Each creature in the dragon's path must succeed a {@dc 19} Dexterity saving throw or take 11 ({@damage 3d6}) force damage and be knocked {@condition prone}. If the dragon ends its lung jump in an occupied space, it takes 11 ({@damage 2d10}) force damage and is pushed to the nearest unoccupied space."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"They have long, sinuous bodies covered with thick scales in a variety of colors, with blue, blue-green, dark red, and violet among the most common. They have dark, beady eyes, stringy beards dangling from their chins, and enormous jaws lined with hooked teeth as sharp as razors.",
+					"Oceanic Devotion. They are protectors and allies of ocean creatures such as sharks, whales, crabs, and fish. Wild as they are, they dispense destructive hurricanes and typhoons, controlling both the weather and the sea itself. They care nothing for the lives of humanoids. Though typhoon dragons can transform into humanoids, the only reason they would ever do so would be to infiltrate a town if it had caught more fish then they could reasonably consume, find the people responsible, and exact terrible vengeance."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/StormDragon.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/StormDragon.png",
+			"traitTags": [
+				"Amphibious",
+				"Legendary Resistances"
+			],
+			"senseTags": [
+				"SD",
+				"U"
+			],
+			"actionTags": [
+				"Breath Weapon",
+				"Multiattack",
+				"Shapechanger"
+			],
+			"languageTags": [
+				"DR"
+			],
+			"damageTags": [
+				"B",
+				"C",
+				"O",
+				"P",
+				"T"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"deafened",
+				"invisible",
+				"prone"
+			]
+		},
+		{
+			"name": "Typhoon Dragon",
+			"source": "MonstersoftheOrient",
+			"page": 55,
+			"size": "G",
+			"type": {
+				"type": "dragon",
+				"tags": [
+					"spirit"
+				]
+			},
+			"alignment": [
+				{
+					"alignment": [
+						"N"
+					]
+				},
+				{
+					"alignment": [
+						"NX",
+						"NY",
+						"N"
+					]
+				}
+			],
+			"ac": [
+				{
+					"ac": 22,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 367,
+				"formula": "21d20 + 147"
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 60,
+				"swim": 120
+			},
+			"str": 27,
+			"dex": 14,
+			"con": 25,
+			"int": 16,
+			"wis": 15,
+			"cha": 19,
+			"save": {
+				"dex": "+9",
+				"con": "+14",
+				"wis": "+9",
+				"cha": "+11"
+			},
+			"skill": {
+				"perception": "+16",
+				"stealth": "+9"
+			},
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 26,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical weapons",
+					"cond": true
+				}
+			],
+			"immune": [
+				"cold",
+				"lightning",
+				"thunder"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned"
+			],
+			"languages": [
+				"Draconic",
+				"Kami",
+				"Oriental"
+			],
+			"cr": "21",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The dragon's innate spellcasting ability is Charisma (spell save DC",
+						"19, {@hit 11} to hit with spell attacks). The dragon can innately cast the following spells, requiring no material or somatic components:",
+						"At will : shape water, sleet storm, tidal wave"
+					],
+					"daily": {
+						"3e": [
+							"{@spell control water}",
+							"{@spell Otiluke's freezing sphere}"
+						],
+						"1e": [
+							"{@spell tsunami}",
+							"{@spell wall of ice}"
+						]
+					},
+					"ability": "cha"
+				}
+			],
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The dragon can breathe air and water."
+					]
+				},
+				{
+					"name": "Immutable Form",
+					"entries": [
+						"The dragon is immune to any spell or effect that would alter its form."
+					]
+				},
+				{
+					"name": "Invisible in Water",
+					"entries": [
+						"The dragon is {@condition invisible} while fully immersed in water."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the dragon fails a saving throw, it can choose to succeed instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The dragon uses its Tempestuous Roar. It then makes three attacks: one with its bite and two with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 15} to hit, reach 15 ft., one target. {@h}19 ({@damage 2d10 + 8}) piercing damage plus 4 ({@damage 1d8}) cold damage. If the target is a creature, it can't take reactions until the beginning of its next turn."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 15} to hit, reach 10 ft., one target. {@h}15 ({@damage 2d10 + 8}) slashing damage plus 3 ({@damage 1d6}) cold damage."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 15} to hit, reach 20 ft., one target. {@h}17 ({@damage 2d8 + 8}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Tempestuous Roar",
+					"entries": [
+						"Each creature of the dragon' choice that is within 120 feet of the dragon and can hear it must succeed on a {@dc 22} Constitution saving throw or become {@condition deafened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success and taking 11 ({@damage 2d10}) thunder damage on a failed save. If a creatures saving throw is successful or the effect ends for it, the creature is immune to the dragon's Tempestuous Roar for the next 24 hours."
+					]
+				},
+				{
+					"name": "Storm Breath {@recharge 5}",
+					"entries": [
+						"The dragon exhales lightning in a 10 feet wide, 120 feet long line. Each creature in that area must make a {@dc 22} Dexterity saving throw, taking 77 ({@damage 22d6}) lightning damage on a failed save, or half as much on a successful one."
+					]
+				},
+				{
+					"name": "Change Shape",
+					"entries": [
+						"The dragon magically polymorphs into a humanoid or beast that has a challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the dragon's choice). In a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Detect",
+					"entries": [
+						"The dragon makes a Wisdom (perception) check."
+					]
+				},
+				{
+					"name": "Tail Attack",
+					"entries": [
+						"The dragon makes a tail attack."
+					]
+				},
+				{
+					"name": "Lung Jump (Costs 2 Actions)",
+					"entries": [
+						"The dragon's physical form momentarily shifts into pure energy as it bursts forward with immense speed, moving 15 feet in a straight line or 60 feet if under water. Each creature in the dragon's path must succeed a {@dc 23} Dexterity saving throw or take 14 ({@damage 4d6}) force damage and be knocked {@condition prone}. If the dragon ends its lung jump in an occupied space, it takes 11 ({@damage 2d10}) force damage and is pushed to the nearest unoccupied space."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"They have long, sinuous bodies covered with thick scales in a variety of colors, with blue, blue-green, dark red, and violet among the most common. They have dark, beady eyes, stringy beards dangling from their chins, and enormous jaws lined with hooked teeth as sharp as razors.",
+					"Oceanic Devotion. They are protectors and allies of ocean creatures such as sharks, whales, crabs, and fish. Wild as they are, they dispense destructive hurricanes and typhoons, controlling both the weather and the sea itself. They care nothing for the lives of humanoids. Though typhoon dragons can transform into humanoids, the only reason they would ever do so would be to infiltrate a town if it had caught more fish then they could reasonably consume, find the people responsible, and exact terrible vengeance."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/TyphoonDragon.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/TyphoonDragon.png",
+			"traitTags": [
+				"Amphibious",
+				"Immutable Form",
+				"Legendary Resistances"
+			],
+			"senseTags": [
+				"U"
+			],
+			"actionTags": [
+				"Breath Weapon",
+				"Multiattack",
+				"Shapechanger"
+			],
+			"languageTags": [
+				"DR"
+			],
+			"damageTags": [
+				"B",
+				"C",
+				"L",
+				"O",
+				"P",
+				"S",
+				"T"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"deafened",
+				"invisible",
+				"prone"
+			]
 		}
 	],

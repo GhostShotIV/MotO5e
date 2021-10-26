@@ -13701,5 +13701,812 @@
 				"invisible",
 				"prone"
 			]
+		},
+		{
+			"name": "Werebadger",
+			"source": "MonstersoftheOrient",
+			"page": 56,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human",
+					"shapechanger"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"condition": "in humanoid form"
+				},
+				{
+					"ac": 16,
+					"condition": "in honey badger and hybrid form",
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 104,
+				"formula": "16d8 + 32"
+			},
+			"speed": {
+				"walk": {
+					"number": 30,
+					"condition": "(40 ft. burrow 20 ft. in honey badger and hybrid form)"
+				}
+			},
+			"str": 18,
+			"dex": 16,
+			"con": 15,
+			"int": 10,
+			"wis": 14,
+			"cha": 12,
+			"skill": {
+				"athletics": "+10",
+				"perception": "+5"
+			},
+			"passive": 14,
+			"resist": [
+				"poison"
+			],
+			"immune": [
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing damage"
+					],
+					"note": "from nonmagical weapons that aren't silvered",
+					"cond": true
+				}
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"Oriental (can't speak in honey badger form)"
+			],
+			"cr": "7",
+			"trait": [
+				{
+					"name": "Aggressive",
+					"entries": [
+						"As a bonus action, the werebadger can move up to its speed toward a hostile creature that it can see."
+					]
+				},
+				{
+					"name": "Frenzied Twist (Honey Badger and Hybrid Form Only)",
+					"entries": [
+						"The werebadger has advantage on ability checks and saving throws made to escape a grapple."
+					]
+				},
+				{
+					"name": "Keen Smell",
+					"entries": [
+						"The werebadger has advantage on Wisdom (perception) checks that rely on smell."
+					]
+				},
+				{
+					"name": "Relentless (Recharges after a Short or Long Rest)",
+					"entries": [
+						"If the werebadger takes damage that reduces it to 0 hit points, unless the damage is from a critical hit, it drops to 1 hit point instead."
+					]
+				},
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"The werebadger can use its action to polymorph into a Large honey badger-humanoid hybrid or into a Large honey badger, or back into its true form, which is humanoid. Its statistics, other than its size and AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"In honey badger form, the werebadger attacks once with its bite and two times with its claws. In humanoid form, the werebadger attacks four times with its nodachi. In hybrid form, it can attack like a honey badger or a humanoid."
+					]
+				},
+				{
+					"name": "Bite (Honey Badger or Hybrid Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft. , one target. {@h}13 ({@damage 2d8 + 4}) piercing damage. If the target is a Large or smaller creature, it is {@condition grappled} (escape {@dc 15}). Until this grapple ends, the target is {@condition restrained}, and the werebadger can't bite another target."
+					]
+				},
+				{
+					"name": "Claw (Honey Badger or Hybrid Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft. , one target. {@h}15 ({@damage 2d10 + 4}) slashing damage. If the target is a humanoid, it must succeed on a {@dc 13} Constitution saving throw or be cursed with werebadger lycanthropy."
+					]
+				},
+				{
+					"name": "Nodachi (Humanoid or Hybrid Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft.",
+						", one target. {@h}11 ({@damage 2d6 + 4}) piercing damage."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Werebadgers are exceptionally tough opponents. They are renowned for their aggression and often become the apex predator in their region.",
+					"In humanoid form they are tall, lean, and muscular, their hair always white. Regardless of their form, they always live in solitude. Only during the month of Nigiyaka, the last month of spring, might a werebadger seek company to breed or hunt in packs."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/WereBadger.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/WereBadger.png",
+			"traitTags": [
+				"Aggressive",
+				"Keen Senses",
+				"Shapechanger"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"CS"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"grappled",
+				"restrained"
+			]
+		},
+		{
+			"name": "Werefox",
+			"source": "MonstersoftheOrient",
+			"page": 56,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human",
+					"shapechanger"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 33,
+				"formula": "6d8 + 6"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 12,
+			"int": 11,
+			"wis": 14,
+			"cha": 10,
+			"skill": {
+				"perception": "+4",
+				"stealth": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft. (fox form only)"
+			],
+			"passive": 14,
+			"immune": [
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing damage"
+					],
+					"note": "from nonmagical weapons that aren't silvered",
+					"cond": true
+				}
+			],
+			"languages": [
+				"Oriental (can't speak in fox form)"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Cunning Action",
+					"entries": [
+						"On each of its turns, the werefox can use a bonus action to take the",
+						"Dash, Disengage, or Hide action."
+					]
+				},
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"The werefox can use its action to polymorph into a Medium fox-humanoid hybrid, into a Medium fox, or back into its true form, which is humanoid. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed.",
+						"It reverts to its true form if it dies."
+					]
+				},
+				{
+					"name": "Keen Hearing",
+					"entries": [
+						"The werefox has advantage on Wisdom (perception) checks that rely on hearing."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack (Humanoid or Hybrid Form Only)",
+					"entries": [
+						"The werefox makes two attacks, only one of which can be a bite."
+					]
+				},
+				{
+					"name": "Bite (Rat or Hybrid Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage. If the target is a humanoid, it must succeed on a {@dc 11} Constitution saving throw or be cursed with werefox lycanthropy."
+					]
+				},
+				{
+					"name": "Wakizahi (Humanoid or Hybrid Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage."
+					]
+				},
+				{
+					"name": "Shuriken (Humanoid or Hybrid Form Only)",
+					"entries": [
+						"ranged Weapon Attack: {@hit 4} to hit, range",
+						"20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) slashing damage."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Two types of werefox exist in the Orient: the red and the white werefox. Red werefoxes typically live in small family groups within or near forests. White werefoxes are solitary creatures that live in the mountains. No matter their color, they are omnivores, and far less aggressive than other lycanthropes.",
+					"In humanoid form they are almost gaunt to look at, standing straight, and walking with an elegance similar to that of elves."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/WereFox.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/WereFox.png",
+			"traitTags": [
+				"Keen Senses",
+				"Shapechanger"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"CS"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Werecrocodile",
+			"source": "MonstersoftheOrient",
+			"page": 57,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human",
+					"shapechanger"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 10,
+					"condition": "in humanoid form"
+				},
+				{
+					"ac": 14,
+					"condition": "in crocodile and hybrid form",
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 33,
+				"formula": "6d8 + 6"
+			},
+			"speed": {
+				"walk": {
+					"number": 30,
+					"condition": "(swim 50 ft. in crocodile and hybrid form)"
+				}
+			},
+			"str": 19,
+			"dex": 14,
+			"con": 16,
+			"int": 10,
+			"wis": 11,
+			"cha": 10,
+			"skill": {
+				"perception": "+3",
+				"stealth": "+8"
+			},
+			"senses": [
+				"darkvision 120 ft. (crocodile and hybrid form only)"
+			],
+			"passive": 13,
+			"immune": [
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing damage"
+					],
+					"note": "from nonmagical weapons that aren't silvered",
+					"cond": true
+				}
+			],
+			"languages": [
+				"Oriental (can't speak in crocodile form)"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Ambush",
+					"entries": [
+						"The werecrocodile has advantage on attack rolls against any creature it has surprised."
+					]
+				},
+				{
+					"name": "Hold Breath",
+					"entries": [
+						"The werecrocodile can hold its breath for 30 minutes."
+					]
+				},
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"The werecrocodile can use its action to polymorph into a Large crocodilehumanoid hybrid or into a Huge crocodile, or back into its true form, which is humanoid. Its statistics, other than its size and AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+					]
+				},
+				{
+					"name": "Underwater Camouflage (Crocodile and Hybrid Form Only)",
+					"entries": [
+						"The werecrocodile has advantage on Dexterity (stealth) checks made while underwater."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"In crocodile form, the werecrocodile attacks once with its bite and once with its tail. In humanoid form, the werecrocodile attacks four times with its kamayari.",
+						"In hybrid form, it can attack like a crocodile or a humanoid."
+					]
+				},
+				{
+					"name": "Bite (Crocodile or Hybrid Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}20 ({@damage 3d10 + 4}) piercing damage, and the target is {@condition grappled} (escape {@dc 15})",
+						". Until this grapple ends, the target is {@condition restrained}, and the crocodile can't bite another target.. If the target is a humanoid, it must succeed on a {@dc 14} Constitution saving throw or be cursed with werecrocodile lycanthropy."
+					]
+				},
+				{
+					"name": "Tail (Crocodile or Hybrid Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}13 ({@damage 2d8 + 4}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 15} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Kamayari (Humanoid or Hybrid Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}9 ({@damage 1d10 + 4}) slashing damage."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Werecrocodiles live in small, isolated groups near bodies of water. They aren’t particularly territorial, though they tend to stay in the same region throughout their lives.",
+					"The biggest male in a group is generally the leader, though females that can breed are venerated and always allowed to eat first when prey has been caught. In humanoid form they have slender bodies, yellow eyes, and their body temperature is slightly below that of other humanoids.",
+					"While they cannot talk in crocodile form, they are still very much capable of communicating simple messages through bellowing, chirping, and screeching. They are ambush predators, waiting for prey to come close before rushing out to attack."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/WereCrocodile.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/WereCrocodile.png",
+			"traitTags": [
+				"Ambusher",
+				"Hold Breath",
+				"Shapechanger"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"CS"
+			],
+			"damageTags": [
+				"B",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"grappled",
+				"prone",
+				"restrained"
+			]
+		},
+		{
+			"name": "Wereshark",
+			"source": "MonstersoftheOrient",
+			"page": 57,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human",
+					"shapechanger"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 10,
+					"condition": "in humanoid form"
+				},
+				{
+					"ac": 13,
+					"condition": "in hybrid and shark form",
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 136,
+				"formula": "16d8 + 64"
+			},
+			"speed": {
+				"walk": {
+					"number": 30,
+					"condition": "(30 ft. swim 30 ft. in hybrid form and 0 ft. swim 50 ft. in shark form)"
+				}
+			},
+			"str": 21,
+			"dex": 11,
+			"con": 18,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"skill": {
+				"perception": "+3"
+			},
+			"senses": [
+				"blindsight 60 ft. (hybrid and shark form only)"
+			],
+			"passive": 14,
+			"immune": [
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing damage"
+					],
+					"note": "from nonmagical weapons that aren't silvered",
+					"cond": true
+				}
+			],
+			"languages": [
+				"Oriental (can't speak in shark form)"
+			],
+			"cr": "6",
+			"trait": [
+				{
+					"name": "Blood Frenzy",
+					"entries": [
+						"The wereshark has advantage on melee attack rolls against any creature that doesn't have all its hit points."
+					]
+				},
+				{
+					"name": "Limited Amphibiousness (Hybrid Form Only)",
+					"entries": [
+						"The wereshark can breathe air and water, but it needs to be submerged at least once every 4 hours to avoid suffocating."
+					]
+				},
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"The wereshark can use its action to polymorph into a Large shark-humanoid hybrid or into a Huge shark, or back into its true form, which is humanoid. Its statistics, other than its size and AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+					]
+				},
+				{
+					"name": "Shark Telepathy (Shark Form Only)",
+					"entries": [
+						"The wereshark can magically command any shark within 120 feet of it, using a limited telepathy."
+					]
+				},
+				{
+					"name": "Water Breathing (Shark Form Only)",
+					"entries": [
+						"The wereshark can breathe only underwater."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack (Humanoid or Hybrid Form Only)",
+					"entries": [
+						"In hybrid form, the wereshark makes two attacks, only one of which can be a bite. In humanoid form, the wereshark makes three attacks."
+					]
+				},
+				{
+					"name": "Bite (Hybrid or Shark Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}16 ({@damage 2d10 + 5}) piercing damage if used in hybrid form, or 21 ({@damage 3d10 + 5}) piercing damage if used in shark form. If the target is a humanoid, it must succeed on a",
+						"{@dc 15} Constitution saving throw or be cursed with wereshark lycanthropy."
+					]
+				},
+				{
+					"name": "Kamayari (Humanoid or Hybrid Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}10 ({@damage 1d10 + 5}) slashing damage."
+					]
+				},
+				{
+					"name": "Slam (Hybrid Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 0 ft., one target. {@h}9 ({@damage 1d8 + 5}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 16} Strength saving throw or be knocked {@condition prone}."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Weresharks value strength above all else. Though they live in groups, weresharks prefer to hunt in solitude. They have a very complex and dynamic social hierarchy where the females dominate the males, the stronger dominate the weaker, and everybody dominates newcomers. Dominance is rarely achieved through infighting, but rather through rituals and displays until one party bows to the other. Towards outsiders, however, dominance is usually established by biting, even if it isn’t meant to kill - which it often is.",
+					"They are most commonly found near the sea. While they might try and make others believe this is due to their fondness of salt water over fresh water, it is in fact because they fear the ocre, which occupies many inland bodies of water. In humanoid form, they have bulky bodies, bald heads, and gray eyes."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/WereShark.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/WereShark.png",
+			"traitTags": [
+				"Shapechanger",
+				"Water Breathing"
+			],
+			"senseTags": [
+				"B"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"CS"
+			],
+			"damageTags": [
+				"B",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"prone"
+			]
+		},
+		{
+			"name": "Wererhinoceros",
+			"source": "MonstersoftheOrient",
+			"page": 57,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human",
+					"shapechanger"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 10,
+					"condition": "in humanoid form"
+				},
+				{
+					"ac": 15,
+					"condition": "in rhino and hybrid form",
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 136,
+				"formula": "16d8 + 64"
+			},
+			"speed": {
+				"walk": {
+					"number": 30,
+					"condition": "(50 ft. in hybrid and rhinoceros form)"
+				}
+			},
+			"str": 20,
+			"dex": 10,
+			"con": 18,
+			"int": 10,
+			"wis": 12,
+			"cha": 11,
+			"skill": {
+				"athletics": "+8",
+				"perception": "+4"
+			},
+			"passive": 14,
+			"immune": [
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing damage"
+					],
+					"note": "from nonmagical weapons that aren't silvered",
+					"cond": true
+				}
+			],
+			"languages": [
+				"Oriental (can't speak in rhino form)"
+			],
+			"cr": "6",
+			"trait": [
+				{
+					"name": "Charge (Hybrid Form Only)",
+					"entries": [
+						"If the wererhinoceros moves at least 20 feet straight toward a creature right before hitting it with a gore attack, the target takes an extra 18 ({@damage 4d8}) piercing damage."
+					]
+				},
+				{
+					"name": "Impale (Rhino Form Only)",
+					"entries": [
+						"If the wererhinoceros moves at least 20 feet straight toward a creature right before hitting it with a gore attack, the target takes an extra 18 ({@damage 4d8}) piercing damage. If the target is a creature, it is {@condition grappled} (escape {@dc 16}). Until this grapple ends, the target is {@condition restrained}, and the rhino can't impale another target. The grapple ends early if the wererhinoceros changes into humanoid or hybrid form."
+					]
+				},
+				{
+					"name": "Relentless (Recharges after a Short or Long Rest)",
+					"entries": [
+						"If the wererhinoceros takes damage that reduces it to 0 hit points, unless the damage is from a critical hit, it drops to 1 hit point instead."
+					]
+				},
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"The wererhinoceros can use its action to polymorph into a Large rhinohumanoid hybrid or into a Huge rhino, or back into its true form, which is humanoid.",
+						"Its statistics, other than its size and AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack (Humanoid or Hybrid Form Only)",
+					"entries": [
+						"In humanoid form, the wererhino makes three attacks with its naginata. In hybrid form, the wererhinoceros makes two melee attacks, only one of which can be a gore attack."
+					]
+				},
+				{
+					"name": "Gore (Hybrid or Rhino Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) piercing damage if used in hybrid form, or 18 ({@damage 3d8 + 5}) piercing damage if used in rhino form. If the target is a humanoid, it must succeed on a {@dc 15} Constitution saving throw or be cursed with wererhinoceros lycanthropy."
+					]
+				},
+				{
+					"name": "Naginata (Humanoid or Hybrid Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}10 ({@damage 1d10 + 5}) slashing damage."
+					]
+				},
+				{
+					"name": "Slam (Hybrid Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 0 ft., one target. {@h}9 ({@damage 1d8 + 5}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 16} Strength saving throw or be knocked {@condition prone}."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Wererhinoceroses live in tribes with the eldest male leading them. The males typically mark the group’s territory by scraping their feet across the ground, breaking foliage, leaving pungent urine, and drawing their tribe’s mark. They rarely wander far from their territory, and if others invade their territory, they will fight relentlessly even against unlikely odds.",
+					"In hybrid or rhinoceros form, their skin is exceptionally tough, making them very hard to kill. In humanoid form they are bulky and their noses are slightly above average size."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/charakter/WereRhinoceros.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/GhostShotIV/MotO5e/main/images/token/WereRhinoceros.png",
+			"traitTags": [
+				"Charge",
+				"Shapechanger"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"CS"
+			],
+			"damageTags": [
+				"B",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"grappled",
+				"prone",
+				"restrained"
+			]
 		}
 	],

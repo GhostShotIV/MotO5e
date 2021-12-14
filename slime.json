@@ -1,0 +1,93 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Slimeling",
+				"full": "Slimeling",
+				"authors": [
+					"?"
+				],
+				"abbreviation": "Slime",
+				"version": "2021.12.14",
+				"url": "https://www.dandwiki.com/wiki/Slimelings_(5e_Race)"
+			}
+		],
+		"dateAdded": 1545342498,
+		"dateLastModified": 1545342498
+	},
+	"race": [
+		{
+			"name": "Slimeling",
+			"source": "Slimeling",
+			"ability": [
+				{
+					"con": 2,
+					"choose": {
+						"from": [
+							"str",
+							"dex"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"size": [
+				"M"
+			],
+			"speed": {
+				"walk": 30
+			},
+			"darkvision": 60,
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"Slimelings will live no longer than 300."
+					]
+				},
+				{
+					"name": "Alignment",
+					"entries": [
+						"Slimelings can be any alignment but will tend towards chaos rather than law."
+					]
+				},
+				{
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"name": "Absorb",
+					"entries": [
+						"As long as you maintain a grapple, the creature you are grappling takes {@damage 2d6} + your Constitution modifier acid damage at the end of its turn."
+					]
+				},
+				{
+					"name": "Acidic",
+					"entries": [
+						"You are resistant to acid damage."
+					]
+				},
+				{
+					"name": "Fluid Form",
+					"entries": [
+						"Typical restraints can't hold you. While you are conscious you may slide out of any manacle, rope, or restraints. You can also move through a space as narrow as 1 inch without squeezing."
+					]
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read and write, Common and one other language of your choice that was learned from your time growing up under or around a certain race."
+					]
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"anyStandard": 1
+				}
+			]
+		}
+	]
+}

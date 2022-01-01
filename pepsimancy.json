@@ -229,7 +229,7 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell Pepsi}"
+								"{@spell Pepsi|PepsiMancy}"
 							]
 						}
 					},

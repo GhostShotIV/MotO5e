@@ -1,0 +1,242 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Pepsi Mage",
+				"abbreviation": "PepsiMancy",
+				"full": "Pepsi Mage",
+				"authors": [
+					"u/Kovaid"
+				],
+				"convertedBy": [
+					"GhostShotIV"
+				],
+				"version": "2022-01-01",
+				"color": "5ea6b9",
+				"url": "https://homebrewery.naturalcrit.com/share/r1lUjWd5b",
+				"targetSchema": "1.2"
+			}
+		],
+		"dateAdded": 1627816998,
+		"dateLastModified": 1627816998
+	},
+	"subclass": [
+		{
+			"name": "Pepsi Mage",
+			"source": "PepsiMancy",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"page": 1,
+			"shortName": "Pepsi Mage",
+			"subclassFeatures": [
+				"Cold, Refreshing Pepsi|Wizard||Pepsi Mage|PepsiMancy|2",
+				"Crystal Pepsi|Wizard||Pepsi Mage|PepsiMancy|6",
+				"Pepsi Man!|Wizard||Pepsi Mage|PepsiMancy|10",
+				"Thirst Quenching|Wizard||Pepsi Mage|PepsiMancy|14"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Cold, Refreshing Pepsi",
+			"source": "PepsiMancy",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassSource": "PepsiMancy",
+			"subclassShortName": "Pepsi Mage",
+			"page": 1,
+			"level": 2,
+			"entries": [
+				"{@i 2nd-level wizard feature}",
+				"Starting at 2nd level when you choose this school, you're newly found mastery of Pepsi grants you the ability to summon 1d6 cans of Pepsi as a bonus action. These behave exactly like the goodberry spell. You cannot do this again till you take a short or long rest."
+			]
+		},
+		{
+			"name": "Crystal Pepsi",
+			"source": "PepsiMancy",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassSource": "PepsiMancy",
+			"subclassShortName": "Pepsi Mage",
+			"page": 1,
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"{@i 6th-level wizard feature}",
+				"Starting at 6th level you have learned how to find those who have an unquenched thirst. Your Pepsi magic grants you the ability to give someone Crystal Pepsi. When you give someone a Crystal Pepsi you can cause them to make a wisdom saving throw and on a failed save they are under the effects of the charm person spell. You can only have one person under this effect. You can only do this up to half of your intelligence modifier round down per long rest. You gain all expended uses on a long rest. If they succeed on the save they are immune for 24 hours."
+			]
+		},
+		{
+			"name": "Pepsi Man!",
+			"source": "PepsiMancy",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassSource": "PepsiMancy",
+			"subclassShortName": "Pepsi Mage",
+			"page": 1,
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"{@i 10th-level wizard feature}",
+				"The magical nature of Pepsi has allowed you to conjure Pepsi Man. Beginning at 10th level, you can summon Pepsi Man. You can find his stats at the end of the subclass. You can only summon one Pepsi Man at a time since there is only one Pepsi Man. He stays summoned for 10 minutes, after which he dissapears back to wherever it is Pepsi Man lives. You can only use this feature once, you can’t use it again until you finish long rest."
+			]
+		},
+		{
+			"name": "Thirst Quenching",
+			"source": "PepsiMancy",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassSource": "PepsiMancy",
+			"subclassShortName": "Pepsi Mage",
+			"page": 1,
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"{@i 14th-level wizard feature}",
+				"Beginning at 14th level, you can choose up to three targets within 60 feet. They must make a constitution saving throw vs your spell save DC or be wracked with a thirst that can only be quenched by Pepsi. They take 7d6 cold damage on a failed save and half as much on a successful one. You can use this feature twice per long rest gaining any expended uses back on a long rest."
+			]
+		}
+	],
+	"spell": [
+		{
+			"name": "Pepsi",
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Wizard",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Pepsi Mage",
+							"source": "PepsiMancy"
+						}
+					}
+				]
+			},
+			"entries": [
+				"You draw forth the innate magic of Pepsi and launch a fountain of Pepsi. Make a ranged spell attack against one target within range. Upon a hit this deals {@damage 1d10} acid damage.",
+				"This spells damage increase by {@dice 1d10} when you reach 5th level ({@dice 2d10}), 11th level ({@dice 3d10}), and 17th level ({@dice 4d10})."
+			],
+			"source": "PepsiMancy",
+			"page": 1,
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"damageInflict": [
+				"acid"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"areaTags": [
+				"ST"
+			]
+		}
+	],
+	"monster": [
+		{
+			"name": "Pepsi Man",
+			"size": "M",
+			"type": "humanoid",
+			"source": "Pepsimancy",
+			"alignment": [
+				{
+					"special": "Chaotic Pepsi (Aligned with Summoner)"
+				}
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"Metal Skin"
+					]
+				}
+			],
+			"hp": {
+				"special": "half of the summoners maximum"
+			},
+			"speed": {
+				"walk": 35
+			},
+			"str": 18,
+			"dex": 15,
+			"con": 16,
+			"int": 10,
+			"wis": 12,
+			"cha": 15,
+			"passive": 14,
+			"page": 1,
+			"cr": "5",
+			"languages": [
+				"Cannot speak but can understand all the languages of whoever summoned him."
+			],
+			"languageTags": [
+				"XX"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"action": [
+				{
+					"name": "Pepsi Fire",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 6}) fire damage."
+					]
+				},
+				{
+					"name": "Pepsi Cherry",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 30/60 ft., one target. {@h}11 ({@damage 2d6 + 4}) cold damage."
+					]
+				}
+			],
+			"damageTags": [
+				"F",
+				"C"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Pepsi Man is a 1st-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 10}, +2 to hit with spell attacks). It has the following spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell Pepsi}"
+							]
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			]
+		}
+	]
+}

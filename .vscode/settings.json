@@ -1,0 +1,10 @@
+{
+	"json.schemas": [
+	{
+		"fileMatch": [
+			"/CarbonPink/*Classes.json"
+		],
+		"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_schema/class/class.json"
+	}
+	]
+}

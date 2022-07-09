@@ -64,6 +64,17 @@
 					"progression": {
 						"2": 1
 					}
+				},
+				{
+					"name": "Urban Crawler",
+					"featureType": [
+						"FS:A"
+					],
+					"progression": {
+						"1": 1,
+						"6": 1,
+						"10": 1
+					}
 				}
 			],
 			"startingProficiencies": {
@@ -100,7 +111,7 @@
 					"(a) {@item nanoprene armor|carpink} or (b) {@item nanofilm armor|carpink}",
 					"(a) {@item machete|carpink} or (b) {@item civilian melee weapon|carpink}",
 					"(a) a {@item delver's pack|carpink} or (b) a {@item hobo's pack|carpink}",
-					"a {@item heavy pistol|carpink} with {@item rounds of ammunition (20)|carpink|20 rounds}"
+					"a {@item heavy pistol|carpink} with {@item pistol bullets (20)|carpink|20 pistol bullets}"
 				],
 				"defaultData": [
 					{
@@ -118,11 +129,65 @@
 						"b":[
 							"civilian melee weapon"
 						]
+					},
+					{
+						"a":[
+							"delver's pack|carpink"
+						],
+						"b":[
+							"hobo's pack|carpink"
+						]
+					},
+					{
+						"_":[
+							"heavy pistol|carpink",
+							"pistol bullets (20)|carpink"
+						]
 					}
 				]
 			},
 			"classFeatures": [
-
+				"Favored Enemy|Auditor|CARBONPINK|1",
+				"Marked Target|Auditor|CARBONPINK|1",
+				"Urban Crawler|Auditor|CARBONPINK|1",
+				"Techcasting|Auditor|CARBONPINK|2",
+				"Fighting Style|Auditor|CARBONPINK|2",
+				"Martial Versatility|Auditor|CARBONPINK|2",
+				"Primal Awareness|Auditor|CARBONPINK|3",
+				"Wokeness|Auditor|CARBONPINK|3",
+				{
+					"classFeature": "Auditor Specialization|Auditor|CARBONPINK|3",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Auditor|CARBONPINK|4",
+				"Martial Versatility|Auditor|CARBONPINK|4",
+				"Extra Attack|Auditor|CARBONPINK|5",
+				"Greater Favored Enemy|Auditor|CARBONPINK|6",
+				{
+					"classFeature": "Ranger Conclave feature|Auditor|CARBONPINK|7",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Auditor|CARBONPINK|8",
+				"Proficiency Versatility|Auditor|CARBONPINK|8|UAClassFeatureVariants",
+				"Fleet of Foot|Auditor|CARBONPINK|8",
+				"Hide in Plain Sight|Auditor|CARBONPINK|10",
+				{
+					"classFeature": "Ranger Conclave feature|Auditor|CARBONPINK|11",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Auditor|CARBONPINK|12",
+				"Proficiency Versatility|Auditor|CARBONPINK|12|UAClassFeatureVariants",
+				"Vanish|Auditor|CARBONPINK|14",
+				{
+					"classFeature": "Ranger Conclave feature|Auditor|CARBONPINK|15",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Auditor|CARBONPINK|16",
+				"Proficiency Versatility|Auditor|CARBONPINK|16|UAClassFeatureVariants",
+				"Feral Senses|Auditor|CARBONPINK|18",
+				"Ability Score Improvement|Auditor|CARBONPINK|19",
+				"Proficiency Versatility|Auditor|CARBONPINK|19|UAClassFeatureVariants",
+				"Foe Slayer|Auditor|CARBONPINK|20"
 			],
 
 			"classTableGroups": [

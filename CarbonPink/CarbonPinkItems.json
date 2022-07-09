@@ -1,0 +1,203 @@
+{
+	"_meta": {
+		"internalCopies": [
+			"item"
+		]
+	},
+	"item": [
+		{
+			"name": "Delver's Pack",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "G",
+			"rarity": "none",
+			"weight": 61.5,
+			"value": 1200,
+			"entries": [
+				"Includes:",
+				{
+					"type": "list",
+					"items": [
+						"a {@item backpack|phb}",
+						"a {@item crowbar|phb}",
+						"a {@item hammer|phb}",
+						"a {@item climbing kit|carpink}",
+						"a {@item flashlight|carpink}",
+						"a {@item mess kit|carpink}",
+						"10 days of {@item Mealbars (1 day)|carpink|mealbars}",
+						"a {@item water purifier|carpink}",
+						"{@item Rope (50 feet)|carpink|50 feet of rope}"
+					]
+				}
+			],
+			"packContents": [
+				"backpack|phb",
+				"crowbar|phb",
+				"hammer|phb",
+				"climbing kit|carpink",
+				"flashlight|carpink",
+				"mess kit|carpink",
+				{
+					"item": "mealbars (1 day)|carpink",
+					"quantity": 10
+				},
+				"water purifier|carpink",
+				"rope (50 feet)|carpink"
+			]
+		},
+		{
+			"name": "Hobo's Pack",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "G",
+			"rarity": "none",
+			"weight": 61.5,
+			"value": 1100,
+			"entries": [
+				"Includes:",
+				{
+					"type": "list",
+					"items": [
+						"a {@item backpack|phb}",
+						"a {@item bedroll|phb}",
+						"a {@item mess kit|carpink}",
+						"a {@item lighter|carpink}",
+						"a {@item flashlight|carpink}",
+						"10 days of {@item Mealbars (1 day)|carpink|mealbars}",
+						"a {@item canteen|carpink}",
+						"{@item Rope (50 feet)|carpink|50 feet of rope}"
+					]
+				}
+			],
+			"packContents": [
+				"backpack|phb",
+				"bedroll|phb",
+				"mess kit|carpink",
+				"lighter|carpink",
+				"flashlight|carpink",
+				{
+					"item": "mealbars (1 day)|carpink",
+					"quantity": 10
+				},
+				"canteen|carpink",
+				"rope (50 feet)|carpink"
+			]
+		},
+		{
+			"name": "Climbing Kit",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "G",
+			"rarity": "none",
+			"weight": 12,
+			"value": 2500,
+			"entries": [
+				"A climbing kit includes special pitons, boot tips, gloves, and a harness. You can use the climbing kit as an action to anchor yourself; when you do, you can't fall more than 25 feet from the point where you anchored yourself, and you can't climb more than 25 feet away from that point without undoing the anchor."
+			]
+		},
+		{
+			"name": "Flashlight",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "G",
+			"rarity": "none",
+			"weight": 1,
+			"value": 50,
+			"entries": [
+				"This hand-held light creates a cone of bright light for 60 feet and dim light for an additional 60 feet. A minute of cranking powers it for an hour."
+			]
+		},
+		{
+			"name": "Mess Kit",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "G",
+			"rarity": "none",
+			"weight": 1,
+			"value": 20,
+			"entries": [
+				"This metal box contains a cup and simple cutlery. The box clamps together, and one side can be used as a cooking pan and the other as a plate or shallow bowl. Useful for camping, living rough, or making meals on the go."
+			]
+		},
+		{
+			"name": "Mealbar (1 day)",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "G",
+			"rarity": "none",
+			"weight": 0.5,
+			"value": 50,
+			"entries": [
+				"A single day's worth of nutrition in a fairly flavorless emergency ration block."
+			]
+		},
+		{
+			"name": "Water Purifier",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "G",
+			"rarity": "none",
+			"weight": 5,
+			"value": 5000,
+			"entries": [
+				"This siphon and container allows you to turn 1 gallon of tainted or salt water into 1 gallon of drinkable water. It requires exposure to sunlight for 6 hours, or being hooked into a portable battery for 1 hour. The filters need cleaning every 10 gallons or so."
+			]
+		},
+		{
+			"name": "Rope (50 feet)",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "G",
+			"rarity": "none",
+			"weight": 5,
+			"value": 100,
+			"entries": [
+				"Typically made of nylon or paracord, rope is useful for a lot of things. It has 2 hit points and can be burst with a DC 17 Strength check."
+			]
+		},
+		{
+			"name": "Lighter",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "G",
+			"rarity": "none",
+			"weight": 0,
+			"value": 50,
+			"entries": [
+				"A rechargeable lighter to start small fires."
+			]
+		},
+		{
+			"name": "Canteen",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "G",
+			"rarity": "none",
+			"weight": 1,
+			"value": 20,
+			"entries": [
+				"A half-gallon container for holding water or booze."
+			]
+		}
+	]
+}

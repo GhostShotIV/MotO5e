@@ -5,6 +5,12 @@
 			"/CarbonPink/*Classes.json"
 		],
 		"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_schema/class/class.json"
+	},
+	{
+		"fileMatch": [
+			"/CarbonPink/*BaseItems.json"
+		],
+		"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_schema/items-base.json"
 	}
 	]
 }

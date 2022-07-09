@@ -1,0 +1,470 @@
+{
+	"baseitem": [
+		{
+			"name": "Nanoprene Armor",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "MA",
+			"rarity": "none",
+			"weight": 4,
+			"value": 5000,
+			"ac": 14,
+			"armor": true,
+			"stealth": true,
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Nanofilm Armor",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "LA",
+			"rarity": "none",
+			"weight": 1,
+			"value": 1000,
+			"ac": 11,
+			"armor": true,
+			"entries": [
+				"The breastplate and shoulder protectors of this armor are made of leather that has been stiffened by being boiled in oil. The rest of the armor is made of softer and more flexible materials."
+			]
+		},
+		{
+			"name": "Machete",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 1000,
+			"weaponCategory": "military",
+			"property": [
+				"F",
+				"L"
+			],
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"sword": true,
+			"weapon": true
+		},
+		{
+			"name": "Club",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 10,
+			"weaponCategory": "civilian",
+			"property": [
+				"L"
+			],
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"club": true,
+			"weapon": true
+		},
+		{
+			"name": "Dagger",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 1,
+			"value": 200,
+			"weaponCategory": "civilian",
+			"property": [
+				"F",
+				"L",
+				"T"
+			],
+			"range": "20/60",
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"dagger": true,
+			"weapon": true
+		},
+		{
+			"name": "Dart",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "R",
+			"rarity": "none",
+			"weight": 0.25,
+			"value": 5,
+			"weaponCategory": "civilian",
+			"property": [
+				"F",
+				"T"
+			],
+			"range": "20/60",
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"weapon": true
+		},
+		{
+			"name": "Greatclub",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 10,
+			"value": 20,
+			"weaponCategory": "civilian",
+			"property": [
+				"2H"
+			],
+			"dmg1": "1d8",
+			"dmgType": "B",
+			"club": true,
+			"weapon": true
+		},
+		{
+			"name": "Handaxe",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 500,
+			"weaponCategory": "civilian",
+			"property": [
+				"L",
+				"T"
+			],
+			"range": "20/60",
+			"dmg1": "1d6",
+			"dmgType": "S",
+			"axe": true,
+			"weapon": true
+		},
+		{
+			"name": "Javelin",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 50,
+			"weaponCategory": "civilian",
+			"property": [
+				"T"
+			],
+			"range": "30/120",
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"spear": true,
+			"weapon": true
+		},
+		{
+			"name": "Light Crossbow",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "R",
+			"rarity": "none",
+			"weight": 5,
+			"value": 2500,
+			"weaponCategory": "civilian",
+			"property": [
+				"A",
+				"LD",
+				"2H"
+			],
+			"range": "80/320",
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"crossbow": true,
+			"weapon": true,
+			"ammoType": "crossbow bolt|phb"
+		},
+		{
+			"name": "Light Hammer",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 200,
+			"weaponCategory": "civilian",
+			"property": [
+				"L",
+				"T"
+			],
+			"range": "20/60",
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"hammer": true,
+			"weapon": true
+		},
+		{
+			"name": "Light Repeating Crossbow",
+			"source": "OotA",
+			"page": 0,
+			"type": "R",
+			"rarity": "unknown",
+			"weight": 5,
+			"weaponCategory": "civilian",
+			"property": [
+				"A",
+				"2H"
+			],
+			"range": "40/160",
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"crossbow": true,
+			"weapon": true,
+			"entries": [
+				"This crossbow is fitted with a cartridge that can hold up to six crossbow bolts. It automatically reloads after firing until the cartridge runs out of ammunition. Reloading the cartridge takes an action."
+			],
+			"ammoType": "crossbow bolt|phb"
+		},
+		{
+			"name": "Mace",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 4,
+			"value": 500,
+			"weaponCategory": "civilian",
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"mace": true,
+			"weapon": true
+		},
+		{
+			"name": "Quarterstaff",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 4,
+			"value": 20,
+			"weaponCategory": "civilian",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"dmg2": "1d8",
+			"weapon": true
+		},
+		{
+			"name": "Shortbow",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "R",
+			"rarity": "none",
+			"weight": 2,
+			"value": 2500,
+			"weaponCategory": "civilian",
+			"property": [
+				"A",
+				"2H"
+			],
+			"range": "80/320",
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"bow": true,
+			"weapon": true,
+			"ammoType": "arrow|phb"
+		},
+		{
+			"name": "Sickle",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 100,
+			"weaponCategory": "civilian",
+			"property": [
+				"L"
+			],
+			"dmg1": "1d4",
+			"dmgType": "S",
+			"weapon": true
+		},
+		{
+			"name": "Sling",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "R",
+			"rarity": "none",
+			"value": 10,
+			"weaponCategory": "civilian",
+			"property": [
+				"A"
+			],
+			"range": "30/120",
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"weapon": true,
+			"ammoType": "sling bullet|phb"
+		},
+		{
+			"name": "Spear",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 3,
+			"value": 100,
+			"weaponCategory": "civilian",
+			"property": [
+				"T",
+				"V"
+			],
+			"range": "20/60",
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"dmg2": "1d8",
+			"spear": true,
+			"weapon": true
+		},
+		{
+			"name": "Staff",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "SCF",
+			"scfType": "arcane",
+			"rarity": "none",
+			"weight": 4,
+			"value": 500,
+			"weaponCategory": "civilian",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"dmg2": "1d8",
+			"staff": true
+		},
+		{
+			"name": "Wooden Staff",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "SCF",
+			"scfType": "druid",
+			"rarity": "none",
+			"weight": 4,
+			"value": 500,
+			"weaponCategory": "civilian",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"dmg2": "1d8"
+		},
+		{
+			"name": "Yklwa",
+			"source": "ToA",
+			"page": 0,
+			"type": "M",
+			"rarity": "none",
+			"weight": 3,
+			"value": 100,
+			"weaponCategory": "civilian",
+			"property": [
+				"T"
+			],
+			"range": "10/30",
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"weapon": true,
+			"entries": [
+				"A yklwa (pronounced YICK-ul-wah) is a simple melee weapon that is the traditional weapon of Chultan warriors. A yklwa consists of a 3-foot wooden shaft with a steel or stone blade up to 18 inches long. Although it has the thrown weapon property, the yklwa is not well balanced for throwing."
+			]
+		},
+		{
+			"name": "Heavy pistol",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "R",
+			"rarity": "none",
+			"weight": 2,
+			"value": 5000,
+			"weaponCategory": "military",
+			"property": [
+				"A",
+				"H",
+				"2H"
+			],
+			"range": "80/320",
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"bow": true,
+			"weapon": true,
+			"ammoType": "pistol bullets|carpink"
+		},
+		{
+			"name": "Pistol bullets",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "A",
+			"rarity": "none",
+			"weight": 0.05,
+			"value": 5
+		},
+		{
+			"name": "Pistol bullets (20)",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "A",
+			"rarity": "none",
+			"weight": 1,
+			"value": 100,
+			"packContents": [
+				{
+					"item": "pistol bullets|carpink",
+					"quantity": 20
+				}
+			]
+		}
+	]
+}

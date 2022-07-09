@@ -18,5 +18,1073 @@
 		],
 		"dateAdded": 0,
 		"dateLastModified": 0
-	}
+	},
+	"definitions" : {
+		"itemWeaponCategory": {
+			"type": "string",
+			"$$ifSiteElse_key": {
+				"keySite": "enum",
+				"keyBrew": "examples",
+				"value": ["civilian", "military"]
+			}
+		}
+	},
+	"class": [
+		{
+			"name": "Auditor",
+			"source": "CARBONPINK",
+			"hd": {
+				"number": 1,
+				"faces": 10
+			},
+			"proficiency": [
+				"str",
+				"dex"
+			],
+			"spellcastingAbility": "wis",
+			"casterProgression": "1/2",
+			"spellsKnownProgression": [
+				0,
+				2,
+				3,
+				3,
+				4,
+				4,
+				5,
+				5,
+				6,
+				6,
+				7,
+				7,
+				8,
+				8,
+				9,
+				9,
+				10,
+				10,
+				11,
+				11
+			],
+			"optionalfeatureProgression": [
+				{
+					"name": "Fighting Style",
+					"featureType": [
+						"FS:A"
+					],
+					"progression": {
+						"2": 1
+					}
+				},
+				{
+					"name": "Urban Crawler",
+					"featureType": [
+						"FS:A"
+					],
+					"progression": {
+						"1": 1,
+						"6": 1,
+						"10": 1
+					}
+				}
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light",
+					"medium",
+					"{@item shield|phb|shields}"
+				],
+				"weapons": [
+					"civilian",
+					"military"
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"animal handling",
+								"athletics",
+								"insight",
+								"investigation",
+								"nature",
+								"perception",
+								"stealth",
+								"survival"
+							],
+							"count": 3
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"(a) {@item nanoprene armor|carpink} or (b) {@item nanofilm armor|carpink}",
+					"(a) {@item machete|carpink} or (b) {@item civilian melee weapon|carpink}",
+					"(a) a {@item delver's pack|carpink} or (b) a {@item hobo's pack|carpink}",
+					"a {@item heavy pistol|carpink} with {@item pistol bullets (20)|carpink|20 pistol bullets}"
+				],
+				"defaultData": [
+					{
+						"a": [
+							"nanoprene armor|carpink"
+						],
+						"b": [
+							"nanofilm armor|carpink"
+						]
+					},
+					{
+						"a":[
+							"machete|carpink"
+						],
+						"b":[
+							"civilian melee weapon"
+						]
+					},
+					{
+						"a":[
+							"delver's pack|carpink"
+						],
+						"b":[
+							"hobo's pack|carpink"
+						]
+					},
+					{
+						"_":[
+							"heavy pistol|carpink",
+							"pistol bullets (20)|carpink"
+						]
+					}
+				]
+			},
+			"classFeatures": [
+				"Favored Enemy|Auditor|CARBONPINK|1",
+				"Marked Target|Auditor|CARBONPINK|1",
+				"Urban Crawler|Auditor|CARBONPINK|1",
+				"Techcasting|Auditor|CARBONPINK|2",
+				"Fighting Style|Auditor|CARBONPINK|2",
+				"Martial Versatility|Auditor|CARBONPINK|2",
+				"Primal Awareness|Auditor|CARBONPINK|3",
+				"Wokeness|Auditor|CARBONPINK|3",
+				{
+					"classFeature": "Auditor Specialization|Auditor|CARBONPINK|3",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Auditor|CARBONPINK|4",
+				"Martial Versatility|Auditor|CARBONPINK|4",
+				"Extra Attack|Auditor|CARBONPINK|5",
+				"Greater Favored Enemy|Auditor|CARBONPINK|6",
+				{
+					"classFeature": "Ranger Conclave feature|Auditor|CARBONPINK|7",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Auditor|CARBONPINK|8",
+				"Proficiency Versatility|Auditor|CARBONPINK|8|UAClassFeatureVariants",
+				"Fleet of Foot|Auditor|CARBONPINK|8",
+				"Hide in Plain Sight|Auditor|CARBONPINK|10",
+				{
+					"classFeature": "Ranger Conclave feature|Auditor|CARBONPINK|11",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Auditor|CARBONPINK|12",
+				"Proficiency Versatility|Auditor|CARBONPINK|12|UAClassFeatureVariants",
+				"Vanish|Auditor|CARBONPINK|14",
+				{
+					"classFeature": "Ranger Conclave feature|Auditor|CARBONPINK|15",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Auditor|CARBONPINK|16",
+				"Proficiency Versatility|Auditor|CARBONPINK|16|UAClassFeatureVariants",
+				"Feral Senses|Auditor|CARBONPINK|18",
+				"Ability Score Improvement|Auditor|CARBONPINK|19",
+				"Proficiency Versatility|Auditor|CARBONPINK|19|UAClassFeatureVariants",
+				"Foe Slayer|Auditor|CARBONPINK|20"
+			],
+
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"{@filter Techs Known|spells|level=0|class=Auditor}"
+					],
+					"rows": [
+						[
+							0
+						],
+						[
+							2
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							6
+						],
+						[
+							6
+						],
+						[
+							7
+						],
+						[
+							7
+						],
+						[
+							8
+						],
+						[
+							8
+						],
+						[
+							9
+						],
+						[
+							9
+						],
+						[
+							10
+						],
+						[
+							10
+						],
+						[
+							11
+						],
+						[
+							11
+						]
+					]
+				},
+				{
+					"title": "Tech Slots per Tech Level",
+					"colLabels": [
+						"{@filter 1st|spells|level=1|class=Auditor}",
+						"{@filter 2nd|spells|level=2|class=Auditor}",
+						"{@filter 3rd|spells|level=3|class=Auditor}",
+						"{@filter 4th|spells|level=4|class=Auditor}",
+						"{@filter 5th|spells|level=5|class=Auditor}"
+					],
+					"rows": [
+						[
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							2,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2
+						]
+					]
+				}
+			]
+		}
+	],
+	"item": [
+		{
+			"name": "Delver's Pack",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "G",
+			"rarity": "none",
+			"weight": 61.5,
+			"value": 1200,
+			"entries": [
+				"Includes:",
+				{
+					"type": "list",
+					"items": [
+						"a {@item backpack|phb}",
+						"a {@item crowbar|phb}",
+						"a {@item hammer|phb}",
+						"a {@item climbing kit|carpink}",
+						"a {@item flashlight|carpink}",
+						"a {@item mess kit|carpink}",
+						"10 days of {@item Mealbars (1 day)|carpink|mealbars}",
+						"a {@item water purifier|carpink}",
+						"{@item Rope (50 feet)|carpink|50 feet of rope}"
+					]
+				}
+			],
+			"packContents": [
+				"backpack|phb",
+				"crowbar|phb",
+				"hammer|phb",
+				"climbing kit|carpink",
+				"flashlight|carpink",
+				"mess kit|carpink",
+				{
+					"item": "mealbars (1 day)|carpink",
+					"quantity": 10
+				},
+				"water purifier|carpink",
+				"rope (50 feet)|carpink"
+			]
+		},
+		{
+			"name": "Hobo's Pack",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "G",
+			"rarity": "none",
+			"weight": 61.5,
+			"value": 1100,
+			"entries": [
+				"Includes:",
+				{
+					"type": "list",
+					"items": [
+						"a {@item backpack|phb}",
+						"a {@item bedroll|phb}",
+						"a {@item mess kit|carpink}",
+						"a {@item lighter|carpink}",
+						"a {@item flashlight|carpink}",
+						"10 days of {@item Mealbars (1 day)|carpink|mealbars}",
+						"a {@item canteen|carpink}",
+						"{@item Rope (50 feet)|carpink|50 feet of rope}"
+					]
+				}
+			],
+			"packContents": [
+				"backpack|phb",
+				"bedroll|phb",
+				"mess kit|carpink",
+				"lighter|carpink",
+				"flashlight|carpink",
+				{
+					"item": "mealbars (1 day)|carpink",
+					"quantity": 10
+				},
+				"canteen|carpink",
+				"rope (50 feet)|carpink"
+			]
+		},
+		{
+			"name": "Climbing Kit",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "G",
+			"rarity": "none",
+			"weight": 12,
+			"value": 2500,
+			"entries": [
+				"A climbing kit includes special pitons, boot tips, gloves, and a harness. You can use the climbing kit as an action to anchor yourself; when you do, you can't fall more than 25 feet from the point where you anchored yourself, and you can't climb more than 25 feet away from that point without undoing the anchor."
+			]
+		},
+		{
+			"name": "Flashlight",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "G",
+			"rarity": "none",
+			"weight": 1,
+			"value": 50,
+			"entries": [
+				"This hand-held light creates a cone of bright light for 60 feet and dim light for an additional 60 feet. A minute of cranking powers it for an hour."
+			]
+		},
+		{
+			"name": "Mess Kit",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "G",
+			"rarity": "none",
+			"weight": 1,
+			"value": 20,
+			"entries": [
+				"This metal box contains a cup and simple cutlery. The box clamps together, and one side can be used as a cooking pan and the other as a plate or shallow bowl. Useful for camping, living rough, or making meals on the go."
+			]
+		},
+		{
+			"name": "Mealbar (1 day)",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "G",
+			"rarity": "none",
+			"weight": 0.5,
+			"value": 50,
+			"entries": [
+				"A single day's worth of nutrition in a fairly flavorless emergency ration block."
+			]
+		},
+		{
+			"name": "Water Purifier",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "G",
+			"rarity": "none",
+			"weight": 5,
+			"value": 5000,
+			"entries": [
+				"This siphon and container allows you to turn 1 gallon of tainted or salt water into 1 gallon of drinkable water. It requires exposure to sunlight for 6 hours, or being hooked into a portable battery for 1 hour. The filters need cleaning every 10 gallons or so."
+			]
+		},
+		{
+			"name": "Rope (50 feet)",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "G",
+			"rarity": "none",
+			"weight": 5,
+			"value": 100,
+			"entries": [
+				"Typically made of nylon or paracord, rope is useful for a lot of things. It has 2 hit points and can be burst with a DC 17 Strength check."
+			]
+		},
+		{
+			"name": "Lighter",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "G",
+			"rarity": "none",
+			"weight": 0,
+			"value": 50,
+			"entries": [
+				"A rechargeable lighter to start small fires."
+			]
+		},
+		{
+			"name": "Canteen",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "G",
+			"rarity": "none",
+			"weight": 1,
+			"value": 20,
+			"entries": [
+				"A half-gallon container for holding water or booze."
+			]
+		}
+	],
+	"baseitem": [
+		{
+			"name": "Nanoprene Armor",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "MA",
+			"rarity": "none",
+			"weight": 4,
+			"value": 5000,
+			"ac": 14,
+			"armor": true,
+			"stealth": true,
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Nanofilm Armor",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "LA",
+			"rarity": "none",
+			"weight": 1,
+			"value": 1000,
+			"ac": 11,
+			"armor": true,
+			"entries": [
+				"The breastplate and shoulder protectors of this armor are made of leather that has been stiffened by being boiled in oil. The rest of the armor is made of softer and more flexible materials."
+			]
+		},
+		{
+			"name": "Machete",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 1000,
+			"weaponCategory": "military",
+			"property": [
+				"F",
+				"L"
+			],
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"sword": true,
+			"weapon": true
+		},
+		{
+			"name": "Club",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 10,
+			"weaponCategory": "civilian",
+			"property": [
+				"L"
+			],
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"club": true,
+			"weapon": true
+		},
+		{
+			"name": "Dagger",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 1,
+			"value": 200,
+			"weaponCategory": "civilian",
+			"property": [
+				"F",
+				"L",
+				"T"
+			],
+			"range": "20/60",
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"dagger": true,
+			"weapon": true
+		},
+		{
+			"name": "Dart",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "R",
+			"rarity": "none",
+			"weight": 0.25,
+			"value": 5,
+			"weaponCategory": "civilian",
+			"property": [
+				"F",
+				"T"
+			],
+			"range": "20/60",
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"weapon": true
+		},
+		{
+			"name": "Greatclub",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 10,
+			"value": 20,
+			"weaponCategory": "civilian",
+			"property": [
+				"2H"
+			],
+			"dmg1": "1d8",
+			"dmgType": "B",
+			"club": true,
+			"weapon": true
+		},
+		{
+			"name": "Handaxe",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 500,
+			"weaponCategory": "civilian",
+			"property": [
+				"L",
+				"T"
+			],
+			"range": "20/60",
+			"dmg1": "1d6",
+			"dmgType": "S",
+			"axe": true,
+			"weapon": true
+		},
+		{
+			"name": "Javelin",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 50,
+			"weaponCategory": "civilian",
+			"property": [
+				"T"
+			],
+			"range": "30/120",
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"spear": true,
+			"weapon": true
+		},
+		{
+			"name": "Light Crossbow",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "R",
+			"rarity": "none",
+			"weight": 5,
+			"value": 2500,
+			"weaponCategory": "civilian",
+			"property": [
+				"A",
+				"LD",
+				"2H"
+			],
+			"range": "80/320",
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"crossbow": true,
+			"weapon": true,
+			"ammoType": "crossbow bolt|phb"
+		},
+		{
+			"name": "Light Hammer",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 200,
+			"weaponCategory": "civilian",
+			"property": [
+				"L",
+				"T"
+			],
+			"range": "20/60",
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"hammer": true,
+			"weapon": true
+		},
+		{
+			"name": "Light Repeating Crossbow",
+			"source": "OotA",
+			"page": 0,
+			"type": "R",
+			"rarity": "unknown",
+			"weight": 5,
+			"weaponCategory": "civilian",
+			"property": [
+				"A",
+				"2H"
+			],
+			"range": "40/160",
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"crossbow": true,
+			"weapon": true,
+			"entries": [
+				"This crossbow is fitted with a cartridge that can hold up to six crossbow bolts. It automatically reloads after firing until the cartridge runs out of ammunition. Reloading the cartridge takes an action."
+			],
+			"ammoType": "crossbow bolt|phb"
+		},
+		{
+			"name": "Mace",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 4,
+			"value": 500,
+			"weaponCategory": "civilian",
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"mace": true,
+			"weapon": true
+		},
+		{
+			"name": "Quarterstaff",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 4,
+			"value": 20,
+			"weaponCategory": "civilian",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"dmg2": "1d8",
+			"weapon": true
+		},
+		{
+			"name": "Shortbow",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "R",
+			"rarity": "none",
+			"weight": 2,
+			"value": 2500,
+			"weaponCategory": "civilian",
+			"property": [
+				"A",
+				"2H"
+			],
+			"range": "80/320",
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"bow": true,
+			"weapon": true,
+			"ammoType": "arrow|phb"
+		},
+		{
+			"name": "Sickle",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 100,
+			"weaponCategory": "civilian",
+			"property": [
+				"L"
+			],
+			"dmg1": "1d4",
+			"dmgType": "S",
+			"weapon": true
+		},
+		{
+			"name": "Sling",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "R",
+			"rarity": "none",
+			"value": 10,
+			"weaponCategory": "civilian",
+			"property": [
+				"A"
+			],
+			"range": "30/120",
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"weapon": true,
+			"ammoType": "sling bullet|phb"
+		},
+		{
+			"name": "Spear",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 3,
+			"value": 100,
+			"weaponCategory": "civilian",
+			"property": [
+				"T",
+				"V"
+			],
+			"range": "20/60",
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"dmg2": "1d8",
+			"spear": true,
+			"weapon": true
+		},
+		{
+			"name": "Staff",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "SCF",
+			"scfType": "arcane",
+			"rarity": "none",
+			"weight": 4,
+			"value": 500,
+			"weaponCategory": "civilian",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"dmg2": "1d8",
+			"staff": true
+		},
+		{
+			"name": "Wooden Staff",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "SCF",
+			"scfType": "druid",
+			"rarity": "none",
+			"weight": 4,
+			"value": 500,
+			"weaponCategory": "civilian",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"dmg2": "1d8"
+		},
+		{
+			"name": "Yklwa",
+			"source": "ToA",
+			"page": 0,
+			"type": "M",
+			"rarity": "none",
+			"weight": 3,
+			"value": 100,
+			"weaponCategory": "civilian",
+			"property": [
+				"T"
+			],
+			"range": "10/30",
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"weapon": true,
+			"entries": [
+				"A yklwa (pronounced YICK-ul-wah) is a simple melee weapon that is the traditional weapon of Chultan warriors. A yklwa consists of a 3-foot wooden shaft with a steel or stone blade up to 18 inches long. Although it has the thrown weapon property, the yklwa is not well balanced for throwing."
+			]
+		},
+		{
+			"name": "Heavy pistol",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "R",
+			"rarity": "none",
+			"weight": 2,
+			"value": 5000,
+			"weaponCategory": "military",
+			"property": [
+				"A",
+				"H",
+				"2H"
+			],
+			"range": "80/320",
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"bow": true,
+			"weapon": true,
+			"ammoType": "pistol bullets|carpink"
+		},
+		{
+			"name": "Pistol bullets",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "A",
+			"rarity": "none",
+			"weight": 0.05,
+			"value": 5
+		},
+		{
+			"name": "Pistol bullets (20)",
+			"source": "carpink",
+			"page": 0,
+			"srd": false,
+			"basicRules": false,
+			"type": "A",
+			"rarity": "none",
+			"weight": 1,
+			"value": 100,
+			"packContents": [
+				{
+					"item": "pistol bullets|carpink",
+					"quantity": 20
+				}
+			]
+		}
+	]
 }
